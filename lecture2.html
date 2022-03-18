@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="assets/images/favicon.png" rel="icon" />
+<title>Documentation | Your ThemeForest item Name</title>
+<meta name="description" content="Your ThemeForest item Name and description">
+<meta name="author" content="harnishdesign.net">
+
+<!-- Stylesheet
+============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Highlight Syntax -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+
+<style>
+  @font-face {
+    font-family: 'IranSans';
+    src: url('fonts/IRANSansWeb.ttf');
+  }
+
+  @font-face {
+    font-family: 'IranSansBold';
+    src: url('fonts/IRANSansWeb_Bold.ttf');
+  }
+  body{
+    text-align: right;
+    font-family: 'IranSans';
+    direction: rtl;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'IranSansBold';
+  }
+
+</style>
+
+<!-- Load mathjax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML-full,Safe"> </script>
+<!-- MathJax configuration -->
+<script type="text/x-mathjax-config">
+init_mathjax = function() {
+    if (window.MathJax) {
+    // MathJax loaded
+        MathJax.Hub.Config({
+            TeX: {
+                equationNumbers: {
+                autoNumber: "AMS",
+                useLabelIds: true
+                }
+            },
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            displayAlign: 'center',
+            CommonHTML: {
+                linebreaks: { 
+                automatic: true 
+                }
+            },
+            "HTML-CSS": {
+                linebreaks: { 
+                automatic: true 
+                }
+            }
+        });
+    
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header
+  ============================ -->
+  <header id="header" class="sticky-top"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+      <div class="container-fluid">
+        <!-- Sidebar Toggler -->
+		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+		
+		<!-- Logo --> 
+    <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img style="width: 148px;" src="logo.png" alt="iDocs Template"/> </a> 
+		<span class="text-2 ml-2">v1.0</span> 
+        <!-- Logo End -->
+        
+		<!-- Navbar Toggler -->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+        
+		<div id="header-nav" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li><a target="_blank" href="index.html">صفحه اصلی</a></li>
+            <li class="dropdown"> <a class="dropdown-toggle" href="#">جلسه ها</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="lecture1.html">جلسه اول</a></li>
+                <li><a class="dropdown-item" href="lecture2.html">جلسه دوم</a></li>
+                <li><a class="dropdown-item" href="lecture3.html">جلسه سوم</a></li>
+              </ul>
+            </li>
+            <li><a target="_blank" href="https://themeforest.net/user/harnishdesign/portfolio?ref=HarnishDesign">همکاری</a></li>
+            <li><a target="_blank" href="https://themeforest.net/user/harnishdesign/#contact?ref=HarnishDesign"> درباره ما</a></li>
+          </ul>
+        </div>
+        <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+          
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End --> 
+  
+  <!-- Content
+  ============================ -->
+  <div id="content" role="main">
+    
+	<!-- Sidebar Navigation
+	============================ -->
+	<div class="idocs-navigation bg-light">
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#section1">اصول موضوعه كولموگروف</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#section2">قضایای پایه احتمال</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#section3">اصل شمول و عدم شمول</a></li>
+      </ul>
+    </div>
+    
+    <!-- Docs Content
+	============================ -->
+    <div class="idocs-content">
+      <div class="container"> 
+        
+        <!-- Getting Started
+		============================ -->
+        <section>
+          <h1>جلسه دوم</h1>
+          
+          <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/5aSiJ/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+        </section>
+        <section id="section1">  
+          <br><br>
+        
+          <h1 id="#section1">اصول موضوعه كولموگروف</h1>
+          <p>به هر پیشامد $A$ عدد $P(A)$ نسبت داده می‌شود به طوریکه:</p>
+<p>اصل یک: $P(A)\geq 0$</p>
+<p>اصل دو: 
+    $P(\Omega)=1$</p>
+<p>اصل سه: اگر  پیشامد‌های $A$ و $B$ ناسازگار باشند 
+    $(A \cap B=\emptyset)$ 
+    آنگاه: 
+$P(A\cup B)=P(A)+P(B)$</p>
+<p>اصل سوم کولموگروف برای هر تعداد محدودی از وقایع (و نه برای تعداد نامحدود) قابل بیان است و چنانچه 
+عناصر فضای نمونه نامحدود باشد باید به جای اصل سه، اصل قوی‌تری را جایگزین کرد.</p>
+$$P(A_1\cup A_2\cup ...\cup A_n )=P(A_1 )+P(A_2 )+...+P(A_n )$$<p></p>
+<p>اصل جمع‌پذیری نامحدود (قابل شمارش): اگر 
+    $A_1,A_2,...$ 
+    پیشامد‌هایی دو به دو ناسازگار باشند آنگاه: 
+    $$P(A_1\cup A_2\cup...)=P(A_1 )+P(A_2 )+...$$</p>
+    </section>
+    <section id="section2">  
+      <h1>
+        قضایای پایه احتمال
+      </h1>
+      <p>قضیه یک:
+    $P(\bar{A})=1-P(A)$</p>
+<p>قضیه دو:
+    $P(\emptyset)=0$</p>
+<p>قضیه سه: 
+    $P(A)\leq 1$</p>
+<p>قضیه چهار:
+    اگر$B\subset A$ آنگاه $P(B)\leq P(A)$</p>
+<p>نتیجه فرعی قضیه چهار:
+    $$
+    \begin{cases}
+        (A\cap B)\subset B \Rightarrow P(A\cap B)\leq P(B)
+        (A\cap B)\subset A \Rightarrow P(A\cap B)\leq P(A)
+    \end{cases}
+    $$</p>
+<p>قضیه پنج: اگر $B\subset A$ آنگاه$P(A-B)=P(A)-P(B)$</p>
+<p>قضیه شش: برای هر دو مجموعه $A$ و $B$ داریم: $P(A\cup B)=P(A)+P(B)-P(A\cap B)$</p>
+</section>
+<section id="section3">
+<h1>اصل شمول و عدم شمول</h1>
+  <p>حالت پایه:</p>
+$$ P(A\cup B)=P(A)+P(B)-P(A\cap B) $$<p>حالت سه‌تایی:</p>
+$$P(A\cup B\cup C)=P(A)+P(B)+P(C)-P(A\cap B)-P(A\cap C)-P(B\cap C)+P(A\cap B \cap C)$$<p>حالت تعمیم‌یافته:</p>
+$$P(\bigcup_{i=1}^{n}E_i)=\sum_{r=1}^{n}(-1)^{r+1} \sum_{i_1\le ... \le i_r}P(E_{i_1}\cap E_{i_2}\cap ...\cap E_{i_r})$$
+        <hr>
+        </section>
+        
+		        
+        
+      </div>
+    </div>
+	
+  </div>
+  <!-- Content end --> 
+  
+  <!-- Footer
+  ============================ -->
+  <footer id="footer" class="section bg-dark footer-text-light">
+    <div class="container">
+      <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+        <li><a data-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.github.com/" target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+      </ul>
+      <p class="text-center">Copyright &copy; 2020 <a href="http://www.harnishdesign.net/idocs-one-page-documentation-html-template/">iDocs</a>. All Rights Reserved.</p>
+	  <p class="text-2 text-center mb-0">Design &amp; Develop by <a class="btn-link" target="_blank" href="http://www.harnishdesign.net/">HarnishDesign</a>.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back To Top --> 
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+<!-- Easing --> 
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+</body>
+</html>
