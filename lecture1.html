@@ -151,10 +151,16 @@ init_mathjax();
 	<!-- Sidebar Navigation
 	============================ -->
 	<div class="idocs-navigation bg-light">
-      	  <ul class="nav flex-column ">
-            <li class="nav-item"><a class="nav-link active" href="#section1">مفاهیم پایه‌ای مجموعه‌ها</a></li>
-      	  </ul>
-    	</div>
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#section1">مقدمه‌ای بر نظریه مجموعه‌ها</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#section2">قوانین پایه نظریه مجموعه‌ها</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#section3">افراز</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#section5">حاصلضرب دکارتی</a></li
+        >
+        <li class="nav-item"><a class="nav-link active" href="#section6">فضای احتمال</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#section7">انواع پیشامد:</a></li>
+      </ul>
+    </div>
     
     <!-- Docs Content
 	============================ -->
@@ -163,32 +169,99 @@ init_mathjax();
         
         <!-- Getting Started
 		============================ -->
-        <section id="idocs_start">
-          <h3>جلسه اول: مقدمه‌ای بر نظریه مجموعه‌ها</h3>
+        <section>
+          <h3>جلسه اول</h3>
+          
           <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/jkMhT/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
           
-          <br><br>
-	<section id="section1"> 
-	  <h6 id="#section1">مفاهیم پایه‌ای مجموعه‌ها</h6>
-          <p><strong>مجموعه:</strong> دسته‌ای از عناصر متمایز را مجموعه گویند.</p>
-          <p><strong>زیرمجموعه:</strong> اگر هر عضو مجموعه $A$ متعلق به مجموعه $B$ نیز باشد، مجموعه $A$ زیرمجموعه مجموعه $B$ است. به بیان ریاضی: $A\subset B$</p>
-          <p><strong>مجموعه مساوی:</strong>   اگر و تنها اگر $A\subset B$ و $B\subset A$ آنگاه دو مجموعه $A$ و $B$ مساوی یکدیگر هستند.</p>
-          <p><strong>مجموعه مرجع:</strong>    مجموعه‌ای که شامل تمام عناصر است و با $\Omega$ نمایش داده می‌شود</p>
-          <p><strong>مجموعه تهی:</strong>     مجموعه‌ای که فاقد عضو است و با $\{\}$ یا $\emptyset$ نمایش داده می‌شود.</p>
-          <p><strong>اجتماع دو مجموعه:</strong>           مجموعه عناصری که یا در $A$ یا در $B$ باشند. به بیان ریاضی: $A\cup B$</p>
-          <p><strong>اشتراک دو مجموعه:</strong>       مجموعه عناصری که هم در $A$ و هم در $B$ باشند. به بیان ریاضی: $A\cap B$</p>
-          <p><strong>مکمل یک مجموعه:</strong>         تمام اعضای مجموعه مرجع که در مجموعه $A$ نباشند را مجموعه مکمل $A$ می‌نامند و با $A^c$ یا $\bar{A}$ نمایش می‌دهند.</p>
-          <p><strong>تفاضل دو مجموعه:</strong>    عناصری که تنها در یکی از دو مجموعه $A$ و $B$ باشند. به بیان ریاضی:</p>
-          <p>$A-B=A\cap \bar{B}$ یا $B-A=B\cap \bar{A}$</p>
-	</section>
-        <hr>
-
-        <a href="lecture2.html" style="float: right;">صفحه بعد</a>
-        <a href="index.html" style="float: left;">صفحه قبل</a>
         </section>
+        <section id="section1">  
+                  <br><br>
+                
+                  <h3>مقدمه‌ای بر نظریه مجموعه‌ها</h3>
+                  <p><strong>مجموعه:</strong>
+            دسته‌ای از عناصر متمایز را مجموعه گویند.</p>
+        <p><strong>زیرمجموعه:</strong> 
+        اگر هر عضو مجموعه $A$ متعلق به مجموعه $B$ نیز باشد، مجموعه $A$ زیرمجموعه مجموعه $B$ است. به بیان ریاضی: $A\subset B$</p>
+        <p><strong>مجموعه مساوی:</strong> 
+            اگر و تنها اگر $A\subset B$ و $B\subset A$ آنگاه دو مجموعه $A$ و $B$ مساوی یکدیگر هستند.</p>
+        <p><strong>مجموعه مرجع:</strong> 
+            مجموعه‌ای که شامل تمام عناصر است و با $\Omega$ نمایش داده می‌شود.</p>
+        <p><strong>مجموعه تهی:</strong>
+            مجموعه‌ای که فاقد عضو است و با $\{\}$ یا $\emptyset$ نمایش داده می‌شود.</p>
+        <p><strong>اجتماع دو مجموعه:</strong>
+            مجموعه عناصری که یا در $A$ یا در $B$ باشند. به بیان ریاضی: $A\cup B$</p>
+        <p><strong>اشتراك دو مجموعه:</strong>
+            مجموعه عناصری که هم در $A$ و هم در $B$ باشند. به بیان ریاضی: $A\cap B$</p>
+        <p><strong>دو مجموعه جدا از هم:</strong>
+            دو مجموعه که هیچ عضو مشترکی ندارند. به بیان ریاضی: $A\cap B = \emptyset$</p>
+        <p><strong>مکمل دو مجموعه:</strong>
+            تمام اعضای مجموعه مرجع که در مجموعه $A$ نباشند را مجموعه مکمل $A$ می‌نامند و با $A^c$ یا $\bar{A}$ نمایش می‌دهند.</p>
+        <p><strong>تفاضل دو مجموعه</strong>
+            عناصری که تنها در یکی از دو مجموعه $A$ و $B$ باشند. به بیان ریاضی 
+            $A-B=A\cap \bar{B}$ یا $B-A=B\cap \bar{A}$</p>
+        </section>
+        <section id="section2">
+          <h3>قوانین پایه نظریه مجموعه‌ها</h3>
+          <p>1.$A\cup \Omega= \Omega$</p>
+          <p>2.$A\cap \Omega=A$</p>
+          <p>3.$A\cup \emptyset=A$</p>
+          <p>4.$A\cap \emptyset=\emptyset$</p>
+          <p>5.$B\subset A \Rightarrow A\cup B=B$</p>
+          <p>6.$B\subset A \Rightarrow A\cap B=A$</p>
+          <p>7.$A\subset B \; ,B\subset C \Rightarrow A\subset C$</p>
+          <p>8.$A\cup B=B\cup A \;, A\cap B=B\cap A$</p>
+          <p>9.$A\cup (B\cup C)=(A\cup B)\cup C \;, A\cap (B\cap C)=(A\cap B)\cap C$</p>
+          <p>10.$A\cup (B\cap C)=(A\cup B)\cap (A\cup C)$</p>
+          <p>11.$A\cap (B\cup C)=(A\cap B)\cup (A\cap C)$</p>
+          <p>12.$\overline{(A\cup B)}=\bar{A}\cap \bar{B} \;, \overline{(A\cap B)}=\bar{A}\cup \bar{B}$</p>
+        </section>
+        <section id="section3">
+          <h3>افراز</h3>
+          <p>مجموعه‌های غیرتهی $A_1,A_2,...,A_m$ را افرازی از مجموعه مرجع $\Omega$ می‌نامیم چنانچه: 
+              \begin{align*}
+                  \forall i \neq j;\: A_i \cap A_j=\emptyset\\
+                  A_1 \cup A_2 \cup ...\cup A_m=\Omega
+              \end{align*}</p>
+        </section>
+      <section id="section4">
+      <h3>حاصلضرب دکارتی</h3>
+      <p>حاصلضرب دکارتی دو مجموعه $A$ و $B$ (مجموعه $A$ با عناصر $\alpha_i$ و مجموعه $B$ با عناصر $\beta_j$) عبارت است از مجموعه تمام زوج مرتب‌های $(\alpha_i,\beta_j)$ و به صورت $A\times B=C$ نمایش داده می‌شود به طوری‌که اگر $A$ دارای $m$ عضو و $B$ دارای $n$ عضو باشد، مجموعه $C$ دارای $mn$ عضو خواهد بود.</p>
+    </section>
+      <section id="section5">
+      <h3>فضای احتمال</h3>
+      <p>فضای احتمال یا مدل احتمالاتی یک آزمایش تصادفی از عوامل زیر تشکیل می‌شود:</p>
+      <p><strong>مجموعه$\Omega$:</strong>
+          تمام نتایج ممکن $\omega_i$ برای آزمایش را شامل می‌شود.</p>
+      <p><strong>مجموعه $F$:</strong>
+          زیرمجموعه‌های مجموعه $\Omega$ که پیشامد نامیده می‌شوند.</p>
+      <p><strong>تابع $P(A)$:</strong>
+      طبق اصول موضوعه، به هر پیشامد $A$ عددی نسبت می‌دهد.</p>
+      <section id ="section6">
+      <h3>فضای نمونه‌ها</h3>
+      <p><strong>آزمایش تصادفی:</strong>
+          آزمایشی است که نتیجه آن از پیش مشخص نیست اما در عین حال همه نتایج آن قابل پیش‌بینی هستند.</p>
+      <p><strong>فضای نمونه‌ها:</strong>
+          مجموعه کلیه نتایج ممکن برای یک آزمایش تصادفی است و با $\Omega$ و یا $S$ نمایش داده می‌شود.</p>
+      <p><strong>پیشامد:</strong>
+          هر زیرمجموعه‌ای از فضای نمونه یک پیشامد است. می‌گوییم پیشامد $A$ اتفاق افتاده هرگاه نتیجه آزمایش یکی از اعضای مجموعه $A$ باشد.</p>
+      </section>
+      <section id="section7">
+      <h3>انواع پیشامد:</h3>
+      <p><strong>پیشامد حتمی (Sure Event):</strong>
+          پیشامد $\Omega$ پیشامد حتمی است.</p>
+      <p><strong>پیشامد ناممکن (Null Event):</strong>
+          پیشامد $\Omega$ پیشامد ناممکن یا خنثی است.</p>
+      <p><strong>دو پیشامد ناسازگار:</strong>
+          $A$ و $B$ دو پیشامد ناسازگارند هرگاه مجموعه‌های $A$ و $B$ جدا از هم باشند.</p>
+      <p><strong>پیشامد ساده:</strong>
+          پیشامدی که تنها یک عضو داشته باشد پیشامد ساده است.</p>
+      </section>
         
 		        
-        
+        <a href="index.html" style="float: right;">صفحه قبل</a>
+        <a href="lecture2.html" style="float: left;">صفحه بعد</a>
+        <br><br>
       </div>
     </div>
 	
