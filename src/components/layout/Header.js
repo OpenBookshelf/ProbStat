@@ -73,12 +73,12 @@ const Header = () => {
           </ul>
         </div>
         <div className="hidden md:inline-block">
-          <Link
-            to="/lectures/1"
+          <a
+            href="/lectures/1"
             className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow"
           >
             دیدن مباحث
-          </Link>
+          </a>
         </div>
       </div>
     </nav>
