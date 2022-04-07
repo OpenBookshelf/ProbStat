@@ -1,67 +1,64 @@
+import React from "react";
+import { useHistory, useParams } from "react-router-dom";
+import LectureList from "./LectureList";
+
 const LecturePage = () => {
-  return (
-    <section className="max-w-screen-xl mx-auto py-4 px-4 sm:px-8">
-      <div>
-        <div className="py-4">
-          <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
-            مبحث اول{" : "}
-            <span className="text-indigo-600">مقدمه</span>
-          </h3>
+  const [html, setHtml] = React.useState("");
+  const { id } = useParams();
+  const history = useHistory();
+  const data = window.config[+id - 1];
+
+  React.useEffect(() => {
+    if (data && data.file) {
+      const req = new XMLHttpRequest();
+
+      req.onreadystatechange = function () {
+        if (this.readyState === XMLHttpRequest.DONE) {
+          setHtml(this.responseText);
+        }
+      };
+      req.open("GET", data.file, false);
+      req.send();
+    } else {
+      history.goBack();
+    }
+  }, [data, history, setHtml]);
+
+  if (!data) {
+    <svg class="animate-spin h-10 w-10 mr-3 ..." viewBox="0 0 24 24"></svg>;
+  } else
+    return (
+      <section className="max-w-screen-xl mx-auto py-4 px-4 sm:px-8">
+        <div>
+          <div className="py-4">
+            <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
+              {data.title}
+            </h3>
+          </div>
+          <div className="w-100 rounded-md">
+            <iframe
+              style={{ width: "100%", height: "80vh", borderRadius: "16px" }}
+              title="lecture one"
+              src={data.streamLink}
+              allowFullScreen={true}
+            ></iframe>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full lg:w-2/3 xl:w-5/6 p-1 overflow-auto">
+              <div dangerouslySetInnerHTML={{ __html: html }} />
+            </div>
+            <div class="w-full lg:w-1/3 xl:w-1/6">
+              <LectureList />
+            </div>
+          </div>
         </div>
-        <div className="w-100 rounded-md">
-          <iframe
-            style={{ width: "100%", height: "80vh", borderRadius: "16px" }}
-            title="lecture one"
-            src="https://www.aparat.com/video/video/embed/videohash/jkMhT/vt/frame"
-            allowFullScreen={true}
-          ></iframe>
-        </div>
-        <div className="mt-2 p-1">
-          <section id="section1">
-            <h3>مقدمه‌ای بر نظریه مجموعه‌ها</h3>
-            <p>
-              <strong>مجموعه:</strong>
-              دسته‌ای از عناصر متمایز را مجموعه گویند.
-            </p>
-            <p>
-              <strong>زیرمجموعه:</strong>
-              اگر هر عضو مجموعه $A$ متعلق به مجموعه $B$ نیز باشد، مجموعه $A$
-              زیرمجموعه مجموعه $B$ است. به بیان ریاضی: $A\subset B$
-            </p>
-            <p>
-              <strong>مجموعه مساوی:</strong>
-              اگر و تنها اگر $A\subset B$ و $B\subset A$ آنگاه دو مجموعه $A$ و
-              $B$ مساوی یکدیگر هستند.
-            </p>
-            <p>
-              <strong>مجموعه مرجع:</strong>
-              مجموعه‌ای که شامل تمام عناصر است و با $\Omega$ نمایش داده می‌شود.
-            </p>
-            <p>
-              <strong>اجتماع دو مجموعه:</strong>
-              مجموعه عناصری که یا در $A$ یا در $B$ باشند. به بیان ریاضی: $A\cup
-              B$
-            </p>
-            <p>
-              <strong>اشتراك دو مجموعه:</strong>
-              مجموعه عناصری که هم در $A$ و هم در $B$ باشند. به بیان ریاضی:
-              $A\cap B$
-            </p>
-            <p>
-              <strong>دو مجموعه جدا از هم:</strong>
-              دو مجموعه که هیچ عضو مشترکی ندارند. به بیان ریاضی: $A\cap B =
-              \emptyset$
-            </p>
-          </section>
-        </div>
-      </div>
-      <style>{`
+        <style>{`
         .cta-pr-btn:hover svg {
           transform: translateX(5px);
         }
       `}</style>
-    </section>
-  );
+      </section>
+    );
 };
 
 export default LecturePage;

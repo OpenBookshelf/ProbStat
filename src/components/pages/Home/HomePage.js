@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
+  console.log(window.config[1])
   return (
     <section className="mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
       <div className="text-center space-y-4">
