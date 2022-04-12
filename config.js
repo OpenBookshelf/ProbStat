@@ -8,5 +8,5 @@ req.onreadystatechange = function () {
     window.config = JSON.parse(this.responseText);
   }
 };
-req.open("GET", "config.json", false);
+req.open("GET", "/config.json", false);
 req.send();
