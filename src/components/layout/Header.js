@@ -14,7 +14,7 @@ const Header = () => {
     <nav className="bg-white w-full border-b md:border-0 md:static">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-5">
         <div className="flex items-center justify-between py-2 md:py-2 md:block">
-          <Link to="/">
+          <Link to="/PropStat">
             <img src={Logo} width={80} height={80} alt="Float UI logo" />
           </Link>
           <div className="md:hidden">
