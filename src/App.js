@@ -5,6 +5,8 @@ import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import HomePage from "./components/pages/Home/HomePage";
 import LecturePage from "./components/pages/Lectures/LecturePage";
+import LectureIntro from "./components/pages/Lectures/LectureIntro";
+import Aboutus from "./components/pages/Aboutus/Aboutus";
 
 function App() {
   return (
@@ -18,10 +20,13 @@ function App() {
               <HomePage />
             </Route>
             <Route path="/about">
-              <HomePage />
+              <Aboutus />
             </Route>
-            <Route path="/lectures/:id?">
+            <Route path="/lectures/:id">
               <LecturePage />
+            </Route>
+            <Route path="/lectures">
+              <LectureIntro />
             </Route>
           </Switch>
         </div>

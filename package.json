@@ -1,6 +1,7 @@
 {
   "name": "propstat",
   "version": "1.1.0",
+  "homepage": "https://openbookshelf.github.io/ProbStat",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -16,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "propstat -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

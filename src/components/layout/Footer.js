@@ -4,19 +4,19 @@ import Logo from "../assets/image/logo.png";
 const Footer = () => {
   const footerNavs = [
     {
-      href: "/lectures/1",
+      href: "/lectures",
       name: "مباحث",
     },
+    // {
+    //   href: "/",
+    //   name: "آزمون ها",
+    // },
     {
-      href: "/",
-      name: "آزمون ها",
-    },
-    {
-      href: "/",
+      href: "/about",
       name: "درباره ما",
     },
     {
-      href: "/",
+      href: "/about",
       name: "ارتباط با ما",
     },
   ];
@@ -25,7 +25,10 @@ const Footer = () => {
     <footer className="text-gray-500 bg-white px-4 py-5 mx-auto">
       <div className="max-w-lg sm:mx-auto sm:text-center">
         <img src={Logo} className="w-32 sm:mx-auto" alt="logo" />
-        <p className="leading-relaxed mt-2 text-[15px]">توضیح راجب سایت</p>
+        <p className="leading-relaxed mt-2 text-[15px]">
+          {" "}
+          {window.config.footerText}
+        </p>
       </div>
       <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">
         {footerNavs.map((item, idx) => (

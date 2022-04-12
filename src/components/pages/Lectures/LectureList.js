@@ -59,7 +59,7 @@ const Card = (props) => {
       >
         <div>
           <a href={`/lectures/${idx + 1}`} className="text-gray-500">
-            مبحث : {idx + 1}
+            مبحث : {lecture.description}
           </a>
         </div>
       </div>
@@ -68,11 +68,11 @@ const Card = (props) => {
 };
 
 const LectureList = () => {
-  const lectures = window.config;
+  const lectures = window.config.lectures;
 
   return (
-    <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto bg-white p-2 shadow">
-      <div className="space-y-3 text-center">
+    <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto bg-white p-5 shadow rounded">
+      <div className="space-y-3 text-center rounded">
         <p className="text-1xl text-gray-800">لیست مباحث</p>
       </div>
       <div className="mt-4 mx-auto">

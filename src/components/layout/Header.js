@@ -7,7 +7,7 @@ const Header = () => {
 
   const navigation = [
     { title: "آمار و احتمال مهندسی", path: "/" },
-    { title: "درباره ما", path: "/" },
+    { title: "درباره ما", path: "/about" },
   ];
 
   return (
@@ -74,7 +74,7 @@ const Header = () => {
         </div>
         <div className="hidden md:inline-block">
           <a
-            href="/lectures/1"
+            href="/lectures"
             className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow"
           >
             دیدن مباحث

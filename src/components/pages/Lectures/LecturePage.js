@@ -6,7 +6,7 @@ const LecturePage = () => {
   const [html, setHtml] = React.useState("");
   const { id } = useParams();
   const history = useHistory();
-  const data = window.config[+id - 1];
+  const data = window.config.lectures[+id - 1];
 
   React.useEffect(() => {
     if (data && data.file) {
@@ -34,6 +34,9 @@ const LecturePage = () => {
             <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
               {data.title}
             </h3>
+            <h5 className=" text-gray-800 font-semibold mt-2">
+              {data.description}
+            </h5>
           </div>
           <div className="w-100 rounded-md">
             <iframe
@@ -44,10 +47,10 @@ const LecturePage = () => {
             ></iframe>
           </div>
           <div class="flex flex-wrap">
-            <div class="w-full lg:w-2/3 xl:w-5/6 p-1 overflow-auto">
-              <div dangerouslySetInnerHTML={{ __html: html }} />
+            <div class="w-full lg:w-3/4 xl:w-4/7 p-1 overflow-auto">
+              <div class="text-justify" dangerouslySetInnerHTML={{ __html: html }} />
             </div>
-            <div class="w-full lg:w-1/3 xl:w-1/6">
+            <div class="w-full lg:w-1/4 xl:w-1/7">
               <LectureList />
             </div>
           </div>
