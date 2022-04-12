@@ -16,7 +16,13 @@ function App() {
 
         <div className="App">
           <Switch>
-            <Route path="/PropStat">
+            <Route path="/ProbStat/">
+              <HomePage />
+            </Route>
+            <Route path="/ProbStat">
+              <HomePage />
+            </Route>
+            <Route path="/probstat">
               <HomePage />
             </Route>
             <Route path="/about">

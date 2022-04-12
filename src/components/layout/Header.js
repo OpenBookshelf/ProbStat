@@ -6,7 +6,7 @@ const Header = () => {
   const [state, setState] = useState(false);
 
   const navigation = [
-    { title: "آمار و احتمال مهندسی", path: "/" },
+    { title: "آمار و احتمال مهندسی", path: "/ProbStat/" },
     { title: "درباره ما", path: "/about" },
   ];
 
@@ -14,7 +14,7 @@ const Header = () => {
     <nav className="bg-white w-full border-b md:border-0 md:static">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-5">
         <div className="flex items-center justify-between py-2 md:py-2 md:block">
-          <Link to="/PropStat">
+          <Link to="/ProbStat/">
             <img src={Logo} width={80} height={80} alt="Float UI logo" />
           </Link>
           <div className="md:hidden">
@@ -73,12 +73,12 @@ const Header = () => {
           </ul>
         </div>
         <div className="hidden md:inline-block">
-          <a
-            href="/lectures"
+          <Link
+            to="/lectures"
             className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow"
           >
             دیدن مباحث
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
