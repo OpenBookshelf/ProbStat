@@ -112,7 +112,7 @@ init_mathjax();
 		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
 		
 		<!-- Logo --> 
-        <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img style="width: 86px;" src="logo.png" alt="iDocs Template"/> </a> 
+    <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img style="width: 86px;" src="logo.png" alt="iDocs Template"/> </a> 
 		<span class="text-2 ml-2">v1.0</span> 
         <!-- Logo End -->
         
@@ -138,10 +138,6 @@ init_mathjax();
             <li><a target="_blank" href="https://themeforest.net/user/harnishdesign/#contact?ref=HarnishDesign"> درباره ما</a></li>
 	    -->
           </ul>
-        </div>
-        <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
-          
-        </ul>
       </div>
     </nav>
     <!-- Navbar End --> 
@@ -155,17 +151,12 @@ init_mathjax();
 	<!-- Sidebar Navigation
 	============================ -->
 	<div class="idocs-navigation bg-light">
-    	  <ul class="nav flex-column ">
-	      <h6 style="padding-top: 20pt; padding-left: 20pt; padding-right: 20pt;">آمار و احتمال مهندسی</h6>
-        <li class="nav-item"><a class="nav-link active" href="lecture1.html">جلسه اول</a></li>
-        <li class="nav-item"><a class="nav-link active" href="lecture2.html">جلسه دوم</a></li>
-        <li class="nav-item"><a class="nav-link active" href="lecture3.html">جلسه سوم</a></li>
-      	    <!--
-      	    <li class="nav-item"><a class="nav-link active" href="index.html">صفحه اصلی</a></li>
-      	    <li class="nav-item"><a class="nav-link active" href="lecture1.html">جلسه اول: مقدمه‌ای بر نظریه مجموعه‌ها</a></li>
-            -->
-    	  </ul>
-  	</div>
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#section1">اصول موضوعه كولموگروف</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#section2">قضایای پایه احتمال</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#section3">اصل شمول و عدم شمول</a></li>
+      </ul>
+    </div>
     
     <!-- Docs Content
 	============================ -->
@@ -174,21 +165,68 @@ init_mathjax();
         
         <!-- Getting Started
 		============================ -->
-    <section id="idocs_start">
-      <h3>صفحه اصلی</h3><br>
-      <p>سلام خوش اومدین 😊🍀</p><br>
-      <p style="text-align: justify;">ما جمعی از دانشجویان دانشکده فنی دانشگاه تهران هستیم و در این وبسایت 
-        تلاش می‌کنیم تا محتوای آموزشی رایگان و آنلاین برای درس «آمار و احتمال مهندسی» فراهم کنیم. 
-        شایان ذکر است جهت آماده سازی محتوای این سایت از مباحث تدریس شده دکتر بهرک، 
-        استاد محترم دانشکده برق و کامپیوتر دانشگاه تهران استفاده کردیم که جا داره از ایشون تشکر کنیم.</p><br>
-      <p>ویدیو‌های آموزشی ما در صفحه آپارات هم قرار گرفته‌اند. 
-      برای دانلود‌شون می‌تونید به این <a href="https://www.aparat.com/ProbStat">لینک</a>  مراجعه کنید.</p><br>
-      <p>راستی نظرات‌تون رو حتما با ما در میون بگذارید: 
-       sh.javidi98@ut.ac.ir</p><br><br><br><br><br><br><br><br><br><br>
-    <hr>
-    <a href="lecture1.html" style="float: left;">صفحه بعد</a>
+        <section>
+          <h3>جلسه دوم</h3>
+          
+          <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/5aSiJ/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+        </section>
+        <section id="section1">  
+          <br><br>
+        
+          <h6 id="#section1">اصول موضوعه كولموگروف</h6>
+          <p>به هر پیشامد $A$ عدد $P(A)$ نسبت داده می‌شود به طوریکه:</p>
+<p>اصل یک: $P(A)\geq 0$</p>
+<p>اصل دو: 
+    $P(\Omega)=1$</p>
+<p>اصل سه: اگر  پیشامد‌های $A$ و $B$ ناسازگار باشند 
+    $(A \cap B=\emptyset)$ 
+    آنگاه: 
+$P(A\cup B)=P(A)+P(B)$</p>
+<p>اصل سوم کولموگروف برای هر تعداد محدودی از وقایع (و نه برای تعداد نامحدود) قابل بیان است و چنانچه 
+عناصر فضای نمونه نامحدود باشد باید به جای اصل سه، اصل قوی‌تری را جایگزین کرد.</p>
+$$P(A_1\cup A_2\cup ...\cup A_n )=P(A_1 )+P(A_2 )+...+P(A_n )$$<p></p>
+<p>اصل جمع‌پذیری نامحدود (قابل شمارش): اگر 
+    $A_1,A_2,...$ 
+    پیشامد‌هایی دو به دو ناسازگار باشند آنگاه: 
+    $$P(A_1\cup A_2\cup...)=P(A_1 )+P(A_2 )+...$$</p>
     </section>
+    <section id="section2">  
+      <h6>
+        قضایای پایه احتمال
+      </h6>
+      <p>قضیه یک:
+    $P(\bar{A})=1-P(A)$</p>
+<p>قضیه دو:
+    $P(\emptyset)=0$</p>
+<p>قضیه سه: 
+    $P(A)\leq 1$</p>
+<p>قضیه چهار:
+    اگر$B\subset A$ آنگاه $P(B)\leq P(A)$</p>
+<p>نتیجه فرعی قضیه چهار:
+    $$
+    \begin{cases}
+        (A\cap B)\subset B \Rightarrow P(A\cap B)\leq P(B)
+        (A\cap B)\subset A \Rightarrow P(A\cap B)\leq P(A)
+    \end{cases}
+    $$</p>
+<p>قضیه پنج: اگر $B\subset A$ آنگاه$P(A-B)=P(A)-P(B)$</p>
+<p>قضیه شش: برای هر دو مجموعه $A$ و $B$ داریم: $P(A\cup B)=P(A)+P(B)-P(A\cap B)$</p>
+</section>
+<section id="section3">
+<h6>اصل شمول و عدم شمول</h6>
+  <p>حالت پایه:</p>
+$$ P(A\cup B)=P(A)+P(B)-P(A\cap B) $$<p>حالت سه‌تایی:</p>
+$$P(A\cup B\cup C)=P(A)+P(B)+P(C)-P(A\cap B)-P(A\cap C)-P(B\cap C)+P(A\cap B \cap C)$$<p>حالت تعمیم‌یافته:</p>
+$$P(\bigcup_{i=1}^{n}E_i)=\sum_{r=1}^{n}(-1)^{r+1} \sum_{i_1\le ... \le i_r}P(E_{i_1}\cap E_{i_2}\cap ...\cap E_{i_r})$$
+        <hr>
 
+        <a href="lecture3.html" style="float: left;">صفحه بعد</a>
+        <a href="lecture2.html" style="float: right;">صفحه قبل</a>
+        <br><br>
+        </section>
+        
+		        
+        
       </div>
     </div>
 	

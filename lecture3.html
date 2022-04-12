@@ -112,7 +112,7 @@ init_mathjax();
 		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
 		
 		<!-- Logo --> 
-        <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img style="width: 86px;" src="logo.png" alt="iDocs Template"/> </a> 
+    <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img style="width: 86px;" src="logo.png" alt="iDocs Template"/> </a> 
 		<span class="text-2 ml-2">v1.0</span> 
         <!-- Logo End -->
         
@@ -138,10 +138,6 @@ init_mathjax();
             <li><a target="_blank" href="https://themeforest.net/user/harnishdesign/#contact?ref=HarnishDesign"> درباره ما</a></li>
 	    -->
           </ul>
-        </div>
-        <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
-          
-        </ul>
       </div>
     </nav>
     <!-- Navbar End --> 
@@ -155,17 +151,11 @@ init_mathjax();
 	<!-- Sidebar Navigation
 	============================ -->
 	<div class="idocs-navigation bg-light">
-    	  <ul class="nav flex-column ">
-	      <h6 style="padding-top: 20pt; padding-left: 20pt; padding-right: 20pt;">آمار و احتمال مهندسی</h6>
-        <li class="nav-item"><a class="nav-link active" href="lecture1.html">جلسه اول</a></li>
-        <li class="nav-item"><a class="nav-link active" href="lecture2.html">جلسه دوم</a></li>
-        <li class="nav-item"><a class="nav-link active" href="lecture3.html">جلسه سوم</a></li>
-      	    <!--
-      	    <li class="nav-item"><a class="nav-link active" href="index.html">صفحه اصلی</a></li>
-      	    <li class="nav-item"><a class="nav-link active" href="lecture1.html">جلسه اول: مقدمه‌ای بر نظریه مجموعه‌ها</a></li>
-            -->
-    	  </ul>
-  	</div>
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#section1">تعیین احتمال پیشامد‌ها</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#section2">تعاریف احتمال</a></li>
+      </ul>
+    </div>
     
     <!-- Docs Content
 	============================ -->
@@ -174,21 +164,57 @@ init_mathjax();
         
         <!-- Getting Started
 		============================ -->
-    <section id="idocs_start">
-      <h3>صفحه اصلی</h3><br>
-      <p>سلام خوش اومدین 😊🍀</p><br>
-      <p style="text-align: justify;">ما جمعی از دانشجویان دانشکده فنی دانشگاه تهران هستیم و در این وبسایت 
-        تلاش می‌کنیم تا محتوای آموزشی رایگان و آنلاین برای درس «آمار و احتمال مهندسی» فراهم کنیم. 
-        شایان ذکر است جهت آماده سازی محتوای این سایت از مباحث تدریس شده دکتر بهرک، 
-        استاد محترم دانشکده برق و کامپیوتر دانشگاه تهران استفاده کردیم که جا داره از ایشون تشکر کنیم.</p><br>
-      <p>ویدیو‌های آموزشی ما در صفحه آپارات هم قرار گرفته‌اند. 
-      برای دانلود‌شون می‌تونید به این <a href="https://www.aparat.com/ProbStat">لینک</a>  مراجعه کنید.</p><br>
-      <p>راستی نظرات‌تون رو حتما با ما در میون بگذارید: 
-       sh.javidi98@ut.ac.ir</p><br><br><br><br><br><br><br><br><br><br>
-    <hr>
-    <a href="lecture1.html" style="float: left;">صفحه بعد</a>
-    </section>
+        <section>
+          <h3>جلسه سوم</h3>
+          
+          <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/VzL1x/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+          <br><br>
+        </section>
+        <section id="section1">
+        
+        <h6>تعیین احتمال پیشامد‌ها</h6>
+        <p>برای مدل کردن یک آزمایش تصادفی باید احتمال کلیه پیشامد‌ها را تعیین کنیم.
+          اگر $\Omega$ متشکل از $Ν$
+          نقطه نمونه
+          $\omega_1,\omega_2,...,\omega_N$ 
+          باشد، کافی است احتمال پیشامد‌های ساده 
+          $\{\omega_1\},\{\omega_2\},...,\{\omega_N\}$را بدانیم. در این صورت اگر
+          $A=\{\omega_{k_1},\omega_{k_2},...,\omega_{k_r}\} $
+          آنگاه:</p>
+      $$P(A)=P(\{\omega_{k_1} \})+P(\{\omega_{k_2} \})+...+P(\{\omega_{k_N}\}) $$<p>اگر$P(\{\omega_{k_i}\})=P_i$
+          آنگاه طبق اصل یک $ P_i\geq 0 $ و طبق اصل دو 
+      $\sum_{i=1}^N P_i=1$.</p>
+      <p>اگر تعداد عناصر $\Omega$ نامحدود ولی قابل شمارش باشد هم اصل فوق صادق است و داریم: 
+          $\sum_{i=1}^{\infty} P_i=1$</p>
+      
+        </section>
+        <section id="section2">
+          <h6>تعاریف احتمال</h6>
+          <p><strong>تعریف ذهنی یا شخصی (subjective):</strong> 
+          نظر و ارزیابی شخصی هر فرد نسبت به احتمال وقوع یک پیشامد است.</p>
+      <p><strong>تعریف بسامدی (frequency):</strong>
+          اگر یک آزمایش تصادفی را $n$ بار انجام دهیم و در این $n$ تکرار، پیشامد $A$ به تعداد
+          $ n_A $
+          اتفاق افتد آنگاه برای یک
+          $n$ بزرگ احتمال $P(A)$ عددی نزدیک به $\frac{n_A}{n}$ خواهد بود. به بیان ریاضی:</p>
+      <p>$P(A)\cong \frac{n_A}{n}$ \</p>
+      <p><strong>تعریف حدی احتمال:</strong> 
+          $P(A)=\lim_{n\to \infty} \frac{n_A}{n}$</p>
+      <p><strong>تعریف کلاسیک احتمال:</strong>
+          $P(A)=\frac{N_A}{N}$
+          محدودیت تعریف کلاسیک احتمال: 
+          در صورتی که نتایج آزمایش تصادفی متساوی‌الاحتمال نباشند، تعریف کلاسیک احتمال صحیح نیست.</p>
+      <p><strong>اصل ناکافی بودن دلیل:</strong>
+          اگر یک آزمایش تصادفی دارای $N$ نتیجه ممکنه$ \omega_1,\omega_2,...,\omega_N$ باشد و ما هیچ اطلاعی درباره نحوه وقوع آنها نداشته باشیم، باید احتمال آنها را مساوی فرض کنیم. به بیان ریاضی:
+          $$P(\omega_1 )=P(\omega_2 )=...=P(\omega_N )=\frac{1}{N} $$</p>
 
+          <hr>
+
+          <a href="lecture4.html" style="float: left;">صفحه بعد</a>
+          <a href="lecture2.html" style="float: right;">صفحه قبل</a>
+		        
+        </section>
+        
       </div>
     </div>
 	
