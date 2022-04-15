@@ -1,41 +1,56 @@
+<html lang="en">
 
-<head>
-<!-- Stylesheet
-============================== -->
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
-<!-- Font Awesome Icon -->
-<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
-<!-- Magnific Popup -->
-<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
-<!-- Highlight Syntax -->
-<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
-<!-- Custom Stylesheet -->
-<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
 
-<style>
-  @font-face {
-    font-family: 'IranSans';
-    src: url('fonts/IRANSansWeb.ttf');
-  }
 
-  @font-face {
-    font-family: 'IranSansBold';
-    src: url('fonts/IRANSansWeb_Bold.ttf');
-  }
-  body{
-    text-align: right;
-    font-family: 'IranSans';
-    direction: rtl;
-  }
-  h1,h2,h3,h4,h5,h6{
-    font-family: 'IranSansBold';
-    color: #008E89;
-  }
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Content
+  ============================ -->
+  <div id="content" role="main">
+    
+    
+    <!-- Docs Content
+	============================ -->
+    <div class="idocs-content">
+      <div class="container"> 
+        
+        <!-- Getting Started
+		============================ -->
+        <section id="idocs_start">
+         
+	  <h6 id="#section1">مفاهیم پایه‌ای مجموعه‌ها</h6>
+          <p><strong>مجموعه:</strong> دسته‌ای از عناصر متمایز را مجموعه گویند.</p>
+          <p><strong>زیرمجموعه:</strong> اگر هر عضو مجموعه $A$ متعلق به مجموعه $B$ نیز باشد، مجموعه $A$ زیرمجموعه مجموعه $B$ است. به بیان ریاضی: $A\subset B$</p>
+          <p><strong>مجموعه مساوی:</strong>   اگر و تنها اگر $A\subset B$ و $B\subset A$ آنگاه دو مجموعه $A$ و $B$ مساوی یکدیگر هستند.</p>
+          <p><strong>مجموعه مرجع:</strong>    مجموعه‌ای که شامل تمام عناصر است و با $\Omega$ نمایش داده می‌شود</p>
+          <p><strong>مجموعه تهی:</strong>     مجموعه‌ای که فاقد عضو است و با $\{\}$ یا $\emptyset$ نمایش داده می‌شود.</p>
+          <p><strong>اجتماع دو مجموعه:</strong>           مجموعه عناصری که یا در $A$ یا در $B$ باشند. به بیان ریاضی: $A\cup B$</p>
+          <p><strong>اشتراک دو مجموعه:</strong>       مجموعه عناصری که هم در $A$ و هم در $B$ باشند. به بیان ریاضی: $A\cap B$</p>
+          <p><strong>مکمل یک مجموعه:</strong>         تمام اعضای مجموعه مرجع که در مجموعه $A$ نباشند را مجموعه مکمل $A$ می‌نامند و با $A^c$ یا $\bar{A}$ نمایش می‌دهند.</p>
+          <p><strong>تفاضل دو مجموعه:</strong>    عناصری که تنها در یکی از دو مجموعه $A$ و $B$ باشند. به بیان ریاضی:</p>
+          <p>$A-B=A\cap \bar{B}$ یا $B-A=B\cap \bar{A}$</p>
+		
+        </section>
+        
+		        
+        
+      </div>
+    </div>
+	
+  </div>
+  <!-- Content end --> 
+  
+</div>
+<!-- Document Wrapper end --> 
 
-</style>
 
-<!-- Load mathjax -->
+
+<!-- JavaScript
+============================ -->
+	<!-- Load mathjax -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML-full,Safe"> </script>
 <!-- MathJax configuration -->
 <script type="text/x-mathjax-config">
@@ -73,58 +88,6 @@ init_mathjax = function() {
 }
 init_mathjax();
 </script>
-
-</head>
-
-<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
-
-
-<!-- Document Wrapper   
-=============================== -->
-<div id="main-wrapper"> 
-  
-  <!-- Content
-  ============================ -->
-  <div id="content" role="main">
-    
-	<!-- Sidebar Navigation
-	============================ -->
-	<div class="idocs-navigation bg-light">
-      	  <ul class="nav flex-column ">
-            <li class="nav-item"><a class="nav-link active" href="#section1">مفاهیم پایه‌ای مجموعه‌ها</a></li>
-      	  </ul>
-    	</div>
-    <div class="idocs-content">
-      <div class="container"> 
-        <section id="idocs_start">          
-	  <h6 id="#section1">مفاهیم پایه‌ای مجموعه‌ها</h6>
-          <p><strong>مجموعه:</strong> دسته‌ای از عناصر متمایز را مجموعه گویند.</p>
-          <p><strong>زیرمجموعه:</strong> اگر هر عضو مجموعه $A$ متعلق به مجموعه $B$ نیز باشد، مجموعه $A$ زیرمجموعه مجموعه $B$ است. به بیان ریاضی: $A\subset B$</p>
-          <p><strong>مجموعه مساوی:</strong>   اگر و تنها اگر $A\subset B$ و $B\subset A$ آنگاه دو مجموعه $A$ و $B$ مساوی یکدیگر هستند.</p>
-          <p><strong>مجموعه مرجع:</strong>    مجموعه‌ای که شامل تمام عناصر است و با $\Omega$ نمایش داده می‌شود</p>
-          <p><strong>مجموعه تهی:</strong>     مجموعه‌ای که فاقد عضو است و با $\{\}$ یا $\emptyset$ نمایش داده می‌شود.</p>
-          <p><strong>اجتماع دو مجموعه:</strong>           مجموعه عناصری که یا در $A$ یا در $B$ باشند. به بیان ریاضی: $A\cup B$</p>
-          <p><strong>اشتراک دو مجموعه:</strong>       مجموعه عناصری که هم در $A$ و هم در $B$ باشند. به بیان ریاضی: $A\cap B$</p>
-          <p><strong>مکمل یک مجموعه:</strong>         تمام اعضای مجموعه مرجع که در مجموعه $A$ نباشند را مجموعه مکمل $A$ می‌نامند و با $A^c$ یا $\bar{A}$ نمایش می‌دهند.</p>
-          <p><strong>تفاضل دو مجموعه:</strong>    عناصری که تنها در یکی از دو مجموعه $A$ و $B$ باشند. به بیان ریاضی:</p>
-          <p>$A-B=A\cap \bar{B}$ یا $B-A=B\cap \bar{A}$</p>
-        </section>
-          
-      </div>
-    </div>
-	
-  </div>
-  <!-- Content end --> 
-  
-  
-</div>
-<!-- Document Wrapper end --> 
-
-<!-- Back To Top --> 
-<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
-
-<!-- JavaScript
-============================ -->
 <script src="assets/vendor/jquery/jquery.min.js"></script> 
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
 <!-- Highlight JS -->
@@ -136,3 +99,4 @@ init_mathjax();
 <!-- Custom Script -->
 <script src="assets/js/theme.js"></script>
 </body>
+</html>
