@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ProbStat/static/css/main.94bf3583.css",
-    "main.js": "/ProbStat/static/js/main.92630ae2.js",
+    "main.js": "/ProbStat/static/js/main.1d3a493d.js",
     "static/js/787.65ae2419.chunk.js": "/ProbStat/static/js/787.65ae2419.chunk.js",
     "static/media/logo.png": "/ProbStat/static/media/logo.1a4de5c9473e6d3b6b60.png",
     "static/media/Vazir.ttf": "/ProbStat/static/media/Vazir.83fea749de20816026b1.ttf",
     "index.html": "/ProbStat/index.html",
     "main.94bf3583.css.map": "/ProbStat/static/css/main.94bf3583.css.map",
-    "main.92630ae2.js.map": "/ProbStat/static/js/main.92630ae2.js.map",
+    "main.1d3a493d.js.map": "/ProbStat/static/js/main.1d3a493d.js.map",
     "787.65ae2419.chunk.js.map": "/ProbStat/static/js/787.65ae2419.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94bf3583.css",
-    "static/js/main.92630ae2.js"
+    "static/js/main.1d3a493d.js"
   ]
 }
