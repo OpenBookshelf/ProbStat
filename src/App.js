@@ -25,13 +25,13 @@ function App() {
             <Route path="/probstat">
               <HomePage />
             </Route>
-            <Route path="/about">
+            <Route path="/ProbStat/about">
               <Aboutus />
             </Route>
-            <Route path="/lectures/:id">
+            <Route path="/ProbStat/lectures/:id">
               <LecturePage />
             </Route>
-            <Route path="/lectures">
+            <Route path="/ProbStat/lectures">
               <LectureIntro />
             </Route>
           </Switch>

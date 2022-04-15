@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 const req = window.XMLHttpRequest
   ? new XMLHttpRequest()
   : // eslint-disable-next-line no-undef
@@ -5,8 +6,9 @@ const req = window.XMLHttpRequest
 
 req.onreadystatechange = function () {
   if (this.readyState == XMLHttpRequest.DONE) {
+    console.log(window.config);
     window.config = JSON.parse(this.responseText);
   }
 };
-req.open("GET", "/config.json", false);
+req.open("GET", "config.json", false);
 req.send();

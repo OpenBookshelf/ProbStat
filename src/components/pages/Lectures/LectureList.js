@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Card = (props) => {
   const answerElRef = useRef();
@@ -58,9 +59,9 @@ const Card = (props) => {
         style={state ? { height: answerH } : { height: "0px" }}
       >
         <div>
-          <a href={`/lectures/${idx + 1}`} className="text-gray-500">
+          <Link to={`/lectures/${idx + 1}`} className="text-gray-500">
             مبحث : {lecture.description}
-          </a>
+          </Link>
         </div>
       </div>
     </div>

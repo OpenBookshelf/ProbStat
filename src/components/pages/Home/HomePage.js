@@ -21,12 +21,12 @@ const HomePage = () => {
         >
           دیدن مباحث{" "}
         </Link>
-        <a
-          href="/lectures/1"
+        <Link
+          to="/lectures/1"
           className="md:m-2 py-3 px-6 w-full text-gray-500 text-center border rounded-md duration-300 hover:text-indigo-600 hover:shadow block sm:w-auto"
         >
           جلسه اول{" "}
-        </a>
+        </Link>
       </div>
     </section>
   );
