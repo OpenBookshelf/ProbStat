@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ProbStat/static/css/main.94bf3583.css",
-    "main.js": "/ProbStat/static/js/main.f5db3680.js",
+    "main.css": "/ProbStat/static/css/main.49343723.css",
+    "main.js": "/ProbStat/static/js/main.70900054.js",
     "static/js/787.65ae2419.chunk.js": "/ProbStat/static/js/787.65ae2419.chunk.js",
     "static/media/logo.png": "/ProbStat/static/media/logo.1a4de5c9473e6d3b6b60.png",
     "static/media/Vazir.ttf": "/ProbStat/static/media/Vazir.83fea749de20816026b1.ttf",
     "index.html": "/ProbStat/index.html",
-    "main.94bf3583.css.map": "/ProbStat/static/css/main.94bf3583.css.map",
-    "main.f5db3680.js.map": "/ProbStat/static/js/main.f5db3680.js.map",
+    "main.49343723.css.map": "/ProbStat/static/css/main.49343723.css.map",
+    "main.70900054.js.map": "/ProbStat/static/js/main.70900054.js.map",
     "787.65ae2419.chunk.js.map": "/ProbStat/static/js/787.65ae2419.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94bf3583.css",
-    "static/js/main.f5db3680.js"
+    "static/css/main.49343723.css",
+    "static/js/main.70900054.js"
   ]
 }
