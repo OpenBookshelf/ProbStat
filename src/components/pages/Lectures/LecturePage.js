@@ -1,12 +1,13 @@
 import React from "react";
 import { useHistory, useParams } from "react-router-dom";
+import Latex from "../../hooks/LATEX";
 import LectureList from "./LectureList";
 
 const LecturePage = () => {
   const [html, setHtml] = React.useState("");
   const { id } = useParams();
   const history = useHistory();
-  const data = window.config.lectures[+id - 1];
+  const data = window.config?.lectures[+id - 1];
 
   React.useEffect(() => {
     if (data && data.file) {
@@ -22,10 +23,22 @@ const LecturePage = () => {
     } else {
       history.goBack();
     }
-  }, [data, history, setHtml]);
+  }, [data, history]);
 
   if (!data) {
-    <svg class="animate-spin h-10 w-10 mr-3 ..." viewBox="0 0 24 24"></svg>;
+    return (
+      <div className="d-flex items-center	 justify-center	flex-col	 w-100">
+        <div class="loading">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <h4 className="text-center">خطا در گرفتن محتوای جلسه </h4>
+        <p className="text-center">
+          لطفا مجددا از مباحث جلسه مد نظر خود را انتخاب کنید.
+        </p>
+      </div>
+    );
   } else
     return (
       <section className="max-w-screen-xl mx-auto py-4 px-4 sm:px-8">
@@ -48,8 +61,14 @@ const LecturePage = () => {
           </div>
           <div class="flex flex-wrap">
             <div class="w-full lg:w-3/4 xl:w-4/7 p-1 overflow-auto">
-              <div class="text-justify" dangerouslySetInnerHTML={{ __html: html }} />
+              <Latex>
+                <div
+                  class="text-justify"
+                  dangerouslySetInnerHTML={{ __html: html }}
+                />
+              </Latex>
             </div>
+
             <div class="w-full lg:w-1/4 xl:w-1/7">
               <LectureList />
             </div>

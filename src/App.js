@@ -13,9 +13,17 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-
         <div className="App">
           <Switch>
+            <Route path="/probstat/about">
+              <Aboutus />
+            </Route>
+            <Route path="/probstat/lectures/:id?">
+              <LecturePage />
+            </Route>
+            <Route path="/probstat/lectures">
+              <LectureIntro />
+            </Route>
             <Route path="/ProbStat/">
               <HomePage />
             </Route>
@@ -24,15 +32,6 @@ function App() {
             </Route>
             <Route path="/probstat">
               <HomePage />
-            </Route>
-            <Route path="/ProbStat/about">
-              <Aboutus />
-            </Route>
-            <Route path="/ProbStat/lectures/:id">
-              <LecturePage />
-            </Route>
-            <Route path="/ProbStat/lectures">
-              <LectureIntro />
             </Route>
           </Switch>
         </div>

@@ -1,14 +1,27 @@
-/* eslint-disable eqeqeq */
-const req = window.XMLHttpRequest
-  ? new XMLHttpRequest()
-  : // eslint-disable-next-line no-undef
-    new ActiveXObject("Microsoft.XMLHTTP");
-
-req.onreadystatechange = function () {
-  if (this.readyState == XMLHttpRequest.DONE) {
-    console.log(window.config);
-    window.config = JSON.parse(this.responseText);
+window.config = {
+    "homeText": "سلام خوش اومدین 😊🍀\n\n\nما جمعی از دانشجویان دانشکده فنی دانشگاه تهران هستیم و در این وبسایت تلاش می‌کنیم تا محتوای آموزشی رایگان و آنلاین برای درس «آمار و احتمال مهندسی» فراهم کنیم. شایان ذکر است جهت آماده سازی محتوای این سایت از مباحث تدریس شده دکتر بهرک، استاد محترم دانشکده برق و کامپیوتر دانشگاه تهران استفاده کردیم که جا داره از ایشون تشکر کنیم.",
+    "footerText": "گروه آموزشی دانشگاه تهران - دانشکده برق و کامپیوتر",
+    "aboutText": "راستی نظرات‌تون رو حتما با ما در میون بگذارید",
+    "contactEmail": "sh.javidi98@ut.ac.ir",
+    "lectures": [
+      {
+        "title": "جلسه اول",
+        "streamLink": "https://www.aparat.com/video/video/embed/videohash/jkMhT/vt/frame",
+        "file": "https://openbookshelf.github.io/ProbStat/lectures/Lecture1.html",
+        "description": "جلسه اول درباره مقدمات آمار و احتمال است."
+      },
+      {
+        "title": "جلسه دوم",
+        "streamLink": "https://www.aparat.com/video/video/embed/videohash/5aSiJ/vt/frame",
+        "file": "https://openbookshelf.github.io/ProbStat/lectures/Lecture2.html",
+        "description": "جلسه دوم درباره  آمار و احتمال است."
+      },
+      {
+        "title": "جلسه سوم",
+        "streamLink": "https://www.aparat.com/video/video/embed/videohash/VzL1x/vt/frame",
+        "file": "https://openbookshelf.github.io/ProbStat/lectures/Lecture3.html",
+        "description": "جلسه سوم درباره  آمار و احتمال است."
+      }
+    ]
   }
-};
-req.open("GET", "config.json", false);
-req.send();
+  

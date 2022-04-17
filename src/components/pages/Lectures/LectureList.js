@@ -59,7 +59,7 @@ const Card = (props) => {
         style={state ? { height: answerH } : { height: "0px" }}
       >
         <div>
-          <Link to={`/lectures/${idx + 1}`} className="text-gray-500">
+          <Link to={`/probstat/lectures/${idx + 1}`} className="text-gray-500">
             مبحث : {lecture.description}
           </Link>
         </div>
