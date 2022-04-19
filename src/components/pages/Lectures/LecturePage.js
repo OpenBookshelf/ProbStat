@@ -5,9 +5,9 @@ import LectureList from "./LectureList";
 
 const LecturePage = () => {
   const [html, setHtml] = React.useState("");
-  const { id } = useParams();
+  const { id, lecture } = useParams();
   const history = useHistory();
-  const data = window.config?.lectures[+id - 1];
+  const data = window.config.sessions[+id].lectures[+lecture];
 
   React.useEffect(() => {
     if (data && data.file) {
@@ -28,7 +28,7 @@ const LecturePage = () => {
   if (!data) {
     return (
       <div className="d-flex items-center	 justify-center	flex-col	 w-100">
-        <div class="loading">
+        <div className="loading">
           <div></div>
           <div></div>
           <div></div>

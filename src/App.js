@@ -18,12 +18,13 @@ function App() {
             <Route path="/probstat/about">
               <Aboutus />
             </Route>
-            <Route path="/probstat/lectures/:id?">
+            <Route path="/probstat/lectures/:id/:lecture">
               <LecturePage />
             </Route>
             <Route path="/probstat/lectures">
               <LectureIntro />
             </Route>
+
             <Route path="/ProbStat/">
               <HomePage />
             </Route>
