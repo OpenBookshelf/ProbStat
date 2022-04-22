@@ -15,21 +15,21 @@ window.config = {
           title: "جلسه اول",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/jkMhT/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Lecture1.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/1/Lecture1.html",
           description: "جلسه اول درباره مقدمات آمار و احتمال است.",
         },
         {
           title: "جلسه دوم",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/5aSiJ/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Lecture2.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/1/Lecture2.html",
           description: "جلسه دوم درباره  آمار و احتمال است.",
         },
         {
           title: "جلسه سوم",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/VzL1x/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Lecture3.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/1/Lecture3.html",
           description: "جلسه سوم درباره  آمار و احتمال است.",
         },
       ],
