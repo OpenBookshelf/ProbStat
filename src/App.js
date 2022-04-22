@@ -7,6 +7,7 @@ import HomePage from "./components/pages/Home/HomePage";
 import LecturePage from "./components/pages/Lectures/LecturePage";
 import LectureIntro from "./components/pages/Lectures/LectureIntro";
 import Aboutus from "./components/pages/Aboutus/Aboutus";
+import AboutTeam from "./components/pages/Aboutus/AboutTeam";
 
 function App() {
   return (
@@ -18,20 +19,16 @@ function App() {
             <Route path="/probstat/about">
               <Aboutus />
             </Route>
+            <Route path="/probstat/team">
+              <AboutTeam />
+            </Route>
             <Route path="/probstat/lectures/:id/:lecture">
               <LecturePage />
             </Route>
             <Route path="/probstat/lectures">
               <LectureIntro />
             </Route>
-
-            <Route path="/ProbStat/">
-              <HomePage />
-            </Route>
-            <Route path="/ProbStat">
-              <HomePage />
-            </Route>
-            <Route path="/probstat">
+            <Route path={"*"}>
               <HomePage />
             </Route>
           </Switch>

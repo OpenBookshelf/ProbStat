@@ -12,7 +12,7 @@ const Footer = () => {
     //   name: "آزمون ها",
     // },
     {
-      href: "/probstat/about",
+      href: "/probstat/team",
       name: "درباره ما",
     },
     {
@@ -41,7 +41,7 @@ const Footer = () => {
       </ul>
       <div className="mt-12 items-center justify-center sm:flex">
         <div className="mt-10 sm:mt-0">
-          2022 PropStat All rights reserved &copy;
+          2022 PropStat All rights reserved - Morriex &copy;
         </div>
       </div>
       <style>{`

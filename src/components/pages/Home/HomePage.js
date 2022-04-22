@@ -4,7 +4,7 @@ const HomePage = () => {
     <section className="mt-20 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8 mb-3 d-flex">
       <div className="text-center space-y-4 mb-3 md:w-50 sm:w-100">
         <h1 className="text-gray-800 font-bold text-4xl md:text-5xl">
-          تدریس آنلاین
+          تدریس برخط
           <span className="text-indigo-600 m-3">
             {" آمار و احتمال مهندسی  "}
           </span>
@@ -21,7 +21,7 @@ const HomePage = () => {
           دیدن مباحث{" "}
         </Link>
         <Link
-          to="/probstat/lectures/1"
+          to="/probstat/lectures/0/0"
           className="md:m-2 py-3 px-6 w-full text-gray-500 text-center border rounded-md duration-300 hover:text-indigo-600 hover:shadow block sm:w-auto"
         >
           جلسه اول{" "}

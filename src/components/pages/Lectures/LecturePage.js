@@ -59,7 +59,7 @@ const LecturePage = () => {
               allowFullScreen={true}
             ></iframe>
           </div>
-          <div class="flex flex-wrap">
+          <div class="flex flex-wrap mt-5">
             <div class="w-full lg:w-3/4 xl:w-4/7 p-1 overflow-auto">
               <Latex>
                 <div

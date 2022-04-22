@@ -7,7 +7,7 @@ const Header = () => {
 
   const navigation = [
     { title: "آمار و احتمال مهندسی", path: "/ProbStat/" },
-    { title: "درباره ما", path: "/probstat/about" },
+    { title: "درباره ما", path: "/probstat/team" },
   ];
 
   return (
