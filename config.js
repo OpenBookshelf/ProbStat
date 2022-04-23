@@ -41,5 +41,26 @@ window.config = {
         },
       ],
     },
+    {
+      id: 1,
+      name: "ترکیبیات",
+      describe: "دارای 2 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: مروری بر ترکیبیات",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/KwgPY/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/2/Lecture1.html",
+          description: "جلسه اول مروری بر ترکیبیات است.",
+        },
+        {
+          title: "جلسه دوم: ترکیبیات در احتمال",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/V9UsZ/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/2/Lecture2.html",
+          description: "جلسه دوم درباره ترکیبیات در احتمال است.",
+        },
+      ],
+    },
   ],
 };
