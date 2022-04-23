@@ -4,7 +4,7 @@
 تمام تغییرات در فایل config انجام میشود.
 </h6>
 
-![عکس  ](./img/config.png)
+![عکس  ](https://i.postimg.cc/N0VJmXmm/config.png)
 
 <hr/>
 <h1>
@@ -16,7 +16,7 @@
 تعویض متن صفحه اول
 </h2>
 
-![عکس  ](./img/home.png)
+![عکس  ](https://i.postimg.cc/5tZg6VWm/home.png)
 
 <h6>
 از فایل مشخص شده، کلید homeText را تغییر دهید.
@@ -25,7 +25,7 @@
 <h2>
 تعویض متن قرار گرفته در پاصفحه سایت</h2>
 
-![عکس  ](./img/footer.png)
+![عکس  ](https://i.postimg.cc/cLLXzhcf/footer.png)
 
 <h6>
 از فایل مشخص شده، کلید footerText را تغییر دهید.
@@ -35,7 +35,7 @@
 تعویض متن خلاصه دوره
 </h2>
 
-![عکس  ](./img/summary.png)
+![عکس  ](https://i.postimg.cc/wBtFqBZv/summary.png)
 
 <h6>
 از فایل مشخص شده، کلید summary را تغییر دهید.
@@ -45,7 +45,7 @@
 تعویض متن صفحه ارتباط با ما
 </h2>
 
-![عکس  ](./img/contact.png)
+![عکس  ](https://i.postimg.cc/wMYwbdWB/contact.png)
 
 <h6>
 از فایل مشخص شده، کلید aboutText را تغییر دهید.
@@ -56,7 +56,7 @@
 تغییر ایمیل دریافت پیشنهادات
 </h2>
 
-![عکس  ](./img/email.png)
+![عکس  ](https://i.postimg.cc/XJC28vkh/email.png)
 
 <h6>
 از فایل مشخص شده، کلید contactEmail را تغییر دهید.
@@ -70,7 +70,7 @@
 توضیح کلید های جلسه
 </h2>
 
-![عکس  ](./img/sessions.png)
+![عکس  ](https://i.postimg.cc/zBKjhcJY/sessions.png)
 
 <h6>
 1 - در فایل مشخص شده، یک کلید جلسات وجود دارد و شما تمام جلسات(شامل چند لکچر) را در این کلید وارد میکنید.آرایه ای از مجموعه جلسات است که شامل چند لکچر، مشخصات جلسه و مشخصات هر لکچر میباشد.
@@ -135,7 +135,7 @@
 4- لینک استریم ویدیو را (هایلایت شده) از آپارات کپی کرده و در *4 قرار دهید.
 </h6>
 
-![عکس  ](./img/aparat.png)
+![عکس  ](https://i.postimg.cc/rpzZDj0q/aparat.png)
 
 
 
@@ -143,8 +143,8 @@
 5- سپس برای بارگزاری جزوه ، ابتدا فایل html آن را در پوشه مشخص شده در گیت هاب آپلود کنید و سپس آدرس آن را در کلید file قرار دهید.
 </h6>
 
-![عکس  ](./img/files-1.png)
-![عکس  ](./img/files-2.png)
+![عکس  ](https://i.postimg.cc/tCyr3pZS/files-1.png)
+![عکس  ](https://i.postimg.cc/66Cj4y34/files-2.png)
 
 
 
