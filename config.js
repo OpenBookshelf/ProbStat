@@ -37,7 +37,7 @@ window.config = {
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/cVvDJ/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/1/Lecture4.html",
-          description: "جلسه سوم درباره پارادوکس برتراند است.",
+          description: "جلسه چهارم درباره پارادوکس برتراند است.",
         },
       ],
     },
