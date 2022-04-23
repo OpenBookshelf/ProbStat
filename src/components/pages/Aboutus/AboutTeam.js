@@ -12,7 +12,7 @@ const AboutTeam = () => {
     leaders: [
       {
         name: "شهرزاد جاویدی",
-        github: "https://github.com/ShahrzadJavidi",
+        github: "https://ir.linkedin.com/in/shahrzad-javidi-35667b201",
         src: Javidi,
       },
     ],
@@ -61,14 +61,14 @@ const AboutTeam = () => {
 
   const Card = ({ item, id }) => {
     return (
-      <div class="md:col-span-2 sm:col-span-12" key={id}>
+      <div class="md:col-span-2 sm:col-span-12 p-2 bg-white rounded-xl shadow-xl" key={id}>
         <a href={item.github} target={"_blank"} rel="noreferrer">
           <div
             className="rounded-xl"
             style={{
               width: "100%",
-              maxWidth: "150px",
-              height: "150px",
+              maxWidth: "250px",
+              height: "250px",
               overflow: "hidden",
               display: "flex",
               justifyContent: "center",
@@ -83,14 +83,14 @@ const AboutTeam = () => {
             />
           </div>
         </a>
-        <p class="text-xs -translate-y-6 text-white font-semibold sm:-translate-y-9 sm:text-base ">
+        <p class="text-xs text-center text-black font-semibold  sm:text-base ">
           {item.name}
         </p>
       </div>
     );
   };
   return (
-    <>
+    <div className="my-5">
       <div class="flex items-center justify-center mt-3">
         <div class="grid md:grid-cols-2 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
           <div class="col-span-full mb-3">
@@ -102,7 +102,7 @@ const AboutTeam = () => {
         </div>
       </div>
       <div class="flex items-center justify-center mt-3">
-        <div class="grid md:grid-cols-8 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
+        <div class="grid md:grid-cols-4 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
           <div class="col-span-full mb-3">
             <p class="text-xl text-gray-700 text-center"> همکاران </p>
           </div>
@@ -131,7 +131,7 @@ const AboutTeam = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
