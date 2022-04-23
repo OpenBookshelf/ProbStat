@@ -32,6 +32,13 @@ window.config = {
           file: "https://openbookshelf.github.io/ProbStat/lectures/1/Lecture3.html",
           description: "جلسه سوم درباره  آمار و احتمال است.",
         },
+        {
+          title: "جلسه چهارم",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/cVvDJ/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/1/Lecture4.html",
+          description: "جلسه سوم درباره پارادوکس برتراند است.",
+        },
       ],
     },
   ],
