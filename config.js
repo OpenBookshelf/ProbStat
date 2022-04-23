@@ -12,28 +12,28 @@ window.config = {
       describe: "دارای 4 جلسه معرفی است",
       lectures: [
         {
-          title: "جلسه اول",
+          title: "جلسه اول: مقدمه‌ای بر نظریه مجموعه‌ها",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/jkMhT/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/1/Lecture1.html",
           description: "جلسه اول درباره مقدمه‌ای بر نظریه مجموعه‌هااست.",
         },
         {
-          title: "جلسه دوم",
+          title: "جلسه دوم: تئوری‌های احتمال",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/5aSiJ/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/1/Lecture2.html",
           description: "جلسه دوم درباره تئوری‌های احتمال است.",
         },
         {
-          title: "جلسه سوم",
+          title: "جلسه سوم: تعریف احتمال",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/VzL1x/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/1/Lecture3.html",
           description: "جلسه سوم درباره تعریف احتمال است.",
         },
         {
-          title: "جلسه چهارم",
+          title: "جلسه چهارم: پارادوکس برتراند",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/cVvDJ/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/1/Lecture4.html",
