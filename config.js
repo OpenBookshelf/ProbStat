@@ -90,5 +90,40 @@ window.config = {
         },
       ],
     },
+    {
+      id: 3,
+      name: "استقلال",
+      describe: "دارای 4 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: استقلال",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/Jleq3/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/4/Lecture1.html",
+          description: "جلسه اول .",
+        },
+        {
+          title: "جلسه دوم: مفهوم آزمایش تکراری",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/iQLu5/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/4/Lecture2.html",
+          description: "جلسه دوم .",
+        },
+        {
+          title: "جلسه سوم: استقلال شرطی",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/RyTHa/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/4/Lecture3.html",
+          description: "جلسه سوم .",
+        },
+        {
+          title: "جلسه چهارم: احتمال تباین (اختیاری)",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/ufR93/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/4/Lecture4.html",
+          description: "جلسه چهارم .",
+        },
+      ],
+    },	  
   ],
 };
