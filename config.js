@@ -161,6 +161,34 @@ window.config = {
       ],
     },
     {
+      id: 5,
+      name: "واریانس",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: واریانس",
+          streamLink:
+            "",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture1.html",
+          description: "جلسه اول .",
+        },
+        {
+          title: "جلسه دوم: توزیع دو جمله‌ای",
+          streamLink:
+            "",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture2.html",
+          description: "جلسه دوم .",
+        },
+        {
+          title: "جلسه سوم: توزیع پواسون",
+          streamLink:
+            "",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture3.html",
+          description: "جلسه سوم .",
+        },
+      ],
+    },
+    {
       id: 6,
       name: "توزیع های گسسته",
       describe: "دارای 3 جلسه معرفی است",
