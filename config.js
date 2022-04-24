@@ -63,30 +63,30 @@ window.config = {
       ],
     },
     {
-      id: 6,
-      name: "توزیع های گسسته",
+      id: 2,
+      name: "احتمال شرطی",
       describe: "دارای 3 جلسه معرفی است",
       lectures: [
         {
-          title: "جلسه اول: توزیع فوق هندسی",
+          title: "جلسه اول: احتمال شرطی",
           streamLink:
-            "",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture1.html",
-          description: "جلسه اول ",
+            "https://www.aparat.com/video/video/embed/videohash/TzxpG/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/3/Lecture1.html",
+          description: "جلسه اول مروری بر احتمال شرطی است.",
         },
         {
-          title: "جلسه دوم: توزیع هندسی",
+          title: "جلسه دوم: قضیه بیز",
           streamLink:
-            "",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture2.html",
-          description: "جلسه دوم ",
+            "https://www.aparat.com/video/video/embed/videohash/YH5q9/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/3/Lecture2.html",
+          description: "جلسه دوم درباره قضیه بیز است.",
         },
-	      {
-          title: "جلسه سوم: توزیع دوجمله ای منفی",
+	{
+          title: "جلسه سوم: مثال‌هایی از قضیه بیز",
           streamLink:
-            "",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture3.html",
-          description: "جلسه سوم ",
+            "https://www.aparat.com/video/video/embed/videohash/cgJ0M/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/3/Lecture3.html",
+          description: "جلسه سوم به مثال‌هایی از قضیه بیز می‌پردازد.",
         },
       ],
     },
@@ -124,6 +124,71 @@ window.config = {
           description: "جلسه چهارم .",
         },
       ],
+    },
+    {
+      id: 4,
+      name: "متغیر تصادفی",
+      describe: "دارای 4 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: متغیر تصادفی",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/fpv2b/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture1.html",
+          description: "جلسه اول .",
+        },
+        {
+          title: "جلسه دوم: تابع توزیع انباشته (CDF)",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/sQNCY/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture2.html",
+          description: "جلسه دوم .",
+        },
+        {
+          title: "جلسه سوم: امید ریاضی",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/aQhX7/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture3.html",
+          description: "جلسه سوم .",
+        },
+        {
+          title: "جلسه چهارم: پارادوکس سنت‌پترزبورگ (اختیاری)",
+          streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/UhnSB/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture4.html",
+          description: "جلسه چهارم .",
+        },
+      ],
+    },
+    {
+      id: 6,
+      name: "توزیع های گسسته",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: توزیع فوق هندسی",
+          streamLink:
+            "",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture1.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: توزیع هندسی",
+          streamLink:
+            "",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture2.html",
+          description: "جلسه دوم ",
+        },
+	      {
+          title: "جلسه سوم: توزیع دوجمله ای منفی",
+          streamLink:
+            "",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture3.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
+    {
     },	  
   ],
 };
