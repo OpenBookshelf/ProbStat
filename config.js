@@ -81,7 +81,7 @@ window.config = {
           file: "https://openbookshelf.github.io/ProbStat/lectures/3/Lecture2.html",
           description: "جلسه دوم درباره قضیه بیز است.",
         },
-	{
+        {
           title: "جلسه سوم: مثال‌هایی از قضیه بیز",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/cgJ0M/vt/frame",
@@ -167,22 +167,19 @@ window.config = {
       lectures: [
         {
           title: "جلسه اول: واریانس",
-          streamLink:
-            "",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture1.html",
           description: "جلسه اول .",
         },
         {
           title: "جلسه دوم: توزیع دو جمله‌ای",
-          streamLink:
-            "",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture2.html",
           description: "جلسه دوم .",
         },
         {
           title: "جلسه سوم: توزیع پواسون",
-          streamLink:
-            "",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture3.html",
           description: "جلسه سوم .",
         },
@@ -195,28 +192,23 @@ window.config = {
       lectures: [
         {
           title: "جلسه اول: توزیع فوق هندسی",
-          streamLink:
-            "",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture1.html",
           description: "جلسه اول ",
         },
         {
           title: "جلسه دوم: توزیع هندسی",
-          streamLink:
-            "",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture2.html",
           description: "جلسه دوم ",
         },
-	      {
+        {
           title: "جلسه سوم: توزیع دوجمله ای منفی",
-          streamLink:
-            "",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture3.html",
           description: "جلسه سوم ",
         },
       ],
     },
-    {
-    },	  
   ],
 };
