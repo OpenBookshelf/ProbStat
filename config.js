@@ -71,21 +71,21 @@ window.config = {
           title: "جلسه اول: احتمال شرطی",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/TzxpG/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/3/Lecture1.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه اول مروری بر احتمال شرطی است.",
         },
         {
           title: "جلسه دوم: قضیه بیز",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/YH5q9/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/3/Lecture2.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه دوم درباره قضیه بیز است.",
         },
         {
           title: "جلسه سوم: مثال‌هایی از قضیه بیز",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/cgJ0M/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/3/Lecture3.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه سوم به مثال‌هایی از قضیه بیز می‌پردازد.",
         },
       ],
@@ -134,28 +134,28 @@ window.config = {
           title: "جلسه اول: متغیر تصادفی",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/fpv2b/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture1.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه اول .",
         },
         {
           title: "جلسه دوم: تابع توزیع انباشته (CDF)",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/sQNCY/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture2.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه دوم .",
         },
         {
           title: "جلسه سوم: امید ریاضی",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/aQhX7/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture3.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه سوم .",
         },
         {
           title: "جلسه چهارم: پارادوکس سنت‌پترزبورگ (اختیاری)",
           streamLink:
             "https://www.aparat.com/video/video/embed/videohash/UhnSB/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture4.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه چهارم .",
         },
       ],
@@ -168,19 +168,19 @@ window.config = {
         {
           title: "جلسه اول: واریانس",
           streamLink: "",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture1.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه اول .",
         },
         {
           title: "جلسه دوم: توزیع دو جمله‌ای",
           streamLink: "",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture2.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه دوم .",
         },
         {
           title: "جلسه سوم: توزیع پواسون",
           streamLink: "",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture3.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه سوم .",
         },
       ],
@@ -193,19 +193,19 @@ window.config = {
         {
           title: "جلسه اول: توزیع فوق هندسی",
           streamLink: "",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture1.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه اول ",
         },
         {
           title: "جلسه دوم: توزیع هندسی",
           streamLink: "",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture2.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه دوم ",
         },
         {
           title: "جلسه سوم: توزیع دوجمله ای منفی",
           streamLink: "",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture3.html",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه سوم ",
         },
       ],
