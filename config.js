@@ -62,5 +62,33 @@ window.config = {
         },
       ],
     },
+    {
+      id: 6,
+      name: "توزیع های گسسته",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: توزیع فوق هندسی",
+          streamLink:
+            "",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture1.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: توزیع هندسی",
+          streamLink:
+            "",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture2.html",
+          description: "جلسه دوم ",
+        },
+	      {
+          title: "جلسه سوم: توزیع دوجمله ای منفی",
+          streamLink:
+            "",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture3.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
   ],
 };
