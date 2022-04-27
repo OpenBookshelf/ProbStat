@@ -72,7 +72,7 @@ const Card = (props) => {
         <div className="mt-3">
           {lecture.lectures.map((item, id) => (
             <Link
-              to={`/probstat/lectures/${idx}/${id}`}
+              to={`/ProbStat/lectures/${idx}/${id}`}
               className="text-gray-500"
             >
               <p className="inline-flex items-center justify-start w-full m-2 text-color-blue">

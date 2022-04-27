@@ -114,7 +114,7 @@ const AboutTeam = () => {
       <div class="flex items-center justify-center mt-3">
         <div class="grid md:grid-cols-2 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
           <div class="col-span-full mb-3">
-            <p class="text-xl text-gray-700 text-center"> زیر نظر اساتید </p>
+            <p class="text-xl text-gray-700 text-center"> زیر نظر استاد </p>
           </div>
           {team.professors.map((item, id) => (
             <Card item={item} id={id} />

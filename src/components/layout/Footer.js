@@ -4,7 +4,7 @@ import Logo from "../assets/image/logo.png";
 const Footer = () => {
   const footerNavs = [
     {
-      href: "/probstat/lectures",
+      href: "/ProbStat/lectures",
       name: "مباحث",
     },
     // {
@@ -12,11 +12,11 @@ const Footer = () => {
     //   name: "آزمون ها",
     // },
     {
-      href: "/probstat/team",
+      href: "/ProbStat/team",
       name: "درباره ما",
     },
     {
-      href: "/probstat/about",
+      href: "/ProbStat/about",
       name: "ارتباط با ما",
     },
   ];
