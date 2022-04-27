@@ -167,19 +167,19 @@ window.config = {
       lectures: [
         {
           title: "جلسه اول: واریانس",
-          streamLink: "",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/CnNfj/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه اول .",
         },
         {
           title: "جلسه دوم: توزیع دو جمله‌ای",
-          streamLink: "",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/oNe8X/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه دوم .",
         },
         {
           title: "جلسه سوم: توزیع پواسون",
-          streamLink: "",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/lFMQD/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه سوم .",
         },
@@ -192,19 +192,19 @@ window.config = {
       lectures: [
         {
           title: "جلسه اول: توزیع فوق هندسی",
-          streamLink: "",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/2z5Hp/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه اول ",
         },
         {
           title: "جلسه دوم: توزیع هندسی",
-          streamLink: "",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/1QJiU/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه دوم ",
         },
         {
           title: "جلسه سوم: توزیع دوجمله ای منفی",
-          streamLink: "",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/mOxcq/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه سوم ",
         },
