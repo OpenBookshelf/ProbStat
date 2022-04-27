@@ -8,7 +8,7 @@ window.config = {
   sessions: [
     {
       id: 0,
-      name: "نظریه مجموعه‌ها و تعریف احتمال",
+      name: "01. نظریه مجموعه‌ها و تعریف احتمال",
       describe: "دارای 4 جلسه معرفی است",
       lectures: [
         {
@@ -43,7 +43,7 @@ window.config = {
     },
     {
       id: 1,
-      name: "ترکیبیات",
+      name: "02. ترکیبیات",
       describe: "دارای 2 جلسه معرفی است",
       lectures: [
         {
@@ -64,7 +64,7 @@ window.config = {
     },
     {
       id: 2,
-      name: "احتمال شرطی",
+      name: "03. احتمال شرطی",
       describe: "دارای 3 جلسه معرفی است",
       lectures: [
         {
@@ -92,7 +92,7 @@ window.config = {
     },
     {
       id: 3,
-      name: "استقلال",
+      name: "04. استقلال",
       describe: "دارای 4 جلسه معرفی است",
       lectures: [
         {
@@ -127,7 +127,7 @@ window.config = {
     },
     {
       id: 4,
-      name: "متغیر تصادفی",
+      name: "05. متغیر تصادفی",
       describe: "دارای 4 جلسه معرفی است",
       lectures: [
         {
@@ -162,7 +162,7 @@ window.config = {
     },
     {
       id: 5,
-      name: "واریانس",
+      name: "06. واریانس",
       describe: "دارای 3 جلسه معرفی است",
       lectures: [
         {
@@ -187,7 +187,7 @@ window.config = {
     },
     {
       id: 6,
-      name: "توزیع های گسسته",
+      name: "07. توزیع‌های گسسته",
       describe: "دارای 3 جلسه معرفی است",
       lectures: [
         {
@@ -207,6 +207,72 @@ window.config = {
           streamLink: "https://www.aparat.com/video/video/embed/videohash/mOxcq/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه سوم ",
+        },
+      ],
+    },
+      id: 7,
+      name: "08. توزیع‌های پیوسته",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: توزیع‌های پیوسته",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/B6VWd/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: تابع چگالی احتمال",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/cDR1N/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: توزیع یکنواخت پیوسته",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/FPEcg/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
+      id: 8,
+      name: "09. توزیع نرمال و توزیع نمایی",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: ",
+          streamLink: "",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: تقریب توزیع دو جمله‌ای با توزیع نرمال",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/J47dZ/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: توزیع نمایی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/GAu9I/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
+      id: 9,
+      name: "10. توابع متغیرهای تصادفی",
+      describe: "دارای 2 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: تابعی از یک متغیر تصادفی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/tGqpO/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: توابع متغیرهای تصادفی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/l2D70/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
         },
       ],
     },
