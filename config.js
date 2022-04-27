@@ -1,6 +1,6 @@
 window.config = {
   homeText:
-    "سلام خوش اومدین 😊🍀\n\n\n\n\nما جمعی از دانشجویان دانشکده فنی دانشگاه تهران هستیم و در این وبسایت تلاش می‌کنیم تا محتوای آموزشی رایگان و آنلاین برای درس «آمار و احتمال مهندسی» فراهم کنیم. شایان ذکر است جهت آماده سازی محتوای این سایت از مباحث تدریس شده دکتر بهرک، استاد محترم دانشکده برق و کامپیوتر دانشگاه تهران استفاده کردیم که جا داره از ایشون تشکر کنیم.",
+    "سلام خوش اومدین 😊🍀\n\n\nما جمعی از دانشجویان دانشکده فنی دانشگاه تهران هستیم و در این وبسایت تلاش می‌کنیم تا محتوای آموزشی رایگان و آنلاین برای درس «آمار و احتمال مهندسی» فراهم کنیم. شایان ذکر است جهت آماده سازی محتوای این سایت از مباحث تدریس شده دکتر بهرک، استاد محترم دانشکده برق و کامپیوتر دانشگاه تهران استفاده کردیم که جا داره از ایشون تشکر کنیم.",
   footerText: "گروه آموزشی دانشگاه تهران",
   summary: "متن خلاصه توضیح دوره",
   aboutText: "راستی نظرات‌تون رو حتما با ما در میون بگذارید",
@@ -8,7 +8,7 @@ window.config = {
   sessions: [
     {
       id: 0,
-      name: "01. نظریه مجموعه‌ها و تعریف احتمال",
+      name: "نظریه مجموعه‌ها و تعریف احتمال",
       describe: "دارای 4 جلسه معرفی است",
       lectures: [
         {
@@ -43,7 +43,7 @@ window.config = {
     },
     {
       id: 1,
-      name: "02. ترکیبیات",
+      name: "ترکیبیات",
       describe: "دارای 2 جلسه معرفی است",
       lectures: [
         {
@@ -64,7 +64,7 @@ window.config = {
     },
     {
       id: 2,
-      name: "03. احتمال شرطی",
+      name: "احتمال شرطی",
       describe: "دارای 3 جلسه معرفی است",
       lectures: [
         {
@@ -92,7 +92,7 @@ window.config = {
     },
     {
       id: 3,
-      name: "04. استقلال",
+      name: "استقلال",
       describe: "دارای 4 جلسه معرفی است",
       lectures: [
         {
@@ -127,7 +127,7 @@ window.config = {
     },
     {
       id: 4,
-      name: "05. متغیر تصادفی",
+      name: "متغیر تصادفی",
       describe: "دارای 4 جلسه معرفی است",
       lectures: [
         {
@@ -162,24 +162,24 @@ window.config = {
     },
     {
       id: 5,
-      name: "06. واریانس",
+      name: "واریانس",
       describe: "دارای 3 جلسه معرفی است",
       lectures: [
         {
           title: "جلسه اول: واریانس",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/CnNfj/vt/frame",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه اول .",
         },
         {
           title: "جلسه دوم: توزیع دو جمله‌ای",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/oNe8X/vt/frame",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه دوم .",
         },
         {
           title: "جلسه سوم: توزیع پواسون",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/lFMQD/vt/frame",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه سوم .",
         },
@@ -187,95 +187,26 @@ window.config = {
     },
     {
       id: 6,
-      name: "07. توزیع‌های گسسته",
+      name: "توزیع های گسسته",
       describe: "دارای 3 جلسه معرفی است",
       lectures: [
         {
           title: "جلسه اول: توزیع فوق هندسی",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/2z5Hp/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
-          description: "جلسه اول ",
-        },
-        {
-          title: "جلسه دوم: توزیع هندسی",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/1QJiU/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
-          description: "جلسه دوم ",
-        },
-        {
-          title: "جلسه سوم: توزیع دوجمله ای منفی",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/mOxcq/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
-          description: "جلسه سوم ",
-        },
-      ],
-    },
-    {
-      id: 7,
-      name: "08. توزیع‌های پیوسته",
-      describe: "دارای 3 جلسه معرفی است",
-      lectures: [
-        {
-          title: "جلسه اول: توزیع‌های پیوسته",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/B6VWd/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
-          description: "جلسه اول ",
-        },
-        {
-          title: "جلسه دوم: تابع چگالی احتمال",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/cDR1N/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
-          description: "جلسه دوم ",
-        },
-        {
-          title: "جلسه سوم: توزیع یکنواخت پیوسته",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/FPEcg/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
-          description: "جلسه سوم ",
-        },
-      ],
-    },
-    {
-      id: 8,
-      name: "09. توزیع نرمال و توزیع نمایی",
-      describe: "دارای 3 جلسه معرفی است",
-      lectures: [
-        {
-          title: "جلسه اول: ",
           streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه اول ",
         },
         {
-          title: "جلسه دوم: تقریب توزیع دو جمله‌ای با توزیع نرمال",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/J47dZ/vt/frame",
+          title: "جلسه دوم: توزیع هندسی",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه دوم ",
         },
         {
-          title: "جلسه سوم: توزیع نمایی",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/GAu9I/vt/frame",
+          title: "جلسه سوم: توزیع دوجمله ای منفی",
+          streamLink: "",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه سوم ",
-        },
-      ],
-    },
-    {
-      id: 9,
-      name: "10. توابع متغیرهای تصادفی",
-      describe: "دارای 2 جلسه معرفی است",
-      lectures: [
-        {
-          title: "جلسه اول: تابعی از یک متغیر تصادفی",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/tGqpO/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
-          description: "جلسه اول ",
-        },
-        {
-          title: "جلسه دوم: توابع متغیرهای تصادفی",
-          streamLink: "https://www.aparat.com/video/video/embed/videohash/l2D70/vt/frame",
-          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
-          description: "جلسه دوم ",
         },
       ],
     },
