@@ -2,6 +2,7 @@ import React from "react";
 import { useHistory, useParams } from "react-router-dom";
 import Latex from "../../hooks/LATEX";
 import LectureList from "./LectureList";
+import "../../assets/stylesheet/lecture.css"
 
 const LecturePage = () => {
   const [html, setHtml] = React.useState("");
