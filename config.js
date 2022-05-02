@@ -279,5 +279,312 @@ window.config = {
         },
       ],
     },
+    {
+      id: 10,
+      name: "11. توزیع مشترک",
+      describe: "دارای 2 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: توزیع مشترک",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/oqX0t/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: تابع چگالی احتمال مشترک",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/zGUQB/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+      ],
+    },
+    {
+      id: 11,
+      name: "12. استقلال متغیرهای تصادفی",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: استقلال متغیرهای تصادفی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/G2CvW/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم:  استقلال متغیرهای تصادفی پیوسته",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/ZmqsB/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: متغیرهای iid",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/Wfbue/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
+    {
+      id: 12,
+      name: "13. مجموع متغیر‌های تصادفی مستقل",
+      describe: "دارای 2 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: مجموع متغیرهای تصادفی مستقل",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/lfB2J/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: تابع مولد گشتاور",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/Tb2u1/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+      ],
+    },
+    {
+      id: 13,
+      name: "14. توزیع شرطی گسسته",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: توزیع‌های شرطی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/N4Yi6/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: توزیع شرطی پیوسته",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/rzytI/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: قضیه بیز برای توزیع‌های شرطی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/jY17h/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
+    {
+      id: 14,
+      name: "15. توزیع‌های بتا",
+      describe: "دارای 2 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: توزیع بتا",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/Ohx3l/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: تخمین بیزی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/JrQ5M/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+      ],
+    },
+    {
+      id: 15,
+      name: "16. کواریانس",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: کواریانس و همبستگی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/5Hl7u/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: خواص کواریانس",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/mzCSQ/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: ضریب همبستگی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/n6ZOF/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
+    {
+      id: 16,
+      name: "17. توابعی از دو متغیر تصادفی",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: توابعی از دو متغیر تصادفی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/XP5Lr/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: دو تابع از دو متغیر تصادفی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/xQ1aC/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: متغیرهای تصادفی مشترکا نرمال",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/cSTMN/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
+    {
+      id: 17,
+      name: "18. امید ریاضی شرطی",
+      describe: "دارای 2 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: امید ریاضی شرطی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/WNRnh/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: خواص امید ریاضی شرطی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/8cXJf/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+      ],
+    },
+    {
+      id: 18,
+      name: "19. نمونه‌برداری",
+      describe: "دارای 4 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: توزیع شرطی n بعدی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/zFXes/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: مجموع‌های تصادفی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/q4JgM/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: نمونه‌برداری",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/KqVQ1/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+        {
+          title: "جلسه چهارم: آماره رتبه",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/5dbYE/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه چهارم ",
+        },
+      ],
+    },
+    {
+      id: 19,
+      name: "20. قضیه حد مرکزی",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: قضیه حد مرکزی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/cHNaI/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: قانون اعداد بزرگ",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/Pa0cD/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: کاربردهای قضیه حد مرکزی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/WCnAl/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
+    {
+      id: 20,
+      name: "21. تخمین پارامتر",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: تخمین پارامتر",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/7Z4AY/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: روش گشتاور (Method of Moments)",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/QOyRP/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: روش درست‌نمایی بیشینه (Maximum Likelihood)",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/hI87O/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
+    {
+      id: 21,
+      name: "22. بازه اطمینان",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: تخمین فاصله زمانی",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/0ftNY/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: بازه اطمینان برای میانگین",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/RgDmI/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: بازه اطمینان برای نسبت",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/V2BJQ/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
+    {
+      id: 22,
+      name: "23. آزمون فرض",
+      describe: "دارای 3 جلسه معرفی است",
+      lectures: [
+        {
+          title: "جلسه اول: مروری بر بازه اطمینان",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/96f3w/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه اول ",
+        },
+        {
+          title: "جلسه دوم: آزمون فرضیه برای میانگین",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/Nfij6/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه دوم ",
+        },
+        {
+          title: "جلسه سوم: آزمون فرض برای نسبت",
+          streamLink: "https://www.aparat.com/video/video/embed/videohash/FzMfG/vt/frame",
+          file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+          description: "جلسه سوم ",
+        },
+      ],
+    },
   ],
 };
