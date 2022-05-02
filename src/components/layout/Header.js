@@ -1,20 +1,22 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/image/logo.png";
+import Sidebar from "./Sidebar";
 
 const Header = () => {
   const [state, setState] = useState(false);
+  const [showSidebar, setShowSidebar] = useState(false);
 
   const navigation = [
-    { title: "آمار و احتمال مهندسی", path: "/ProbStat" },
-    { title: "درباره ما", path: "/ProbStat/team" }
+    { title: "آمار و احتمال مهندسی", path: "/" },
+    { title: "درباره ما", path: "/team" },
   ];
 
   return (
-    <nav className="bg-white w-full border-b md:border-0 md:static">
+    <nav className="sticky top-0 z-30 w-full px-1 py-1 bg-white sm:px-2 shadow">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-5">
         <div className="flex items-center justify-between py-2 md:py-2 md:block">
-          <Link to="/ProbStat">
+          <Link to="/">
             <img src={Logo} width={80} height={80} alt="Float UI logo" />
           </Link>
           <div className="md:hidden">
@@ -73,13 +75,14 @@ const Header = () => {
           </ul>
         </div>
         <div className="hidden md:inline-block">
-          <Link
-            to="/ProbStat/lectures"
+          <button
+            onClick={() => setShowSidebar(!showSidebar)}
             className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow"
           >
             دیدن مباحث
-          </Link>
+          </button>
         </div>
+          <Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
       </div>
     </nav>
   );

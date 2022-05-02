@@ -1,11 +1,10 @@
 import { useRef, useState } from "react";
-import { Link } from "react-router-dom";
 
 const Card = (props) => {
   const answerElRef = useRef();
   const [state, setState] = useState(false);
   const [answerH, setAnswerH] = useState("0px");
-  const { lecture, idx } = props;
+  const { lecture, idx, closeSide } = props;
 
   const handleOpenAnswer = () => {
     setState(!state);
@@ -33,8 +32,8 @@ const Card = (props) => {
             stroke="currentColor"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               stroke-width="2"
               d="M20 12H4"
             />
@@ -63,8 +62,8 @@ const Card = (props) => {
       >
         <div className="mt-3">
           {lecture.lectures.map((item, id) => (
-            <Link
-              to={`/ProbStat/lectures/${idx}/${id}`}
+            <button
+              onClick={() => closeSide(id, idx)}
               className="text-gray-500"
             >
               <p className="inline-flex items-center justify-start w-full m-2 text-color-blue">
@@ -76,7 +75,7 @@ const Card = (props) => {
                 {item.title}
               </p>
               <hr />
-            </Link>
+            </button>
           ))}
         </div>
       </div>
@@ -84,20 +83,20 @@ const Card = (props) => {
   );
 };
 
-const SessionsList = () => {
+const LecturList = ({ closeSide }) => {
   const sessions = window.config["sessions"];
 
   return (
-    <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto bg-white p-5 shadow rounded ">
+    <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto bg-white p-5 rounded ">
       <div className="space-y-3 text-right rounded">
         <p className="text-xl text-gray-800"> لیست مباحث </p>
       </div>
       <div className="mt-4 mx-auto">
         {sessions.map((item, idx) => (
-          <Card idx={idx} lecture={item} />
+          <Card idx={idx} lecture={item} closeSide={closeSide} />
         ))}
       </div>
     </section>
   );
 };
-export default SessionsList;
+export default LecturList;

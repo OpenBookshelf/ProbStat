@@ -14,7 +14,7 @@ const Card = (props) => {
 
   return (
     <div
-      className="space-y-3 overflow-hidden mt-5 border-b"
+      className="space-y-3 overflow-hidden mt-5 mb-5 border-b"
       key={idx}
       onClick={handleOpenAnswer}
     >
@@ -72,7 +72,7 @@ const Card = (props) => {
         <div className="mt-3">
           {lecture.lectures.map((item, id) => (
             <Link
-              to={`/ProbStat/lectures/${idx}/${id}`}
+              to={`/lectures/${idx}/${id}`}
               className="text-gray-500"
             >
               <p className="inline-flex items-center justify-start w-full m-2 text-color-blue">

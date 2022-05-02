@@ -1,7 +1,7 @@
 import "./App.css";
 import * as React from "react";
-import {  Switch, Route } from "react-router-dom";
-import { HashRouter as Router} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
@@ -16,18 +16,19 @@ function App() {
     <div className="App">
       <Router>
         <Header />
+
         <div className="App">
           <Switch>
-            <Route path="/ProbStat/about">
+            <Route path="/about">
               <Aboutus />
             </Route>
-            <Route path="/ProbStat/team">
+            <Route path="/team">
               <AboutTeam />
             </Route>
-            <Route path="/ProbStat/lectures/:id/:lecture">
+            <Route path="/lectures/:id/:lecture">
               <LecturePage />
             </Route>
-            <Route path="/ProbStat/lectures">
+            <Route path="/lectures">
               <LectureIntro />
             </Route>
             <Route path={"*"}>

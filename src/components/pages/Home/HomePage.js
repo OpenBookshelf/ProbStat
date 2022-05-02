@@ -15,13 +15,13 @@ const HomePage = () => {
       </div>
       <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
         <Link
-          to="/ProbStat/lectures"
+          to="/lectures"
           className=" md:m-2 py-3 px-6 w-full bg-indigo-600 text-white text-center rounded-md shadow-md block sm:w-auto"
         >
           دیدن مباحث{" "}
         </Link>
         <Link
-          to="/ProbStat/lectures/0/0"
+          to="/lectures/0/0"
           className="md:m-2 py-3 px-6 w-full text-gray-500 text-center border rounded-md duration-300 hover:text-indigo-600 hover:shadow block sm:w-auto"
         >
           جلسه اول{" "}
