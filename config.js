@@ -542,7 +542,7 @@ window.config = {
       describe: "دارای 3 جلسه معرفی است",
       lectures: [
         {
-          title: "جلسه اول: تخمین فاصله زمانی",
+          title: "جلسه اول: بازه اطمینان",
           streamLink: "https://www.aparat.com/video/video/embed/videohash/0ftNY/vt/frame",
           file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
           description: "جلسه اول ",
