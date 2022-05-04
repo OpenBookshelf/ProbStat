@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useHistory, useParams } from "react-router-dom";
 import "../../assets/stylesheet/lecture.css";
 import Input from "./types/Input";
@@ -10,7 +11,7 @@ const QuizPage = () => {
   const [result, setResult] = React.useState();
 
   const [answers, setAnswers] = React.useState({});
-  console.log("🚀 ~ file: QuizPage.js ~ line 13 ~ QuizPage ~ answers", answers)
+  console.log("🚀 ~ file: QuizPage.js ~ line 13 ~ QuizPage ~ answers", answers);
 
   const { id } = useParams();
   const history = useHistory();
@@ -88,13 +89,9 @@ const QuizPage = () => {
   };
 
   return (
-    <section className="max-full mx-5 my-3 py-4 px-8 sm:px-5">
-      <div className="w-full bg-gray-50 my-3 p-2 text-xl text-gray-600">
-        {" "}
-        {titleSession}{" "}
-      </div>
+    <section className="max-full mx-5 my-3 sm:px-5 rounded bg-white ">
       {data === undefined ? (
-        <div className="mt-9 8 flex justify-center w-full">
+        <div className="mt-9  flex justify-center w-full">
           <div className="flex flex-wrap mt-5">
             <div className="w-full p-2 overflow-auto">
               <div
@@ -105,11 +102,15 @@ const QuizPage = () => {
           </div>
         </div>
       ) : (
-        <div className="rounded w-full bg-white px-2 py-1">
+        <div className="rounded w-full py-2">
+          <div className="w-full my-3  text-xl text-gray-600">
+            {" "}
+            {titleSession}{" "}
+          </div>
           <h2>آزمونک</h2>
           {res ? (
             res?.exam.questions?.map((item, idx) => (
-              <div key={"q"+idx} className="flex col my-4 mx-1">
+              <div key={"q" + idx} className="flex col my-4 mx-1 border-b ">
                 <span>{idx + 1 + "-"} </span> {GetQuestion(item, idx)}
               </div>
             ))
@@ -120,7 +121,13 @@ const QuizPage = () => {
               <div></div>
             </div>
           )}
-          {!result && (
+          {result ? (
+            <Link to={`/lectures/${(+id)+1}/0`}>
+              <button className="w-200 m-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-700 rounded">
+                مبحث بعدی{" "}
+              </button>
+            </Link>
+          ) : (
             <button
               className="w-200 m-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
               onClick={() => {

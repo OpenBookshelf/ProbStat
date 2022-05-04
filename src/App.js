@@ -12,6 +12,7 @@ import Aboutus from "./components/pages/Aboutus/Aboutus";
 import AboutTeam from "./components/pages/Aboutus/AboutTeam";
 import { useHistory } from "react-router-dom";
 import QuizPage from "./components/pages/Quiz/QuizPage";
+import TrainingPage from "./components/pages/Training/TrainingPage";
 
 function App() {
   function ScrollToTop() {
@@ -38,6 +39,9 @@ function App() {
             </Route>
             <Route path="/team">
               <AboutTeam />
+            </Route>
+            <Route path="/training">
+              <TrainingPage />
             </Route>
             <Route path="/lectures/:id/:lecture">
               <LecturePage />
