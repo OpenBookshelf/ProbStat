@@ -22,8 +22,9 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
       >
         <LecturList
           closeSide={(idx, id) => {
-            setShowSidebar(false);
             history.push(`/lectures/${idx}/${id}`);
+
+            setShowSidebar(false);
           }}
         />
       </div>

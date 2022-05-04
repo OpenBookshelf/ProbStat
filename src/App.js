@@ -10,13 +10,27 @@ import LecturePage from "./components/pages/Lectures/LecturePage";
 import LectureIntro from "./components/pages/Lectures/LectureIntro";
 import Aboutus from "./components/pages/Aboutus/Aboutus";
 import AboutTeam from "./components/pages/Aboutus/AboutTeam";
+import { useHistory } from "react-router-dom";
+import QuizPage from "./components/pages/Quiz/QuizPage";
 
 function App() {
+  function ScrollToTop() {
+    const history = useHistory();
+    React.useEffect(() => {
+      const unlisten = history.listen((location, action) => {
+        if (action !== "POP") {
+          window.scrollTo(0, 0);
+        }
+      });
+      return () => unlisten();
+    }, [history]);
+    return null;
+  }
   return (
     <div className="App">
       <Router>
         <Header />
-
+        <ScrollToTop />
         <div className="App">
           <Switch>
             <Route path="/about">
@@ -27,6 +41,9 @@ function App() {
             </Route>
             <Route path="/lectures/:id/:lecture">
               <LecturePage />
+            </Route>
+            <Route path="/quiz/:id">
+              <QuizPage />
             </Route>
             <Route path="/lectures">
               <LectureIntro />

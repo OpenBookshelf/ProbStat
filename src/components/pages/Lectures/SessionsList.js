@@ -68,13 +68,10 @@ const Card = (props) => {
         className="duration-300 "
         style={state ? { height: answerH } : { height: "0px" }}
       >
-        <div> {lecture.describe}</div>
+        {/* <div> {lecture.describe}</div> */}
         <div className="mt-3">
           {lecture.lectures.map((item, id) => (
-            <Link
-              to={`/lectures/${idx}/${id}`}
-              className="text-gray-500"
-            >
+            <Link to={`/lectures/${idx}/${id}`} className="text-gray-500">
               <p className="inline-flex items-center justify-start w-full m-2 text-color-blue">
                 <img
                   alt="icon"
@@ -83,9 +80,22 @@ const Card = (props) => {
                 />{" "}
                 {item.title}
               </p>
-              <hr/>
+              <hr />
             </Link>
           ))}
+          {lecture.quiz && (
+            <Link to={`/quiz/${idx}`} className="text-gray-500">
+              <p className="inline-flex items-center justify-start w-full m-2 text-color-blue">
+                <img
+                  alt=""
+                  className="ml-4"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABbElEQVQ4ja3UP0iWURQG8J9/EgRdXMzAQcEcBFskQ8pBJQhBJFJnF0eXhhYbWhtclQYFR4NoEBEXN22JIEF0qigR/+yigl/DvR+8vHz383vBA4dzH865z/vce897uGery+FuLKAlUX+Nj/hZ6wdWUKri57jAkxRBfQ6nlJXtLX5gBwO1EN5ll5jAd2xXIi1KmCfdQn822ZArnkJfFbIHuMVjHOAlHuJLuaCxoLrJ6FlryoIU4d8YO7GL4wo1z2K+qq0L7bEQvYTeRG05v14LYRH/jXG0kz7y1xgn8Q6/Mrk3mMY3LEYRGzjDSNG26RY6YRkz+IxhvMKRzGsXOfJapr4Fz+N6A4cphe+jEx6lDoMRf4ixGZvC/w97qE/d4VxmvSq0zaOIT2N8ih6MRXyiQhvVcuTRhIhPKoy1u8ZXSZg2bbl9w7jBfH7AdgkN25pQAS+EQbuCPxjCrHCfr6vsS1oHlvAPV9jHvDho/gOcJWzd5Nvn3AAAAABJRU5ErkJggg=="
+                />{" "}
+                {lecture.quiz.name}
+              </p>
+              <hr />
+            </Link>
+          )}
         </div>
       </div>
     </div>
@@ -93,7 +103,7 @@ const Card = (props) => {
 };
 
 const SessionsList = () => {
-  const sessions = window.config["sessions"];
+  const sessions = window.config?.main["sessions"];
 
   return (
     <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto bg-white p-5 shadow rounded ">

@@ -7,10 +7,7 @@ const Footer = () => {
       href: "/lectures",
       name: "مباحث",
     },
-    // {
-    //   href: "/",
-    //   name: "آزمون ها",
-    // },
+    { name: "نمونه سوالات", href: "/training" },
     {
       href: "/team",
       name: "درباره ما",
@@ -22,12 +19,12 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="text-gray-500 bg-white px-4 py-5 mx-auto">
+    <footer className="text-gray-500 bg-white px-4 py-1 mx-auto">
       <div className="max-w-lg sm:mx-auto sm:text-center">
         <img src={Logo} className="w-32 sm:mx-auto" alt="logo" />
         <p className="leading-relaxed mt-2 text-[15px]">
           {" "}
-          {window.config.footerText}
+          {window.config?.main.footerText}
         </p>
       </div>
       <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">

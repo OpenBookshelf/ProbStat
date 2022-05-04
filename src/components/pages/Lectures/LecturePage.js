@@ -9,14 +9,15 @@ const LecturePage = () => {
   const { id, lecture } = useParams();
   const history = useHistory();
 
-  const data = window.config?.sessions[+id]?.lectures[+lecture];
+  const data = window.config?.main?.sessions[+id]?.lectures[+lecture];
+  const titleSession = window.config?.main?.sessions[+id]?.name;
 
   React.useEffect(() => {
     if (+lecture !== lectureId) {
-      if (window.config?.sessions[+id]?.lectures[lectureId]) {
+      if (window.config?.main?.sessions[+id]?.lectures[lectureId]) {
         history.push(`/lectures/${id}/${lectureId}`);
       } else if (
-        window.config?.sessions[+lecture < lectureId ? +id + 1 : +id - 1]
+        window.config?.main?.sessions[+lecture < lectureId ? +id + 1 : +id - 1]
           ?.lectures[0]
       ) {
         history.push(
@@ -60,17 +61,15 @@ const LecturePage = () => {
     );
   } else
     return (
-      <section className="max-w-screen-xl mx-auto py-4 px-4 sm:px-8">
-        <div>
+      <section className="max-w-screen-xl mx-auto py-4 px-4 sm:px-8 relative">
+        <div className="w-full bg-gray-50 absolute right-0 top-0 p-2 text-xl text-gray-600"> {titleSession} </div>
+        <div className="mt-9">
           <div className="py-4">
-            <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
+            <h4 className="text-2xl text-gray-800 font-semibold md:text-3xl">
               {data.title}
-            </h3>
-            <h5 className=" text-gray-800 font-semibold mt-2">
-              {data.description}
-            </h5>
+            </h4>
           </div>
-          <div className="w-100 rounded-md">
+          <div className="w-100 rounded-md ">
             <iframe
               style={{ width: "100%", height: "80vh", borderRadius: "16px" }}
               title="lecture one"
@@ -78,11 +77,11 @@ const LecturePage = () => {
               allowFullScreen={true}
             ></iframe>
           </div>
-          <div class="flex flex-wrap mt-5">
-            <div class="w-full p-2 overflow-auto">
+          <div className="flex flex-wrap mt-5">
+            <div className="w-full p-2 overflow-auto">
               <Latex>
                 <div
-                  class="text-justify"
+                  className="text-justify"
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
               </Latex>

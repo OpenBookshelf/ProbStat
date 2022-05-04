@@ -61,7 +61,10 @@ const AboutTeam = () => {
 
   const Card = ({ item, id }) => {
     return (
-      <div class="md:col-span-2 sm:col-span-12 p-2 bg-white rounded-xl shadow-xl" key={id}>
+      <div
+        className="md:col-span-2 sm:col-span-12 p-2 bg-white rounded-xl shadow-xl"
+        key={id}
+      >
         <a href={item.github} target={"_blank"} rel="noreferrer">
           <div
             className="rounded-xl"
@@ -78,12 +81,12 @@ const AboutTeam = () => {
             <img
               alt=""
               src={item.src}
-              class="brightness-75"
+              className="brightness-75"
               style={{ height: "100%", width: "auto" }}
             />
           </div>
         </a>
-        <p class="text-xs text-center text-black font-semibold  sm:text-base ">
+        <p className="text-xs text-center text-black font-semibold  sm:text-base ">
           {item.name}
         </p>
       </div>
@@ -91,40 +94,43 @@ const AboutTeam = () => {
   };
   return (
     <div className="my-5">
-      <div class="flex items-center justify-center mt-3">
-        <div class="grid md:grid-cols-2 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
-          <div class="col-span-full mb-3">
-            <p class="text-xl text-gray-700 text-center"> مدیر پروژه </p>
+      <div className="flex items-center justify-center mt-3">
+        <div className="grid md:grid-cols-2 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
+          <div className="col-span-full mb-3">
+            <p className="text-xl text-gray-700 text-center"> مدیر پروژه </p>
           </div>
           {team.leaders.map((item, id) => (
             <Card item={item} id={id} />
           ))}
         </div>
       </div>
-      <div class="flex items-center justify-center mt-3">
-        <div class="grid md:grid-cols-4 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
-          <div class="col-span-full mb-3">
-            <p class="text-xl text-gray-700 text-center"> همکاران </p>
+      <div className="flex items-center justify-center mt-3">
+        <div className="grid md:grid-cols-4 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
+          <div className="col-span-full mb-3">
+            <p className="text-xl text-gray-700 text-center"> همکاران </p>
           </div>
           {team.team.map((item, id) => (
             <Card item={item} id={id} />
           ))}
         </div>
       </div>
-      <div class="flex items-center justify-center mt-3">
-        <div class="grid md:grid-cols-2 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
-          <div class="col-span-full mb-3">
-            <p class="text-xl text-gray-700 text-center"> زیر نظر استاد </p>
+      <div className="flex items-center justify-center mt-3">
+        <div className="grid md:grid-cols-2 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
+          <div className="col-span-full mb-3">
+            <p className="text-xl text-gray-700 text-center"> زیر نظر استاد </p>
           </div>
           {team.professors.map((item, id) => (
             <Card item={item} id={id} />
           ))}
         </div>
       </div>
-      <div class="flex items-center justify-center mt-3">
-        <div class="grid md:grid-cols-4 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
-          <div class="col-span-full mb-3">
-            <p class="text-xl text-gray-700 text-center"> با تشکر ویژه از</p>
+      <div className="flex items-center justify-center mt-3">
+        <div className="grid md:grid-cols-4 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
+          <div className="col-span-full mb-3">
+            <p className="text-xl text-gray-700 text-center">
+              {" "}
+              با تشکر ویژه از
+            </p>
           </div>
           {team.specials.map((item, id) => (
             <Card item={item} id={id} />

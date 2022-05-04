@@ -63,8 +63,8 @@ const Card = (props) => {
         <div className="mt-3">
           {lecture.lectures.map((item, id) => (
             <button
-              onClick={() => closeSide(id, idx)}
-              className="text-gray-500"
+              onClick={() => closeSide(idx, id)}
+              className="text-gray-500 w-full"
             >
               <p className="inline-flex items-center justify-start w-full m-2 text-color-blue">
                 <img
@@ -84,7 +84,7 @@ const Card = (props) => {
 };
 
 const LecturList = ({ closeSide }) => {
-  const sessions = window.config["sessions"];
+  const sessions = window.config?.main["sessions"];
 
   return (
     <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto bg-white p-5 rounded ">

@@ -21,7 +21,7 @@ const Aboutus = () => {
         </svg>
         <h1 className="text-3xl text-gray-800 font-semibold"> ارتباط با ما</h1>
         <p className="text-gray-400 leading-relaxed">
-          {window.config.aboutText}
+          {window.config?.main.aboutText}
         </p>
       </div>
       <div className="mt-5">
@@ -40,7 +40,7 @@ const Aboutus = () => {
             onClick={() => {
               window.open(
                 "mailto:" +
-                  window.config.contactEmail +
+                  window.config?.main.contactEmail +
                   "?subject=PropStat:Contact&body=" +
                   text
               );
