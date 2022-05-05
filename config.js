@@ -174,21 +174,21 @@ window.config = {
             title: "جلسه اول: واریانس",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/CnNfj/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture1.html",
             description: "جلسه اول .",
           },
           {
             title: "جلسه دوم: توزیع دو جمله‌ای",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/oNe8X/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture2.html",
             description: "جلسه دوم .",
           },
           {
             title: "جلسه سوم: توزیع پواسون",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/lFMQD/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/6/Lecture3.html",
             description: "جلسه سوم .",
           },
         ],
