@@ -255,8 +255,9 @@ window.config = {
         describe: "دارای 3 جلسه معرفی است",
         lectures: [
           {
-            title: "جلسه اول: ",
-            streamLink: "",
+            title: "جلسه اول: توزیع نرمال ",
+            streamLink:
+            "https://www.aparat.com/video/video/embed/videohash/brpQN/vt/frame",
             file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
             description: "جلسه اول ",
           },
