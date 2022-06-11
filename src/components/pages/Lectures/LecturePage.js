@@ -62,7 +62,10 @@ const LecturePage = () => {
   } else
     return (
       <section className="max-w-screen-xl mx-auto py-4 px-4 sm:px-8 relative">
-        <div className="w-full bg-gray-50 absolute right-0 top-0 p-2 text-xl text-gray-600"> {titleSession} </div>
+        <div className="w-full bg-gray-50 absolute right-0 top-0 p-2 text-xl text-gray-600">
+          {" "}
+          {titleSession}{" "}
+        </div>
         <div className="mt-9">
           <div className="py-4">
             <h4 className="text-2xl text-gray-800 font-semibold md:text-3xl">
@@ -82,6 +85,7 @@ const LecturePage = () => {
               <Latex>
                 <div
                   className="text-justify"
+                  style={{ minHeight: "50vh" }}
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
               </Latex>

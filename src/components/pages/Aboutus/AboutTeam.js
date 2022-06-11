@@ -6,6 +6,7 @@ import Teacher from "../../assets/image/profiles/teacher.jfif";
 import Rastgar from "../../assets/image/profiles/Rastgar.JPG";
 import Shayegh from "../../assets/image/profiles/Shayegh.jfif";
 import Saeidi from "../../assets/image/profiles/Saeidi.jpg";
+import Sadeghian from "../../assets/image/profiles/Sadeghian.jpg";
 
 const AboutTeam = () => {
   const team = {
@@ -55,6 +56,11 @@ const AboutTeam = () => {
         name: "   دانیال سعیدی",
         github: "https://github.com/daniel-saeedi",
         src: Saeidi,
+      },
+      {
+        name: "سروش صادقیان",
+        github: "https://github.com/sorooshsadeqian",
+        src: Sadeghian,
       },
     ],
   };
@@ -134,7 +140,7 @@ const AboutTeam = () => {
           </div>
           {team.specials.map((item, id) => (
             <Card item={item} id={id} />
-          ))}
+          ))}{" "}
         </div>
       </div>
     </div>
