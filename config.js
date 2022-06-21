@@ -76,21 +76,21 @@ window.config = {
             title: "جلسه اول: احتمال شرطی",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/TzxpG/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/3/Lecture1.html",
             description: "جلسه اول مروری بر احتمال شرطی است.",
           },
           {
             title: "جلسه دوم: قضیه بیز",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/YH5q9/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/3/Lecture2.html",
             description: "جلسه دوم درباره قضیه بیز است.",
           },
           {
             title: "جلسه سوم: مثال‌هایی از قضیه بیز",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/cgJ0M/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/3/Lecture3.html",
             description: "جلسه سوم به مثال‌هایی از قضیه بیز می‌پردازد.",
           },
         ],
@@ -139,21 +139,21 @@ window.config = {
             title: "جلسه اول: متغیر تصادفی",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/fpv2b/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture1.html",
             description: "جلسه اول .",
           },
           {
             title: "جلسه دوم: تابع توزیع انباشته (CDF)",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/sQNCY/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture2.html",
             description: "جلسه دوم .",
           },
           {
             title: "جلسه سوم: امید ریاضی",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/aQhX7/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/5/Lecture3.html",
             description: "جلسه سوم .",
           },
           {
@@ -286,14 +286,14 @@ window.config = {
             title: "جلسه اول: تابعی از یک متغیر تصادفی",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/tGqpO/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/10/Lecture1.html",
             description: "جلسه اول ",
           },
           {
             title: "جلسه دوم: توابع متغیرهای تصادفی",
             streamLink:
               "https://www.aparat.com/video/video/embed/videohash/l2D70/vt/frame",
-            file: "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+            file: "https://openbookshelf.github.io/ProbStat/lectures/10/Lecture2.html",
             description: "جلسه دوم ",
           },
         ],
