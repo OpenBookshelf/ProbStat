@@ -1,0 +1,25 @@
+{
+  "id": 8,
+  "name": "09. توزیع نرمال و توزیع نمایی",
+  "describe": "دارای 3 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: توزیع نرمال ",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/brpQN/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: تقریب توزیع دو جمله‌ای با توزیع نرمال",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/J47dZ/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    },
+    {
+      "title": "جلسه سوم: توزیع نمایی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/GAu9I/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه سوم "
+    }
+  ]
+}

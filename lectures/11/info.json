@@ -1,0 +1,19 @@
+{
+  "id": 10,
+  "name": "11. توزیع مشترک",
+  "describe": "دارای 2 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: توزیع مشترک",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/oqX0t/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: تابع چگالی احتمال مشترک",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/zGUQB/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    }
+  ]
+}

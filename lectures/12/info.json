@@ -1,0 +1,25 @@
+{
+  "id": 11,
+  "name": "12. استقلال متغیرهای تصادفی",
+  "describe": "دارای 3 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: استقلال متغیرهای تصادفی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/G2CvW/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم:  استقلال متغیرهای تصادفی پیوسته",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/ZmqsB/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    },
+    {
+      "title": "جلسه سوم: متغیرهای iid",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/Wfbue/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه سوم "
+    }
+  ]
+}

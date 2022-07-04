@@ -1,0 +1,25 @@
+{
+  "id": 16,
+  "name": "17. توابعی از دو متغیر تصادفی",
+  "describe": "دارای 3 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: توابعی از دو متغیر تصادفی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/XP5Lr/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: دو تابع از دو متغیر تصادفی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/xQ1aC/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    },
+    {
+      "title": "جلسه سوم: متغیرهای تصادفی مشترکا نرمال",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/cSTMN/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه سوم "
+    }
+  ]
+}

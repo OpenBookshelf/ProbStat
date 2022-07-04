@@ -1,0 +1,19 @@
+{
+  "id": 17,
+  "name": "18. امید ریاضی شرطی",
+  "describe": "دارای 2 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: امید ریاضی شرطی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/WNRnh/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: خواص امید ریاضی شرطی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/8cXJf/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    }
+  ]
+}

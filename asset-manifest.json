@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/ProbStat/static/css/main.03848b0f.css",
-    "main.js": "/ProbStat/static/js/main.9bc59467.js",
+    "main.css": "/ProbStat/static/css/main.7300fa4b.css",
+    "main.js": "/ProbStat/static/js/main.4a458e2a.js",
     "static/js/787.65ae2419.chunk.js": "/ProbStat/static/js/787.65ae2419.chunk.js",
     "static/media/Javidi.jpg": "/ProbStat/static/media/Javidi.1e6f5841781cef2746a8.jpg",
     "static/media/Araghi.jpg": "/ProbStat/static/media/Araghi.ce5494ef25fbdb646a92.jpg",
     "static/media/Tahajomi.JPG": "/ProbStat/static/media/Tahajomi.3a401c0414aefc749b51.JPG",
     "static/media/teacher.jfif": "/ProbStat/static/media/teacher.ae0f36219d893f8ba721.jfif",
+    "static/media/dice.png": "/ProbStat/static/media/dice.6c9b989f7d29e990fbcc.png",
     "static/media/logo.png": "/ProbStat/static/media/logo.1a4de5c9473e6d3b6b60.png",
     "static/media/Saeidi.jpg": "/ProbStat/static/media/Saeidi.edbaa4d51438eefc04b6.jpg",
     "static/media/Vazir.ttf": "/ProbStat/static/media/Vazir.83fea749de20816026b1.ttf",
@@ -15,12 +16,12 @@
     "static/media/Asadi.jpg": "/ProbStat/static/media/Asadi.6929789e5857b16f0757.jpg",
     "static/media/Shayegh.jfif": "/ProbStat/static/media/Shayegh.179a24036f763baccd9f.jfif",
     "index.html": "/ProbStat/index.html",
-    "main.03848b0f.css.map": "/ProbStat/static/css/main.03848b0f.css.map",
-    "main.9bc59467.js.map": "/ProbStat/static/js/main.9bc59467.js.map",
+    "main.7300fa4b.css.map": "/ProbStat/static/css/main.7300fa4b.css.map",
+    "main.4a458e2a.js.map": "/ProbStat/static/js/main.4a458e2a.js.map",
     "787.65ae2419.chunk.js.map": "/ProbStat/static/js/787.65ae2419.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03848b0f.css",
-    "static/js/main.9bc59467.js"
+    "static/css/main.7300fa4b.css",
+    "static/js/main.4a458e2a.js"
   ]
 }

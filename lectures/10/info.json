@@ -1,0 +1,19 @@
+{
+  "id": 9,
+  "name": "10. توابع متغیرهای تصادفی",
+  "describe": "دارای 2 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: تابعی از یک متغیر تصادفی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/tGqpO/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: توابع متغیرهای تصادفی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/l2D70/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    }
+  ]
+}
