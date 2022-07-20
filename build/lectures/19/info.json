@@ -1,0 +1,31 @@
+{
+  "id": 18,
+  "name": "19. نمونه‌برداری",
+  "describe": "دارای 4 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: توزیع شرطی n بعدی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/zFXes/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: مجموع‌های تصادفی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/q4JgM/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    },
+    {
+      "title": "جلسه سوم: نمونه‌برداری",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/KqVQ1/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه سوم "
+    },
+    {
+      "title": "جلسه چهارم: آماره رتبه",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/5dbYE/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه چهارم "
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 13,
+  "name": "14. توزیع شرطی گسسته",
+  "describe": "دارای 3 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: توزیع‌های شرطی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/N4Yi6/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: توزیع شرطی پیوسته",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/rzytI/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    },
+    {
+      "title": "جلسه سوم: قضیه بیز برای توزیع‌های شرطی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/jY17h/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه سوم "
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 6,
+  "name": "07. توزیع‌های گسسته",
+  "describe": "دارای 3 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: توزیع فوق هندسی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/2z5Hp/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture1.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: توزیع هندسی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/1QJiU/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture2.html",
+      "description": "جلسه دوم "
+    },
+    {
+      "title": "جلسه سوم: توزیع دوجمله ای منفی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/mOxcq/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/7/Lecture3.html",
+      "description": "جلسه سوم "
+    }
+  ]
+}

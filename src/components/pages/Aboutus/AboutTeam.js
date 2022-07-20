@@ -68,7 +68,7 @@ const AboutTeam = () => {
   const Card = ({ item, id }) => {
     return (
       <div
-        className="md:col-span-2 sm:col-span-12 p-2 bg-white rounded-xl shadow-xl"
+        className="md:col-span-2 sm:col-span-12 p-2 bg-white rounded-md shadow-md hover:shadow-xl"
         key={id}
       >
         <a href={item.github} target={"_blank"} rel="noreferrer">

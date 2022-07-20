@@ -1,0 +1,25 @@
+{
+  "id": 20,
+  "name": "21. تخمین پارامتر",
+  "describe": "دارای 3 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: تخمین پارامتر",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/7Z4AY/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: روش گشتاور (Method of Moments)",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/QOyRP/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    },
+    {
+      "title": "جلسه سوم: روش درست‌نمایی بیشینه (Maximum Likelihood)",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/hI87O/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه سوم "
+    }
+  ]
+}

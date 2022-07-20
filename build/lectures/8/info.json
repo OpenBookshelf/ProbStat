@@ -1,0 +1,25 @@
+{
+  "id": 7,
+  "name": "08. توزیع‌های پیوسته",
+  "describe": "دارای 3 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: توزیع‌های پیوسته",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/B6VWd/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: تابع چگالی احتمال",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/cDR1N/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    },
+    {
+      "title": "جلسه سوم: توزیع یکنواخت پیوسته",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/FPEcg/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه سوم "
+    }
+  ]
+}

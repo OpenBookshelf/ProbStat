@@ -17,6 +17,7 @@ const Input = ({ item, idx, SetUserAnswer, result }) => {
         </span>
         <input
           type="text"
+          disabled={result}
           onChange={(e) => SetUserAnswer(idx, e.target.value)}
           className="
           my-2

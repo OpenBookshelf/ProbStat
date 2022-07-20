@@ -84,7 +84,7 @@ const Header = () => {
             دیدن مباحث
           </button>
         </div>
-          <Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
+        <Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
       </div>
     </nav>
   );

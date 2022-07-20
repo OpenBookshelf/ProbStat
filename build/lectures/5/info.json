@@ -1,0 +1,31 @@
+{
+  "id": 4,
+  "name": "05. متغیر تصادفی",
+  "describe": "دارای 4 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: متغیر تصادفی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/fpv2b/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول ."
+    },
+    {
+      "title": "جلسه دوم: تابع توزیع انباشته (CDF)",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/sQNCY/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم ."
+    },
+    {
+      "title": "جلسه سوم: امید ریاضی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/aQhX7/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه سوم ."
+    },
+    {
+      "title": "جلسه چهارم: پارادوکس سنت‌پترزبورگ (اختیاری)",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/UhnSB/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه چهارم ."
+    }
+  ]
+}

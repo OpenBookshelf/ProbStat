@@ -15,7 +15,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
       ) : null}
 
       <div
-        className={`top-0 right-0 bg-white p-10 pl-2 text-white fixed h-full overflow-auto z-40 ease-in-out duration-300 ${
+        className={`top-0 right-0 bg-white md:p-10 sm:p-1 pl-2 text-white fixed h-full overflow-auto z-40 ease-in-out duration-300 ${
           showSidebar ? "translate-x-0 " : "translate-x-full"
         }`}
         style={{ width: "100%", maxWidth: "35em" }}

@@ -1,0 +1,25 @@
+{
+  "id": 22,
+  "name": "23. آزمون فرض",
+  "describe": "دارای 3 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: مروری بر بازه اطمینان",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/96f3w/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: آزمون فرضیه برای میانگین",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/Nfij6/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    },
+    {
+      "title": "جلسه سوم: آزمون فرض برای نسبت",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/FzMfG/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه سوم "
+    }
+  ]
+}

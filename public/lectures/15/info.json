@@ -1,0 +1,19 @@
+{
+  "id": 14,
+  "name": "15. توزیع‌های بتا",
+  "describe": "دارای 2 جلسه معرفی است",
+  "lectures": [
+    {
+      "title": "جلسه اول: توزیع بتا",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/Ohx3l/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه اول "
+    },
+    {
+      "title": "جلسه دوم: تخمین بیزی",
+      "streamLink": "https://www.aparat.com/video/video/embed/videohash/JrQ5M/vt/frame",
+      "file": "https://openbookshelf.github.io/ProbStat/lectures/Foo.html",
+      "description": "جلسه دوم "
+    }
+  ]
+}

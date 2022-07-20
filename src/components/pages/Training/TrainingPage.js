@@ -1,3 +1,5 @@
+import Sources from "./Sources";
+
 const TrainingPage = () => {
   return (
     <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 lg:px-8">
@@ -7,12 +9,7 @@ const TrainingPage = () => {
         </h1>
       </div>
       <div className="mt-14 text-center text-gray-300">
-        <h2>درحال احداث</h2>
-        <div className="loading">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+        <Sources />
       </div>
     </section>
   );

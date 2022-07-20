@@ -32,7 +32,7 @@ const Aboutus = () => {
           <input
             type="textarea"
             placeholder="نظر خود را وارد کنید"
-            className="text-gray-500 w-full p-3 rounded-md border outline-none focus:border-indigo-600"
+            className="text-gray-500 w-full p-3 rounded-md border outline-none focus:border-indigo-600 mx-2"
             onChange={(e) => setText(e.target.value)}
           />
 
@@ -47,7 +47,7 @@ const Aboutus = () => {
             }}
             className="w-full mt-3 px-5 py-3 rounded-md text-white bg-indigo-600 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto"
           >
-            ارسال 
+            ارسال
           </button>
         </form>
       </div>

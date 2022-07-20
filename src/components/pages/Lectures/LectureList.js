@@ -1,16 +1,27 @@
-import { useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import XMLReq from "../../utility/XMLReq";
 
 const Card = (props) => {
   const answerElRef = useRef();
   const [state, setState] = useState(false);
+  const { idx, closeSide } = props;
+  const [data, setData] = useState(false);
   const [answerH, setAnswerH] = useState("0px");
-  const { lecture, idx, closeSide } = props;
+
+  React.useEffect(() => {
+    XMLReq(
+      `https://openbookshelf.github.io/ProbStat/lectures/${idx + 1}/info.json`,
+      setData
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const handleOpenAnswer = () => {
     setState(!state);
     setAnswerH(`min-content`);
   };
+  if (!data) return;
 
   return (
     <div
@@ -20,8 +31,8 @@ const Card = (props) => {
     >
       <h4 className="cursor-pointer pb-1 flex items-center justify-between text-md text-gray-700 font-medium">
         <div className="flex flex-row justify-between w-full">
-          <div className="text-right w-1/2">
-            <p> {lecture.name}</p>
+          <div className="text-right w-10/12 font-bold">
+            <p> {data.name}</p>
           </div>
         </div>
         {state ? (
@@ -62,7 +73,7 @@ const Card = (props) => {
         style={state ? { height: answerH } : { height: "0px" }}
       >
         <div className="mt-3">
-          {lecture.lectures.map((item, id) => (
+          {data.lectures.map((item, id) => (
             <button
               onClick={() => closeSide(idx, id)}
               className="text-gray-500 w-full"
@@ -78,15 +89,17 @@ const Card = (props) => {
               <hr />
             </button>
           ))}
-              {lecture.quiz && (
+          {data.quiz && (
             <Link to={`/quiz/${idx}`} className="text-gray-500">
-              <p className="inline-flex items-center justify-start w-full m-2 text-color-blue">
+              <p
+                className="inline-flex items-center justify-start w-full m-2 text-amber-700"
+              >
                 <img
                   alt=""
                   className="ml-4"
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABbElEQVQ4ja3UP0iWURQG8J9/EgRdXMzAQcEcBFskQ8pBJQhBJFJnF0eXhhYbWhtclQYFR4NoEBEXN22JIEF0qigR/+yigl/DvR+8vHz383vBA4dzH865z/vce897uGery+FuLKAlUX+Nj/hZ6wdWUKri57jAkxRBfQ6nlJXtLX5gBwO1EN5ll5jAd2xXIi1KmCfdQn822ZArnkJfFbIHuMVjHOAlHuJLuaCxoLrJ6FlryoIU4d8YO7GL4wo1z2K+qq0L7bEQvYTeRG05v14LYRH/jXG0kz7y1xgn8Q6/Mrk3mMY3LEYRGzjDSNG26RY6YRkz+IxhvMKRzGsXOfJapr4Fz+N6A4cphe+jEx6lDoMRf4ixGZvC/w97qE/d4VxmvSq0zaOIT2N8ih6MRXyiQhvVcuTRhIhPKoy1u8ZXSZg2bbl9w7jBfH7AdgkN25pQAS+EQbuCPxjCrHCfr6vsS1oHlvAPV9jHvDho/gOcJWzd5Nvn3AAAAABJRU5ErkJggg=="
                 />{" "}
-                {lecture.quiz.name}
+                {data.quiz.name}
               </p>
               <hr />
             </Link>
@@ -106,8 +119,8 @@ const LecturList = ({ closeSide }) => {
         <p className="text-xl text-gray-800"> لیست مباحث </p>
       </div>
       <div className="mt-4 mx-auto">
-        {sessions.map((item, idx) => (
-          <Card idx={idx} lecture={item} closeSide={closeSide} />
+        {[...Array(sessions)].map((_item, idx) => (
+          <Card idx={idx} closeSide={closeSide} />
         ))}
       </div>
     </section>
