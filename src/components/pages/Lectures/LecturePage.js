@@ -9,6 +9,7 @@ const LecturePage = () => {
   const { id, lecture } = useParams();
   const history = useHistory();
   const [data, setData] = useState(false);
+  const [num, setNum] = useState(0);
 
   useEffect(() => {
     XMLReq(
@@ -29,7 +30,7 @@ const LecturePage = () => {
       req.send();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
+  }, [num, data]);
 
   const change = (lectureId) => {
     if (+lecture !== lectureId) {
@@ -42,6 +43,7 @@ const LecturePage = () => {
       } else {
         history.push("/lectures");
       }
+      setNum(num + 1);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   };

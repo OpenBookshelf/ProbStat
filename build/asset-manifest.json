@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ProbStat/static/css/main.bc9fa5eb.css",
-    "main.js": "/ProbStat/static/js/main.ed2e9878.js",
+    "main.js": "/ProbStat/static/js/main.7a71b309.js",
     "static/js/787.65ae2419.chunk.js": "/ProbStat/static/js/787.65ae2419.chunk.js",
     "static/media/Javidi.jpg": "/ProbStat/static/media/Javidi.1e6f5841781cef2746a8.jpg",
     "static/media/Araghi.jpg": "/ProbStat/static/media/Araghi.ce5494ef25fbdb646a92.jpg",
@@ -17,11 +17,11 @@
     "static/media/Shayegh.jfif": "/ProbStat/static/media/Shayegh.179a24036f763baccd9f.jfif",
     "index.html": "/ProbStat/index.html",
     "main.bc9fa5eb.css.map": "/ProbStat/static/css/main.bc9fa5eb.css.map",
-    "main.ed2e9878.js.map": "/ProbStat/static/js/main.ed2e9878.js.map",
+    "main.7a71b309.js.map": "/ProbStat/static/js/main.7a71b309.js.map",
     "787.65ae2419.chunk.js.map": "/ProbStat/static/js/787.65ae2419.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc9fa5eb.css",
-    "static/js/main.ed2e9878.js"
+    "static/js/main.7a71b309.js"
   ]
 }
