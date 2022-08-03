@@ -6,6 +6,7 @@ window.config = {
     summary: "متن خلاصه توضیح دوره",
     aboutText: "راستی نظرات‌تون رو حتما با ما در میون بگذارید",
     contactEmail: "sh.javidi98@ut.ac.ir",
+    source: "منبع کتاب ** میباشد",
     sessions: 23,
   },
 };
