@@ -1,0 +1,58 @@
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1>جلسه اول <br></h1>
+<h3>متغییر تصادفی گسسته <br></h3>
+<p>متغییر تصادفی X را گسسته(discrete) گویند اگر $F_X(x)$ (تابع توزیع انباشته ی آن) به صورت پلکانی باشد.<br>
+در این حالت داریم:</p>
+<p>$ p_i = P\{X = x_i\} = F(x_i) - F(x_i^{-}\!)$</p>
+<p>این تعریف معادل با این است که مقادیر ممکنه برای X قابل شمارش باشند.</p>
+<h3>متغییر تصادفی پیوسته <br></h3>
+<p>متغییر تصادفی X را پیوسته(continuous) گویند اگر $F_X(x)$ برای هر x پیوسته باشد.<br>
+با توجه به ویژگی های تابع توزیع انباشتف، برای متغییر تصادفی پیوسته X، نتیجه میگیریم که برای هر عدد a داریم:</p>
+<p>$ P\{X = a\} = F(a) - F(a^{-}\!) = 0$</p>
+<p>برای محاسبه احتمال پیشامدهای مربوط به یک متغییر تصادفی پیوسته می توانیم از تابع توزیع انباشته آن استفاده کنیم:</p>
+<p>$P\{a \leq X \leq b\} = F_X(b) - F_X(a)$</p>
+<h3>متغییر تصادفی مخلوط <br></h3>
+<p>متغییر تصادفی X را از نوع مخلوط(mixed) می گویند، اگر $F_X(x)$ دارای ناپیوستگی باشد<br>
+اما به صورت پلکانی نباشد(ترکیبی از حالات گسسته و پیوسته).<br>
+برخی مراجع متغیر تصادفی پیوسته را متغیری تعریف می کنند که مقادیر ممکن برای<br>
+آن غیرقابل شمارش است. این تعریف هر دو نوع پیوسته و مخلوط را با هم دربر میگیرد.</p>
+<h3>تابع چگالی احتمال (Probability Density Function)  <br></h3>
+<p>برای متغیر تصادفی پیوسته راه دیگر برای مشخص کردن احتمال پیشامدهایی که<br>
+متغیر تصادفی را تعریف می کنند، آن است که تابعی که بیانگر چگالی احتمال است را داشته باشیم.<br>
+به وسیله pdf دید بیشتری )در مقایسه با CDF) نسبت به میزان محتمل بودن مقادیر مختلف پیدا میکنیم.<br>
+pdf را به صورت مقابل تعریف میکنیم:</p>
+<p>$f_X(x) = \frac{dF_X(x)}{dx}$</p>
+<p>نکته: معمولا CDF را تابع توزیع و pdf را نوزیع متغییر تصادفی X می گویند.</p>
+<h3>خواص تابع چگالی احتمال  <br></h3>
+<ol>
+<li><p>$ P\{x1 \leq X \leq x2\} = \int_{x1}^{x2} f_X(x) \,dx $<br>
+میتوان نتیجه کرفت:</p>
+<p>$\normalsize f_X(x) = \lim_{\Delta x \to 0} \large\frac{P\{x  \leq X \leq  x+\Delta x\}}{\Delta x} $</p>
+<p>نکته: $f_X(x)$ بر خلاف $P_X(x)$ یک احتمال نیست و احتمال در یک واحد X (چگالی) است، بنابر این<br>
+ میتواند مقادیر بزرگتر از یک اختیار کند.</p>
+<p>همچنین داریم:<br>
+ $F_X(a) = \int_{-\infty}^a f_X(x)dx $</p>
+</li>
+<li><p>$\forall x : f(x) \geq 0 $</p>
+</li>
+<li><p>$\int_{-\infty}^\infty f(x)dx = 1 $</p>
+</li>
+</ol>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>

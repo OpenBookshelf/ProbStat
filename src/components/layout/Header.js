@@ -9,7 +9,6 @@ const Header = () => {
 
   const navigation = [
     { title: "آمار و احتمال مهندسی", path: "/" },
-    { title: "مباحث", path: "/lectures" },
     { title: "نمونه سوالات", path: "/training" },
     { title: "درباره ما", path: "/team" },
   ];

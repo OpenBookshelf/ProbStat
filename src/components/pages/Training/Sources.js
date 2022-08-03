@@ -109,10 +109,15 @@ const Sources = () => {
           "https://openbookshelf.github.io/ProbStat/sources/CA.json",
           "https://openbookshelf.github.io/ProbStat/sources/exams.json",
           "https://openbookshelf.github.io/ProbStat/sources/homeworks.json",
-          "https://openbookshelf.github.io/ProbStat/sources/sources.json",
         ].map((item, idx) => (
           <Card idx={idx} item={item} />
         ))}
+        <div className="text-right w-1/2 font-bold">
+          <p>
+            {" "}
+            {"منبع درس:"} {window.config?.main.source}
+          </p>
+        </div>
       </div>
     </section>
   );

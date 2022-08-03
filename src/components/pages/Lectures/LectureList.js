@@ -114,11 +114,11 @@ const LecturList = ({ closeSide }) => {
   const sessions = window.config?.main["sessions"];
 
   return (
-    <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto bg-white p-5 rounded ">
+    <section className="leading-relaxed max-w-screen-xl mt-5 mx-auto bg-white p-5 rounded ">
       <div className="space-y-3 text-right rounded">
         <p className="text-xl text-gray-800"> لیست مباحث </p>
       </div>
-      <div className="mt-4 mx-auto">
+      <div className="mx-2 mr-10 mb-20 mx-auto">
         {[...Array(sessions)].map((_item, idx) => (
           <Card idx={idx} closeSide={closeSide} />
         ))}

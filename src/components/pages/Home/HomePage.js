@@ -29,7 +29,7 @@ const HomePage = () => {
               to="/lectures/0/0"
               className="md:m-2 py-3 px-6 md:w-20 sm:w-screen text-gray-500 text-center border rounded-md duration-300 hover:text-indigo-600 hover:shadow block "
             >
-              جلسه اول{" "}
+              شروع{" "}
             </Link>
           </div>
         </div>

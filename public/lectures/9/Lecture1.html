@@ -1,0 +1,45 @@
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+    <div class="jp-Cell-inputWrapper">
+    <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+    </div>
+    <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+    </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+    <h2 id="%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%86%D8%B1%D9%85%D8%A7%D9%84-%DB%8C%D8%A7-%DA%AF%D8%A7%D9%88%D8%B3%DB%8C-(Gaussian)">&#1578;&#1608;&#1586;&#1740;&#1593; &#1606;&#1585;&#1605;&#1575;&#1604; &#1740;&#1575; &#1711;&#1575;&#1608;&#1587;&#1740; (Gaussian)<a class="anchor-link" href="#%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%86%D8%B1%D9%85%D8%A7%D9%84-%DB%8C%D8%A7-%DA%AF%D8%A7%D9%88%D8%B3%DB%8C-(Gaussian)">&#182;</a></h2><p>توزیع نرمال مهمترین و پرکاربردترین توزیع احتمال به شمار می رود.</p>
+    <p>$ X\mathtt{\sim}N(\mu,\sigma^2) $</p>
+    <p>در بسیاری موارد عملی  توزیع نرمال تقریب خوبی برای pdf یک متغیر تصادفی ناشناس عمل می‌کند.</p>
+    <p>تابع چگالی احتمال  توزیع نرمال در نقطه $ x $ برابر $ f_X(x) $ است که در آن  $ \mu $ میانگین، $ \sigma $ انحراف معیار و $ \sigma^2 $ واریانس می‌باشد.</p>
+    <p>$ f_X(x)=\frac{1}{\sigma \sqrt{2\pi}} e^{\frac{-(x-\mu)^2}{2\sigma^2}} $</p>
+    <h2 id="%D8%AA%D8%A7%D8%A8%D8%B9-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D8%AA%D8%AC%D9%85%D8%B9%DB%8C-%D9%86%D8%B1%D9%85%D8%A7%D9%84">&#1578;&#1575;&#1576;&#1593; &#1578;&#1608;&#1586;&#1740;&#1593; &#1578;&#1580;&#1605;&#1593;&#1740; &#1606;&#1585;&#1605;&#1575;&#1604;<a class="anchor-link" href="#%D8%AA%D8%A7%D8%A8%D8%B9-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D8%AA%D8%AC%D9%85%D8%B9%DB%8C-%D9%86%D8%B1%D9%85%D8%A7%D9%84">&#182;</a></h2><p>$ P\{a\leq X \leq b\} = F_X(b)-F_X(a) = \int_{a}^{b} \frac{1}{\sigma \sqrt{2\pi}} e^{\frac{-(x-\mu)^2}{2\sigma^2}} dx $</p>
+    <p>تابع $ CDF $ توزیع نرمال فرم بسته ندارد.</p>
+    <p>$ \Phi(x) = \int_{- \infty}^{x} \frac{1}{\sqrt{2\pi}} e^{\frac{-u^2}{2}} du \rightarrow \Phi(0) $</p>
+    <p>در واقع تابع $ \Phi $، تابع $ CDF $ یک توزیع نرمال با میانگین $ 0 $ و واریانس $ 1 $ است: $ N(0,1) $</p>
+    <p>$ X\mathtt{\sim}N(\mu,\sigma^2) \rightarrow F_X(x) = \Phi(\frac{x-\mu}{\sigma}) $</p>
+    <h2 id="%D8%AA%D8%A8%D8%AF%DB%8C%D9%84-%D8%AE%D8%B7%DB%8C-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%86%D8%B1%D9%85%D8%A7%D9%84">&#1578;&#1576;&#1583;&#1740;&#1604; &#1582;&#1591;&#1740; &#1578;&#1608;&#1586;&#1740;&#1593; &#1606;&#1585;&#1605;&#1575;&#1604;<a class="anchor-link" href="#%D8%AA%D8%A8%D8%AF%DB%8C%D9%84-%D8%AE%D8%B7%DB%8C-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%86%D8%B1%D9%85%D8%A7%D9%84">&#182;</a></h2><p>فرض کنید $ X\mathtt{\sim}N(\mu,\sigma^2) $ یک توزیع نرمال و $ Y=aX+b $ یک تبدیل خطی
+    روی $ 𝑋 $ باشد. آن گاه $ 𝑌 $ نیز دارای توزیع نرمال است:</p>
+    <p>$ E[Y]=E[aX+b]=aE[X]+b=a\mu+b $</p>
+    <p>$ Var(Y)=Var(aX+b)=a^2Var(X)=a^2\sigma^2 $</p>
+    <p>$ Y\mathtt{\sim}N(a\mu+b,a^2\sigma^2) $</p>
+    <h2 id="%D8%AD%D8%A7%D9%84%D8%AA-%D8%AE%D8%A7%D8%B5-%D8%AA%D8%A8%D8%AF%DB%8C%D9%84-%D8%AE%D8%B7%DB%8C-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%86%D8%B1%D9%85%D8%A7%D9%84">&#1581;&#1575;&#1604;&#1578; &#1582;&#1575;&#1589; &#1578;&#1576;&#1583;&#1740;&#1604; &#1582;&#1591;&#1740; &#1578;&#1608;&#1586;&#1740;&#1593; &#1606;&#1585;&#1605;&#1575;&#1604;<a class="anchor-link" href="#%D8%AD%D8%A7%D9%84%D8%AA-%D8%AE%D8%A7%D8%B5-%D8%AA%D8%A8%D8%AF%DB%8C%D9%84-%D8%AE%D8%B7%DB%8C-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%86%D8%B1%D9%85%D8%A7%D9%84">&#182;</a></h2><p>$ X\mathtt{\sim}N(\mu,\sigma^2),\; Y=aX+b \quad \Rightarrow \quad Y\mathtt{\sim}N(a\mu+b,a^2\sigma^2) $</p>
+    <p>تبدیل زیر یک حالت خاصاین تبدیل خطی بر روی $ X $ است:</p>
+    <p>$ Z=\frac{X-\mu}{\sigma} = \frac{1}{\sigma}X-\frac{\mu}{\sigma } \quad \rightarrow \quad a=\frac{1}{\sigma}\;,\quad b=\frac{-\mu}{\sigma} $</p>
+    \begin{align*}
+    Z&amp;\mathtt{\sim}N(a\mu+b,a^2\sigma^2) \\
+    &amp;\mathtt{\sim}N(\frac{1}{\sigma}\mu-\frac{\mu}{\sigma},\frac{1}{\sigma^2}\sigma^2) \\
+    &amp;\mathtt{\sim}N(0,1)
+    \end{align*}<h2 id="%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%86%D8%B1%D9%85%D8%A7%D9%84-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF">&#1578;&#1608;&#1586;&#1740;&#1593; &#1606;&#1585;&#1605;&#1575;&#1604; &#1575;&#1587;&#1578;&#1575;&#1606;&#1583;&#1575;&#1585;&#1583;<a class="anchor-link" href="#%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%86%D8%B1%D9%85%D8%A7%D9%84-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF">&#182;</a></h2><p>متغیر تصادفی نرمال استاندارد $ Z\mathtt{\sim}N(0,1) $ :</p>
+    <p>$ E[Z]=\mu=0 $</p>
+    <p>$ Var(Z)=\sigma^2=1 \quad \rightarrow \quad SD(Z)=\sigma=1 $</p>
+    <p>$ f_Z(z)=\frac{1}{\sqrt{2\pi}} e^{\frac{-z^2}{2}} $</p>
+    <p>$ f(z) $ یک تابع زوج است: $ f(z)=f(-z) $
+    مقدار $ f(z) $ در خارج از بازه $ (-3,3) $ بسیار کوچک و تقریبا برابر صفر است.
+    نقاط $ z=-1,1 $ نقاط عطف تابع $ f(z) $ هستند.</p>
+    <h2 id="%D8%AA%D8%A7%D8%A8%D8%B9-$-CDF-$-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%86%D8%B1%D9%85%D8%A7%D9%84-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF">&#1578;&#1575;&#1576;&#1593; $ CDF $ &#1578;&#1608;&#1586;&#1740;&#1593; &#1606;&#1585;&#1605;&#1575;&#1604; &#1575;&#1587;&#1578;&#1575;&#1606;&#1583;&#1575;&#1585;&#1583;<a class="anchor-link" href="#%D8%AA%D8%A7%D8%A8%D8%B9-$-CDF-$-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%86%D8%B1%D9%85%D8%A7%D9%84-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF">&#182;</a></h2><p>$ F_Z(z)=P(Z\leq z)=\int_{-\infty}^{z}\frac{1}{\sqrt{2\pi}} e^{\frac{-x^2}{2}}dx=\Phi(z) $</p>
+    <p>$ \Phi(-\infty)=0 $</p>
+    <p>$ \Phi(+\infty)=1 $</p>
+    <p>$ \Phi(0)=0.5 $</p>
+    <p>$ \Phi(-z)=1-\Phi(z) $</p>
+    
+    </div>
+    </div>
+    </div>
+</div>
