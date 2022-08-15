@@ -1,0 +1,71 @@
+<div class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1>جلسه دوم <br></h1>
+<h3>تابع چگالی احتمال مشترک (Joint pdf) <br></h3>
+<p>برای متغیرهای تصادفی پیوسته X و Y، تابع چگالی احتمال مشترک با استفاده از تابع CDF <br> 
+مشترک به صورت زیر تعریف می شود: <br></p>
+<p>$f_{XY}(x,y) =\large \frac {\partial ^2 F_{XY}(x,y)}{\partial x \partial y}$ <br></p>
+<p>از تعریف می توان نشان داد که: <br></p>
+<p>$ f_{XY}(x,y)\: dx dy = P \{ x &lt; X \leq x + dx , y &lt; Y \leq y + dy \}$ <br></p>
+<p>بنابراین: <br></p>
+<p>$ P\{(X,Y) \in D\} = \iint_D f_{XY}(x,y) \,dx\,dy$ <br></p>
+<p>یعنی حجم زیر تابع $f_{XY}(x,y)$ در هر ناحیه $D$، بیانگر احتمال آن ناحیه است. <br></p>
+<p>$P \{ a \leq X \leq b , c \leq Y \leq d \} = \int_{a}^{b} \int_{c}^{d} f_{XY}(x,y) \,dy\,dx$ <br></p>
+<p>اگر $D$ را ناحیه $x \leq X$ و $y \leq Y$ در نظر بگیریم و با توجه به تعریف CDF داریم: <br></p>
+<p>$F_{XY}(x,y) = \int_{-\infty}^{x} \int_{-\infty}^{y} f_{XY}(u,v) \,du\,dv = P\{X \leq x, Y \leq y \}$ <br></p>
+<p>به عنوان حالت خاص خواهیم داشت: <br></p>
+<p>$\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f_{XY}(x,y) \,dx\,dy = F(+\infty , +\infty) = 1$ <br></p>
+<p>همچنین میدانیم که $F_X(x) = F_{XY}(x, +\infty)$، بنابراین: <br></p>
+<p>$f_X(x) = \large \frac {d}{dx} \int_{-\infty}^{x} \int_{-\infty}^{\infty} \normalsize f_{XY}(u,v) \,du\,dv$ <br></p>
+<h3>تابع چگالی احتمال حاشیه ای <br></h3>
+<p>در نتیجه توابع چگالی احتمال حاشیه ای X و Y به صورت زیر تعریف میشوند: <br></p>
+<p>$f_X(x) = \int_{-\infty}^{\infty} f_{XY}(x,y) \,dy$ <br></p>
+<p>$f_Y(y) = \int_{-\infty}^{\infty} f_{XY}(x,y) \,dx$ <br></p>
+<h3>pmf مشترک برای n متغییر تصادفی <br></h3>
+<p>بردار تصادفی $\vec{X}$ را به صورت زیر تعریف می کنیم: <br></p>
+<p>$\vec{x} = [X_1,X_2,\: ... \:,X_n]$ <br></p>
+<p>تابع pmf مشترک برای بردار $\vec{X}$ به صورت زیر تعریف می شود: <br></p>
+<p>$P_{\vec{X}}(\vec{x}) = P_{X_1X_2...X_n}(x_1,x_2,...,x_n) = P\{X_1 = x_1, X_2 = x_2 , ... , X_n = x_n \}$ <br></p>
+<p>که در آن: <br>
+$\vec{x} = (x_1,x_2,...,x_n)$ <br></p>
+<h3>نوزیع چند جمله ای (multinomial) <br></h3>
+<p>اگر n شیء داشته باشیم و بخواهیم این اشیاء را به k دسته $A_1 , A_2, ... , A_k$ تقسیم <br> 
+کنیم که به ترتیب $r_1,r_2,...r_k$ عضو داشته باشند، به طوری که $\sum_{i} r_i = n$، آنگاه <br> 
+تعداد حالات ممکنه برابر است با: <br></p>
+<p>$\large n \choose {r_1,r_2,...,r_k}$$\large = \frac {n!} {r_1!,r_2!,...,r_k!}$ <br></p>
+<p>فرض کنید n آزمایش مستقل داشته باشیم که نتیجه هر آزمایش یکی از , خروجی <br> 
+ممکن باشدو احتمال خروجی ها $p_1,p_2,...,p_m$ باشد که $\sum_{i} p_i = 1$ <br>
+متغییر تصادفی $X_i$ را برابر با تعداد آزمایش ها با خروجی I تعریف میکنیم. داریم: <br></p>
+<p>$P\{X_1 = c_1, X_2 = c_2 , ... , X_m = c_m \}$$ =\large {n \choose c_1,c_2,...,c_m} $$p_1^{c_1} p_2^{c_2} ... p_m^{c_m}$ <br></p>
+<p>$\sum_{i=1}^{m} c_i = n \:\:\:\:\:\:\:\:$ $\sum_{i=1}^{m} p_i = 1$ <br></p>
+<h3>cdf مشترک <br></h3>
+<p>تابع توزیع مشترک (joint CDF) برای بردار $\vec{x}$ به صورت زیر تعریف می شود: <br></p>
+<p>$F_{\vec{X}}(\vec{x}) = F_{X_1X_2...X_n}(x_1,x_2,...,x_n) = P\{X_1 \leq x_1, X_2 \leq x_2 , ... , X_n \leq x_n \}$ <br></p>
+<ul>
+<li>مقدار این تابع همواره بین صفر و یک است.</li>
+<li>تابع CDF مشترک به ازای تمام آرگومان ها صعودی است.</li>
+<li>$F(-\infty , -\infty , ... , -\infty) = 0$</li>
+<li>$F(+\infty , +\infty , ... , +\infty) = 0$</li>
+<li>اگر به جای برخی از آرگومان ها بینهایت بگذاریم، CDF مشترک سایر متغییر های تصادفی حاصل می شود. برای مثال:<br>
+$F_{X_1X_2X_3}(+\infty,x_2,x_3) = F_{X_2X_3}(x_2,x_3)$ <br></li>
+</ul>
+<h3>pdf مشترک <br></h3>
+<p>$f_{\vec{X}}(\vec{x}) = f_{X_1X_2...X_n}(x_1,x_2,...,x_n) = $$ \large \frac {\partial^n F_{\vec{X}}(\vec{x})}{\partial x_1 \partial x_2 ... \partial x_n}
+= \frac {\partial^n}{\partial x_1 \partial x_2 ... \partial x_n} $$ F_{X_1X_2...X_n}(x_1,x_2,...,x_n)$ <br></p>
+<p>به این ترتیب روابط زیر برقرار خواهند بود: <br></p>
+<p>$f_{\vec{X}}(\vec{x}) dx_1 dx_2 ... dx_n = P \{ x_1 &lt; X_1 &lt; x_1 + dx_1, ... , x_n &lt; X_n &lt; x_n + dx_n\}$ <br></p>
+<p>$F_{X_1X_2...X_n}(x_1,x_2,...,x_n) = \int_{-\infty}^{x_1} \int_{-\infty}^{x_2} ... \int_{-\infty}^{x_n} f_X(u_1,u_2,...,u_n)du_n ... du_2 du_1$ <br></p>
+<p>مقدار تابع pdf همواره ثابت است و انتگرال n-گانه آن از $-\infty$ تا $+\infty$ یک می شود. <br>
+همچنین داریم: <br></p>
+<p>$\forall D \subset R^n: P\{(x_1,x_2,...,x_n) \in D \} = \int_{D} d_{\vec{X}}(\vec{x}) d \vec{x} = \int ... \int_{D} f_{X_1X_2...X_n}(x_1,x_2,...,x_n)
+dx_1 dx_2 ... dx_n$ <br></p>
+<p>اگر از $-\infty$ تا $+\infty$ روی برخی از آرگومان ها انتگرال بگیریم، pdf مشترک <br> 
+سایر متغییرهای تصادفی حاصل می شود. برای مصال: <br></p>
+<p>$f_{X_2X_3}(x_2,x_3) = \int_{-\infty}^{+\infty} = F_{X_1X_2X_3}(x_1,x_2,x_3) dx_1$ <br></p>
+
+</div>
+</div>
+</div>
+
