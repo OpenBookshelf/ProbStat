@@ -1,8 +1,8 @@
-#How to use the site
+# How to use the site
 
-for document, read [Document](./Document.md)
+For document, read [Document](./Document.md)
 
 
 
-  for better ui form, use [esJSON](https://perriex.github.io/json-maker/)
+For better ui form, use [ezJSON](https://perriex.github.io/json-maker/)
 
