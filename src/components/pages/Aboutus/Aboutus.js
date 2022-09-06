@@ -27,12 +27,12 @@ const Aboutus = () => {
       <div className="mt-5">
         <form
           onSubmit={(e) => e.preventDefault()}
-          className="items-center justify-around sm:flex"
+          className="items-center justify-around sm:flex w-100"
         >
-          <input
-            type="textarea"
+          <textarea
+            rows={4}
             placeholder="نظر خود را وارد کنید"
-            className="text-gray-500 w-full p-3 rounded-md border outline-none focus:border-indigo-600 mx-2"
+            className="text-gray-500  w-100 p-3 rounded-md border outline-none focus:border-indigo-600 mx-2"
             onChange={(e) => setText(e.target.value)}
           />
 
@@ -45,7 +45,7 @@ const Aboutus = () => {
                   text
               );
             }}
-            className="w-full mt-3 px-5 py-3 rounded-md text-white bg-indigo-600 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto"
+            className=" w-100 mt-3 px-5 py-3 rounded-md text-white bg-indigo-600 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto"
           >
             ارسال
           </button>
