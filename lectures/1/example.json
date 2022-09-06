@@ -34,7 +34,7 @@
             "question": "2 + 2",
             "options": [],
             "type": "input",
-            "answer": [],
+            "answer": [4],
             "explain": "برابر 4 است"
          }
       ],
