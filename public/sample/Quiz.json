@@ -1,0 +1,15 @@
+{
+  "exam": {
+    "name": "",
+    "describe": "",
+    "questions": [
+      {
+        "question": "",
+        "options": [""],
+        "type": { "dropdown": ["test", "multiselect", "input"] },
+        "answer": [0],
+        "explain": ""
+      }
+    ]
+  }
+}
