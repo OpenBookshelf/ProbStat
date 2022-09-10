@@ -2,6 +2,10 @@
   "id": 0,
   "name": "01. نظریه مجموعه‌ها و تعریف احتمال",
   "describe": "دارای 4 جلسه معرفی است",
+  "quiz" : {
+    "name": " آزمونک اول", 
+    "src" : "https://github.com/OpenBookshelf/ProbStat/blob/gh-pages/lectures/1/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: مقدمه‌ای بر نظریه مجموعه‌ها",
