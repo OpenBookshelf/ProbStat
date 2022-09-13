@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProbStat/static/css/main.2ac36271.css",
-    "main.js": "/ProbStat/static/js/main.db0b0b78.js",
+    "main.css": "/ProbStat/static/css/main.62f95f5f.css",
+    "main.js": "/ProbStat/static/js/main.e256a516.js",
     "static/js/787.65ae2419.chunk.js": "/ProbStat/static/js/787.65ae2419.chunk.js",
     "static/media/Javidi.jpg": "/ProbStat/static/media/Javidi.1e6f5841781cef2746a8.jpg",
     "static/media/Araghi.jpg": "/ProbStat/static/media/Araghi.ce5494ef25fbdb646a92.jpg",
@@ -16,12 +16,12 @@
     "static/media/Asadi.jpg": "/ProbStat/static/media/Asadi.6929789e5857b16f0757.jpg",
     "static/media/Shayegh.jfif": "/ProbStat/static/media/Shayegh.179a24036f763baccd9f.jfif",
     "index.html": "/ProbStat/index.html",
-    "main.2ac36271.css.map": "/ProbStat/static/css/main.2ac36271.css.map",
-    "main.db0b0b78.js.map": "/ProbStat/static/js/main.db0b0b78.js.map",
+    "main.62f95f5f.css.map": "/ProbStat/static/css/main.62f95f5f.css.map",
+    "main.e256a516.js.map": "/ProbStat/static/js/main.e256a516.js.map",
     "787.65ae2419.chunk.js.map": "/ProbStat/static/js/787.65ae2419.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ac36271.css",
-    "static/js/main.db0b0b78.js"
+    "static/css/main.62f95f5f.css",
+    "static/js/main.e256a516.js"
   ]
 }
