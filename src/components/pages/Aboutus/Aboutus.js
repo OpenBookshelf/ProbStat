@@ -27,10 +27,11 @@ const Aboutus = () => {
       <div className="mt-5">
         <form
           onSubmit={(e) => e.preventDefault()}
-          className="items-center justify-around sm:flex w-100"
+          className="items-center justify-between sm:flex w-100"
         >
           <textarea
             rows={4}
+            cols={30}
             placeholder="نظر خود را وارد کنید"
             className="text-gray-500  w-100 p-3 rounded-md border outline-none focus:border-indigo-600 mx-2"
             onChange={(e) => setText(e.target.value)}

@@ -2,6 +2,10 @@
   "id": 2,
   "name": "03. احتمال شرطی",
   "describe": "دارای 3 جلسه معرفی است",
+    "quiz" : {
+    "name": " آزمونک سوم", 
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/3/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: احتمال شرطی",

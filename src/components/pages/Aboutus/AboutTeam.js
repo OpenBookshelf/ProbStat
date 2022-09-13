@@ -24,14 +24,14 @@ const AboutTeam = () => {
         src: Asadi,
       },
       {
-        name: "مصطفی تهاجمی",
-        github: "https://github.com/Mostafa1676",
-        src: Tahajomi,
-      },
-      {
         name: "روژین رستگارپور",
         github: "https://github.com/RojinRastegarpour",
         src: Rastgar,
+      },
+      {
+        name: "مصطفی تهاجمی",
+        github: "https://github.com/Mostafa1676",
+        src: Tahajomi,
       },
       {
         name: "محمد عراقی",
