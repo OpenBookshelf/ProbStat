@@ -2,6 +2,10 @@
   "id": 1,
   "name": "02. ترکیبیات",
   "describe": "دارای 2 جلسه معرفی است",
+    "quiz" : {
+    "name": " آزمونک دوم", 
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/2/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: مروری بر ترکیبیات",
