@@ -1,39 +1,22 @@
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1>جلسه دوم <br></h1>
-<h3>pdf برای متغییرهای تصادفی ناپیوسته <br></h3>
-<p>در مورد متغیر تصادفی گسسته یا مخلوط چون CDF دارای ناپیوستگی است، مشتق<br>
-بی معنی خواهد بود (بی نهایت می شود).<br>
-ولی با استفاده از تابع ضربه $\delta$ می توانیم آن را بیان کنیم.<br>
-مثلاً برای متغیر تصادفی گسسته در مثال پرتاب سه سکه داریم:</p>
-<p>$f(x) = \sum_{i} P(x_i)~ \delta (x - x_i) $</p>
-<p>همانطور که داشتیم:</p>
-<p>$F(x) = \sum_{i} P(x_i)~ u (x - x_i) $</p>
-<p>یعنی نقاط تابع احتمال به دلتاهایی با آن وزن ها تبدیل شد.</p>
-<h3>امید ریاضی و واریانس <br></h3>
-<p>برای متغییر تصادفی پیوسته X     $\:\:\:\:\:\:$     برای متغییر تصادفی گسسته X</p>
-<p>$E[X] = \int_{-\infty}^\infty x f_X(x)dx $  $\:\:\:\:$    $E[x] = \sum_{x_i} x_i P(X = x_i) $<br>
-$E[g(X)] = \int_{-\infty}^\infty g(x) f_X(x)dx $  $\:\:\:\:$   $E[g(X)] = \sum_{x_i} g(x_i) P(X = x_i) $<br>
-$E[X^n] = \int_{-\infty}^\infty x^n f_X(x)dx $  $\:\:\:\:$   $E[X^n] = \sum_{x_i} x_i^n P(X = x_i) $</p>
-<p>روابط زیر که برای امید ریاضی و واریانس متغیر تصادفی گسسته اثبات کردیم، برای<br>
-متغیر تصادفی پیوسته نیز برقرار هستند:<br>
-$E[aX+b] = aE[x] + b$<br>
-$Var(X) = E[(X- \mu)^2] = E[X^2] - (E[X])^2$<br>
-$Var(aX + b) = a^2Var(X)$</p>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+    <div class="jp-Cell-inputWrapper">
+    <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+    </div>
+    <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+    </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+    <h3 id="pdf-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D9%87%D8%A7%DB%8C-%D8%AA%D8%B5%D8%A7%D8%AF%D9%81%DB%8C-%D9%86%D8%A7%D9%BE%DB%8C%D9%88%D8%B3%D8%AA%D9%87:">pdf &#1576;&#1585;&#1575;&#1740; &#1605;&#1578;&#1594;&#1740;&#1740;&#1585;&#1607;&#1575;&#1740; &#1578;&#1589;&#1575;&#1583;&#1601;&#1740; &#1606;&#1575;&#1662;&#1740;&#1608;&#1587;&#1578;&#1607;:</h3><p>در مورد متغیر تصادفی گسسته یا مخلوط چون CDF دارای ناپیوستگی است، مشتق بی‌معنی خواهد بود (بی‌نهایت می‌شود) ولی با استفاده از تابع ضربه $\delta$ می‌توانیم آن را بیان کنیم. مثلا برای متغیر تصادفی گسسته در مثال پرتاب سه سکه داریم:</p>
+    $$ f(x) = \sum_{i} P(x_i)~ \delta (x - x_i) $$<p></p>
+    <p>همانطور که داشتیم:</p>
+    $$ F(x) = \sum_{i} P(x_i)~ u (x - x_i) $$<p></p>
+    <p>یعنی نقاط تابع احتمال به دلتاهایی با آن وزن‌ها تبدیل شد.</p>
+    <h3 id="%D8%A7%D9%85%DB%8C%D8%AF-%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C-%D9%88-%D9%88%D8%A7%D8%B1%DB%8C%D8%A7%D9%86%D8%B3:">&#1575;&#1605;&#1740;&#1583; &#1585;&#1740;&#1575;&#1590;&#1740; &#1608; &#1608;&#1575;&#1585;&#1740;&#1575;&#1606;&#1587;:</h3><p><strong>برای متغییر تصادفی گسسته $X$:</strong></p>
+    $$ E[x] = \sum_{x_i} x_i P(X = x_i) $$$$ E[g(X)] = \sum_{x_i} g(x_i) P(X = x_i) $$$$ E[X^n] = \sum_{x_i} x_i^n P(X = x_i) $$<p><strong>برای متغییر تصادفی پیوسته $X$:</strong></p>
+    $$ E[X] = \int_{-\infty}^\infty x f_X(x)dx $$$$ E[g(X)] = \int_{-\infty}^\infty g(x) f_X(x)dx $$$$ E[X^n] = \int_{-\infty}^\infty x^n f_X(x)dx $$<p>روابط زیر که برای امید ریاضی و واریانس متغیر تصادفی گسسته اثبات کردیم، برای متغیر تصادفی پیوسته نیز برقرار هستند:</p>
+    $$ E[aX+b] = aE[x] + b $$$$ Var(X) = E[(X- \mu)^2] = E[X^2] - (E[X])^2 $$$$ Var(aX + b) = a^2Var(X) $$
+    </div>
+    </div>
+    </div>
+    </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+    <div class="jp-Cell-inputWrapper">
+    <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
