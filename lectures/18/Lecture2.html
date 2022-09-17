@@ -1,0 +1,44 @@
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+    <div class="jp-Cell-inputWrapper">
+    <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+    </div>
+    <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+    </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+    <h3 id="%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D8%B4%D8%B1%D8%B7%DB%8C-%DA%AF%D8%B3%D8%B3%D8%AA%D9%87:">&#1578;&#1608;&#1586;&#1740;&#1593; &#1588;&#1585;&#1591;&#1740; &#1711;&#1587;&#1587;&#1578;&#1607;:</h3><p>دیدیم که برای دو پیشامد $ E $ و $ F $ ، احتمال شرطی به صورت زیر تعریف می‌شود:</p>
+    $$ P(E|F) = \frac{P(E \cap F)}{P(F)} $$<p>حال فرض کنید $ X $ و $ Y $ دو متغیر تصادفی گسسته باشند. PMF شرطی متغیر تصادفی $ X $ با داشتن متغیر تصادفی $ Y $، در جایی که</p>
+    $$ P(E|F) = \frac{P(E \cap F)}{P(F)} $$<p>$ P_Y(y)&gt;0 $، به صورت زیر تعریف می‌شود:</p>
+    $$ P_{X|Y}(x|y)=P(X=x|Y=y)=\frac{P(X=x,Y=y)}{P(Y=y)}=\frac{P_{XY}(x,y)}{P_Y(y)} $$<p>به عبارت دیگر تابع جرمی احتمال $X$ به شرط $Y$ برابر حاصل تقسیم تابع جرمی احتمال مشترک $X$ و $Y$(یا $ P_{XY}(x,y) $) بر تابع جرمی احتمال$ Y $(یا $ P_Y(y) $) است.</p>
+    <h3 id="%D8%AA%D8%A7%D8%A8%D8%B9-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D8%A7%D9%86%D8%A8%D8%A7%D8%B4%D8%AA%D9%87-%D8%B4%D8%B1%D8%B7%DB%8C:">&#1578;&#1575;&#1576;&#1593; &#1578;&#1608;&#1586;&#1740;&#1593; &#1575;&#1606;&#1576;&#1575;&#1588;&#1578;&#1607; &#1588;&#1585;&#1591;&#1740;:</h3><p>تابع توزیع انباشته $ X $ به شرط $ Y $ به صورت زیر تعریف می‌شود:</p>
+    \begin{align*}
+        F_{X|Y}(a|y)&amp;=P(X\leq a| Y=y)=\frac{P(X\leq a, Y=y)}{P(Y=y)}\\
+        &amp;=\frac{\sum_{x \leq a}P_{XY}(x,y)}{P_Y(y)}=\sum_{x \leq a}\frac{P_{XY}(x,y)}{P_Y(y)}\\
+        &amp;=\sum_{x \leq a} P_{X|Y}(x|y)
+    \end{align*}<h3 id="%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D8%B4%D8%B1%D8%B7%DB%8C-%D9%BE%DB%8C%D9%88%D8%B3%D8%AA%D9%87:">&#1578;&#1608;&#1586;&#1740;&#1593; &#1588;&#1585;&#1591;&#1740; &#1662;&#1740;&#1608;&#1587;&#1578;&#1607;:</h3><p>فرض کنید $ X $ و $ Y $ متغیرهای تصادفی پیوسته باشند. تابع چگالی احتمال شرطی $ X $ به شرط $Y $(در جایی که $ f_Y(y) &gt; 0 $) به صورت زیر تعریف می‌شود:</p>
+    $$ f_{X|Y}(x|y)=\frac{f_{XY}(x,y)}{f_Y(y)} $$<p>مفهوم چگالی:</p>
+    \begin{align*}
+        f_{X|Y}(x|y)dx&amp;=\frac{f_{XY}(x,y)dxdy}{f_Y(y)dy}\\
+        &amp;=\frac{P(x&lt;X&lt;x+dx,y&lt;Y&lt;y+dy)}{P(y&lt;Y&lt;y+dy)}\\
+        &amp;=P(x&lt;X&lt;x+dx|y&lt;Y&lt;y+dy)
+    \end{align*}<h3 id="%D8%AA%D8%A7%D8%A8%D8%B9-CDF-%D8%B4%D8%B1%D8%B7%DB%8C:">&#1578;&#1575;&#1576;&#1593; CDF &#1588;&#1585;&#1591;&#1740;:</h3><p>تابع CDF شرطی $ X $ به شرط $ Y $(در جایی که $ f_Y(y) &gt; 0 $)  به صورت زیر تعریف می‌شود:</p>
+    $$  F_{X|Y}(a|y)=P(X\leq a| Y=y)=\int_{-\infty}^{a}f_{X|Y}(x|y)dx $$<p>توجه کنید که با این که $ P(Y=y) = 0 $ است، اما تابع به شرط $ Y=y $ قابل تعریف است، زیرا در واقع عملیات به صورت حدی انجام می‌شود:</p>
+    $$ P(Y=y)\approx P(y-\frac{\epsilon}{2} \leq Y \leq y+\frac{\epsilon}{2} )=\int_{y-\frac{\epsilon}{2}}^{y+\frac{\epsilon}{2}} f_Y(t)dt=\epsilon f_Y(y) $$$$ F_{X|Y}(a|y)= \lim_{\epsilon \rightarrow 0}P(X\leq a|Y \in (y-\frac{\epsilon}{2},y+\frac{\epsilon}{2})) $$<h3 id="%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D8%B4%D8%B1%D8%B7%DB%8C-%D9%88-%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84:">&#1578;&#1608;&#1586;&#1740;&#1593; &#1588;&#1585;&#1591;&#1740; &#1608; &#1575;&#1587;&#1578;&#1602;&#1604;&#1575;&#1604;:</h3><p>اگر $X$ و $Y$ متغیرهای تصادفی گسسته مستقل باشند، داریم:</p>
+    $$ P(X=x|Y=y)=\frac{P(X=x,Y=y)}{P(Y=y)}=\frac{P(X=x)P(Y=y)}{P(Y=y)}=P(X=x) $$$$\Rightarrow P_{X|Y}(x|y)=P_X(x) $$<p>به طور مشابه برای متغیرهای تصادفی پیوسته مستقل داریم:</p>
+    $$ f_{X|Y}(x|y)=\frac{f_{XY}(x,y)}{f_Y(y)}=\frac{f_X(x)f_Y(y)}{f_Y(y)}=f_X(x) $$<h3 id="%D9%82%D8%B6%DB%8C%D9%87-%D8%A8%DB%8C%D8%B2:">&#1602;&#1590;&#1740;&#1607; &#1576;&#1740;&#1586;:</h3><p><strong>قضیه بیز:</strong> اگر مجموعه‌های $ B_i $   که $ 1 \leq i \leq m $، افرازی از $\Omega $ باشند، برای هر پیشامد دلخواه $A$از $\Omega $ داریم:</p>
+    $$ P(B_k|A)=\frac{P(A|B_k)P(B_k)}{\sum_{i=1}^{m}P(A|B_i)P(B_i)} $$<p>مشابه قضیه بیز برای پیشامدها، برای توابع جرمی احتمال داریم:</p>
+    \begin{align*}
+        P_{Y|X}(y|x) &amp;= \frac{P_{XY}(x,y)}{P_X(x)}\\
+        &amp;=\frac{P_{X|Y}(x|y)P_Y(y)}{\sum_{-\infty}^{\infty}P_{X|Y}(x|y)P_Y(y)}
+    \end{align*}<p>به طور مشابه برای توابع چگالی احتمال شرطی متغیرهای تصادفی پیوسته داریم:</p>
+    $$ f_{X|Y}(x|y)=\frac{f_{XY}(x,y)}{f_Y(y)} $$$$ \Rightarrow f_{X|Y}(x|y)=\frac{f_{Y|X}(y|x)f_X(x)}{f_Y(y)} $$$$ \Rightarrow f_{X|Y}(x|y)=\frac{f_{Y|X}(y|x)f_X(x)}{\int_{-\infty}^{\infty} f_{Y|X}(y|x)f_X(x) dx} $$<h3 id="%D8%A7%D9%85%DB%8C%D8%AF-%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C-%D8%B4%D8%B1%D8%B7%DB%8C:">&#1575;&#1605;&#1740;&#1583; &#1585;&#1740;&#1575;&#1590;&#1740; &#1588;&#1585;&#1591;&#1740;:</h3><p>امید ریاضی شرطی به صورت زیر تعریف می شود:</p>
+    $$ E(X|M)=\int_{-\infty}^{+\infty} xf_X(x|M)dx $$$$ E(g(x)|M)=\int_{-\infty}^{+\infty} g(x)f_X(x|M)dx $$<p>با بکارگیری قضیه احتمال کل در روابط بالا میبینیم که اگر $A_i$ها افرازی از $\Omega $ باشند، آنگاه:</p>
+    $$ E(X) = \sum_{i=1}^{m} E(X|A_i)P(A_i) $$<p>برای متغیرهای تصادفی گسسته $X$ و $Y$، امید ریاضی شرطی $X$ به شرط $Y=y$ به صورت زیر تعریف می‌شود:</p>
+    $$ E[X|Y=y]=\sum_{x}xP(X=x|Y=y)=\sum_{x}xP_{X|Y}(x|y) $$<p>به طور مشابه برای متغیرهای تصادفی پیوسته $X$ و $Y$ داریم:</p>
+    $$ E(X|Y=y)=\int_{-\infty}^{+\infty} xf_{X|Y}(x|y)dx $$<p>توجه کنید که $ E[X|Y=y] $ تابعی از عدد $y$ است.</p>
+    <p>$ E(X) $ یک عدد است.</p>
+    <p>به همین ترتیب $ E(X|Y=y) $ دیگر یک متغیر تصادفی نیست، بلکه برای هر $y$ یک عدد است. یعنی $ E(X|Y=y) $  تابعی از $y$ است:</p>
+    $$ g(y) = E(X|Y=y) $$<p>حال می‌توانیم $ E(X|Y) $ را در نظر بگیریم که خود یک متغیر تصادفی است:</p>
+    $$ g(Y) = E(X|Y) $$
+    </div>
+    </div>
+    </div>
+</div>
