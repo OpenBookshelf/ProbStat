@@ -1,0 +1,80 @@
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+    <div class="jp-Cell-inputWrapper">
+    <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+    </div>
+    <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+    </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+    <h3>توزیع شرطی گسسته <br></h3>
+    <p>دیدیم که برای دو پیشامد E و F، احتمال شرطی به صورت زیر تعریف می شود:</p>
+    $$ P(E|F) = \frac{P(E \cap F)}{P(F)}$$<p></p>
+    <p>حال فرض کنید X و Y دو متغیر تصادفی گسسته باشند. PMF شرطی متغیر تصادفی X با داشتن متغیر تصادفی Y<br>
+    (در جایی که $P_Y(y) &gt; 0$)، به صورت زیر تعریف می‌شود:</p>
+    $$ P_{X|Y} (x|y) = P(X = x | Y = y) = \frac {P(X = x , Y = y)}{P(Y = y)} = \frac {P_{XY}(x,y)} {P_Y(y)} $$<p></p>
+    <p>به عبارت دیگر تابع جرمی احتمال X به شرط Y برابر حاصل تقسیم تابع جرمی احتمال مشترک X و Y (یا $P_{XY}(x,y)$)<br>
+    بر تابع جرمی احتمال Y (یا $P_Y(y)$) است.</p>
+    <h3>تابع توزیع انباشته شرطی<br></h3>
+    $$ F_{X|Y} (a|y) = P(X \leq a | Y = y) = \sum_{x \leq a} P_{X|Y} (x | y)$$<p></p>
+    <h3>توزیع شرطی پیوسته <br></h3>
+    <p>فرض کنید X و Y متغیرهای تصادفی پیوسته باشند. تابع چگالی احتمال شرطی X به شرط Y (در جایی که $f_Y(y)$)<br>
+    به صورت زیر تعریف می‌شود:</p>
+    $$ F_{X|Y} (x|y) = \frac{f_{XY} (x,y)}{f_Y(y)} $$<p></p>
+    <p>مفهوم چگالی:</p>
+    $$ F_{X|Y} (x|y) dx = \frac{f_{XY} (x,y) dx \: dy}{f_Y(y) dy} = P( x &lt; X &lt; x + dx \: | \: y &lt; Y &lt; y + dy) $$<p></p>
+    <h3>تابع CDF شرظی <br></h3>
+    <p>تابع CDF شرطی X به شرط Y (جایی که $f_Y(y) &gt; 0$) به صورت زیر تعریف می‌شود:</p>
+    $$ F_{X|Y} (a|y) = P( X \leq a | Y = y) = \int_{-\infty}^{a} f_{X|Y} (x|y) dx $$<p></p>
+    <p>توجه کنید که با این که P(Y = y) = 0 است، اما تابع به شرط Y = y قابل تعریف است، زیرا درواقع<br>
+    عملیات به صورت حدی انجام می‌شود:</p>
+    $$ P(Y = y) \simeq P \left(y - \frac{\epsilon}{2} \leq Y \leq y + \frac{\epsilon}{2} \right) = \int_{y - \frac{\epsilon}{2}}^{y + \frac{\epsilon}{2}} f_Y(t) dt = \epsilon f_Y(y)$$<p></p>
+    $$ F_{X|Y} (a|y) = \lim_{\epsilon\to 0} P \left( X \leq a | Y \in (y - \frac{\epsilon}{2}, y + \frac{\epsilon}{2} \right)$$<h3>توزیع شرطی و استقلال <br></h3>
+    <p>اگر X و Y متغیرهای تصادفی گسسته مستقل باشند، داریم:</p>
+    $$ P(X = x | Y = y) = \frac{P(X = x , Y = y)}{P(Y = y)} = \frac{P(X = x)P(Y = y)}{P(Y = y)} = P(X = x)$$<p><br>
+    $$ \Rightarrow P_{X|Y}(x|y) = P_X(x)$$</p>
+    <p>به طور مشابه برای متغیرهای تصادفی پیوسته مستقل داریم:</p>
+    $$ f_{X|Y} (x|y) = \frac{f_{XY}(x,y)}{f_Y(y)} = \frac{f_X(x) f_Y(y)}{f_Y(y)} = f_X(x) $$<p></p>
+    <h3>استقلال شرطی <br></h3>
+    <p>n متغیر تصادفی گسسته $X_1,...,X_n$ مستقل شرطی به شرط Y نامیده می‌شوند، اگر برای هر $x_1,x_2,...,x_n,y$ داشته باشیم:</p>
+    $$ P(X_1 = x_1 , X_2 = x_2, ... , X_n = x_n | Y = y) =\large \Pi_{i=1}^{n} \normalsize P(X_i = x_i | Y = y)$$<p>به طور مشابه برای متغیرهای تصادفی پیوسته، استقلال شرطی به صورت زیر تعریف می شود:</p>
+    $$ P(X_1 \leq a_1 , X_2 \leq a_2, ... , X_n \leq a_n | Y = y) =\large \Pi_{i=1}^{n} \normalsize P(X_i \leq a_i | Y = y)$$<p><br>
+    $$\forall a_1,a_2,...,a_n,y $$</p>
+    <h3>قضیه احتمال کل <br></h3>
+    <p>قضیه احتمال کل: اگر پیشامدهای $B_i$، که $1 \leq i \leq m$، افرازی از فضای نمونه Ω باشند، برای هر پیشامد دلخواه A از Ω داریم:</p>
+    $$P(A) = \sum_{i=1}^{m} P(A|B_i) P(B_i)$$<p></p>
+    <p>قضیه فوق برای توابع جرمی احتمال شرطی هم برقرار است.</p>
+    <p>دیدیم که:</p>
+    $$ P_{Y|X}(y|x) = \frac{P_{XY}(x,y)}{P_X(x)} \Rightarrow \: P_{XY}(x,y) = P_{Y|X}(y|x) P_X(x)$$<p><br>
+    از طرفی طبق تعریف توابع احتمال حاشیه ای:</p>
+    $$P_Y(y) = \sum_{x=-\infty}^{\infty} P_{XY}(x,y)$$<p></p>
+    <p>بنابراین خواهیم داشت:</p>
+    $$P_Y(y) = \sum_{x=-\infty}^{\infty} P_{Y|X}(y|x) P_X(x)$$<p></p>
+    <p>به طور مشابه برای حالت پیوسته داریم $f_Y(y) = \int_{-\infty}^{\infty} f_{XY}(x,y)dx$ و از طرفی</p>
+    $$f_{XY}(x,y) = f_{Y|X}(y|x) f_X(x)$$<p></p>
+    <p>بنابراین:</p>
+    $$ f_Y(y) = \int_{-\infty}^{+\infty} f_{Y|X}(y|x) f_X(x) dx$$<p></p>
+    <h3>قضیه بیز <br></h3>
+    <p>قضیه بیز: اگر مجموعه‌های $B_i$، که $1 \leq i \leq m$، افرازی از Ω باشند، برای هر پیشامد دلخواه A از Ω داریم:</p>
+    $$P(B_k|A) = \frac{P(A|B_k) P(B_k)}{\sum_{i=1}^{m} P(A|B_i)P(B_i)} $$<p></p>
+    <p>مشابه قضیه بیز برای پیشامدها، برای توابع جرمی احتمال داریم:</p>
+    $$ P_{Y|X}(y|x) = \frac{P_{X|Y}(x|y) P_Y(y)}{\sum_{y=-\infty}^{\infty}P_{X|Y}(x|y) P_Y(y)} $$<p></p>
+    <p>به طور مشابه برای توابع چگالی احتمال شرطی متغیرهای تصادفی پیوسته داریم:</p>
+    $$ f_{X|Y}(x|y) = \frac{f_{Y|X}(y|x) f_X(x)} {\int_{-\infty}^{\infty}f_{Y|X}(y|x) f_X(x) dx}$$<p></p>
+    <h3>ترکیب شرطی متغیرهای پیوسته و گسسته <br></h3>
+    <p>فرض کنید X یک متغیر تصادفی پیوسته و N یک متغیر تصادفی گسسته باشد.<br>
+    تابع چگالی احتمال شرطی X به شرط داشتن N به صورت زیر تعریف می‌شود:</p>
+    $$ f_{X|N}(x|n) = \frac {P_{N|X}(n|x) f_X(x)}{P_N(n)} $$<p></p>
+    <p>قضیه احتمال کل در این حالت به شکل زیر است:</p>
+    $$ P_N(n) = \int_{-\infty}^{+\infty} P_{N|X}(n|x) f_X(x) dx$$<p></p>
+    <p>قضیه بیز در این حالت:</p>
+    $$ f_{X|N}(x|n) = \frac{P_{N|X}(n|x) f_X(x)} {\int_{-\infty}^{\infty}P_{N|X}(n|x) f_X(x) dx}$$<p></p>
+    <p>فرض کنید X یک متغیرتصادفی پیوسته و N یک متغیر تصادفی گسسته باشد.<br>
+    تابع جرمی احتمال شرطی N به شرط داشتن X به صورت زیر تعریق می‌شود:</p>
+    $$ P_{N|X}(n|x) = \frac{f_{X|N}(x|n) P_N(n)}{f_X(x)} $$<p></p>
+    <p>قضیه احتمال کل در این حالت به شکل زیر است:</p>
+    $$ f_X(x) = \sum_{n=-\infty}^{\infty} f_{X|N}(x|n) P_N(n) $$<p></p>
+    <p>قضیه بیز در این حالت:</p>
+    $$ P_{N|X}(n|x) = \frac{f_{X|N}(x|n) P_N(n)} {\sum_{n=-\infty}^{\infty} f_{X|N}(x|n) P_N(n)} $$<p></p>
+    
+    </div>
+    </div>
+    </div>
+</div>
