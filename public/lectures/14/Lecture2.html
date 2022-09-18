@@ -1,0 +1,27 @@
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+    <div class="jp-Cell-inputWrapper">
+    <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+    </div>
+    <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+    </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+    <h3 id="%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D8%B4%D8%B1%D8%B7%DB%8C-%D9%BE%DB%8C%D9%88%D8%B3%D8%AA%D9%87:">&#1578;&#1608;&#1586;&#1740;&#1593; &#1588;&#1585;&#1591;&#1740; &#1662;&#1740;&#1608;&#1587;&#1578;&#1607;:</h3><p>فرض کنید $X$ و $Y$ متغیرهای تصادفی پیوسته باشند. تابع چگالی احتمال شرطی $X$ به شرط $Y$ (در جایی که $f_Y(y)$) به صورت زیر تعریف می‌شود:</p>
+    $$ F_{X|Y} (x|y) = \frac{f_{XY} (x,y)}{f_Y(y)} $$<p></p>
+    <p>مفهوم چگالی:</p>
+    $$ F_{X|Y} (x|y) dx = \frac{f_{XY} (x,y) dx \: dy}{f_Y(y) dy} = P( x &lt; X &lt; x + dx \: | \: y &lt; Y &lt; y + dy) $$<h3 id="%D8%AA%D8%A7%D8%A8%D8%B9-CDF-%D8%B4%D8%B1%D8%B7%DB%8C:">&#1578;&#1575;&#1576;&#1593; CDF &#1588;&#1585;&#1591;&#1740;:</h3><p>تابع CDF شرطی $ X $ به شرط $ Y $ (جایی که $ f_Y(y) &gt; 0 $) به صورت زیر تعریف می‌شود:</p>
+    $$ F_{X|Y} (a|y) = P( X \leq a | Y = y) = \int_{-\infty}^{a} f_{X|Y} (x|y) dx $$<p></p>
+    <p>توجه کنید که با این که $ P(Y = y) = 0 $ است، اما تابع به شرط $ Y = y $ قابل تعریف است، زیرا درواقع عملیات به صورت حدی انجام می‌شود:</p>
+    $$ P(Y = y) \simeq P \left(y - \frac{\epsilon}{2} \leq Y \leq y + \frac{\epsilon}{2} \right) = \int_{y - \frac{\epsilon}{2}}^{y + \frac{\epsilon}{2}} f_Y(t) dt = \epsilon f_Y(y)$$<p></p>
+    $$ F_{X|Y} (a|y) = \lim_{\epsilon\to 0} P \left( X \leq a | Y \in (y - \frac{\epsilon}{2}, y + \frac{\epsilon}{2} \right)$$<h3 id="%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D8%B4%D8%B1%D8%B7%DB%8C-%D9%88-%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84:">&#1578;&#1608;&#1586;&#1740;&#1593; &#1588;&#1585;&#1591;&#1740; &#1608; &#1575;&#1587;&#1578;&#1602;&#1604;&#1575;&#1604;:</h3><p>اگر $X$ و $Y$ متغیرهای تصادفی گسسته مستقل باشند، داریم:</p>
+    $$ P(X = x | Y = y) = \frac{P(X = x , Y = y)}{P(Y = y)} = \frac{P(X = x)P(Y = y)}{P(Y = y)} = P(X = x)$$<p></p>
+    $$ \Rightarrow P_{X|Y}(x|y) = P_X(x)$$<p></p>
+    <p>به طور مشابه برای متغیرهای تصادفی پیوسته مستقل داریم:</p>
+    $$ f_{X|Y} (x|y) = \frac{f_{XY}(x,y)}{f_Y(y)} = \frac{f_X(x) f_Y(y)}{f_Y(y)} = f_X(x) $$<p></p>
+    <h3 id="%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84-%D8%B4%D8%B1%D8%B7%DB%8C:">&#1575;&#1587;&#1578;&#1602;&#1604;&#1575;&#1604; &#1588;&#1585;&#1591;&#1740;:</h3><p>$n$ متغیر تصادفی گسسته $X_1,...,X_n$ مستقل شرطی به شرط $Y$ نامیده می‌شوند، اگر برای هر $x_1,x_2,...,x_n,y$ داشته باشیم:</p>
+    $$ P(X_1 = x_1 , X_2 = x_2, ... , X_n = x_n | Y = y) =\large \Pi_{i=1}^{n} \normalsize P(X_i = x_i | Y = y)$$<p>به طور مشابه برای متغیرهای تصادفی پیوسته، استقلال شرطی به صورت زیر تعریف می‌شود:</p>
+    $$ P(X_1 \leq a_1 , X_2 \leq a_2, ... , X_n \leq a_n | Y = y) =\large \Pi_{i=1}^{n} \normalsize P(X_i \leq a_i | Y = y)$$<p></p>
+    $$\forall a_1,a_2,...,a_n,y $$<p></p>
+    
+    </div>
+    </div>
+    </div>
+</div>

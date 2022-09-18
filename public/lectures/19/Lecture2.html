@@ -1,0 +1,25 @@
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+    <div class="jp-Cell-inputWrapper">
+    <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+    </div>
+    <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+    </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+    <h3 id="%D9%85%D8%AC%D9%85%D9%88%D8%B9%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%B5%D8%A7%D8%AF%D9%81%DB%8C-(Random-Sums):">&#1605;&#1580;&#1605;&#1608;&#1593;&#8204;&#1607;&#1575;&#1740; &#1578;&#1589;&#1575;&#1583;&#1601;&#1740; (Random Sums):</h3><p>فرض کنید $ Y=\sum_{i=1}^{N}X_i $ باشد که در آن $X_i$ها متغیر تصادفی مستقل بوده و نیز داریم:</p>
+    $$ \forall i: E(X_i)=\mu_X \: , \quad Var(X_i)=\sigma_X^2  $$<p>از طرف دیگر خود $N$ نیز یک متغیر تصادفی با میانگین $ \mu_N $ و واریانس $ \sigma_N^2 $ باشد و $X_i$ها از $N$ نیز مستقل باشند.</p>
+    <p>مثلاً $Y$ می‌تواند سود روزانه یک مغازه، $X_i$ سود حاصل از هر مشتری و $N$ تعداد مشتری‌هایی که در روز مراجعه می‌کنند، باشد.</p>
+    <p>و یا $Y$ می‌تواند تعداد افراد کشته شده در سوانح رانندگی سالانه، $X_i$ تعداد افراد کشته شده در یک تصادف و $N$ تعداد کل تصادف‌ها در یک سال باشد.</p>
+    <h3 id="%D9%85%DB%8C%D8%A7%D9%86%DA%AF%DB%8C%D9%86-%D9%85%D8%AC%D9%85%D9%88%D8%B9-%D8%AA%D8%B5%D8%A7%D8%AF%D9%81%DB%8C:">&#1605;&#1740;&#1575;&#1606;&#1711;&#1740;&#1606; &#1605;&#1580;&#1605;&#1608;&#1593; &#1578;&#1589;&#1575;&#1583;&#1601;&#1740;:</h3><p>می‌خواهیم میانگین و واریانس $Y$ را به دست آوریم:</p>
+    $$ E(Y)=E(E(YN)) $$<p></p>
+    $$ E(Y|N=n) = E(\sum_{i=1}^{n}(X_i|n) )=\sum_{i=1}^{n}E(X_i|n)= \sum_{i=1}^{n}E(X_i) $$<p>از آنجایی که برای همه $X_i $ها داریم:</p>
+    $$ \forall i: E(X_i)=\mu_X $$<p>پس داریم:</p>
+    $$ E(Y|N=n)=n\mu_X \Rightarrow E(Y|N)=N\mu_X $$$$ \Rightarrow E(Y)=E[E(Y|N)]=E(N\mu_X)=\mu_XE(N)=\mu_X \mu_N $$<h3 id="%D9%88%D8%A7%D8%B1%DB%8C%D8%A7%D9%86%D8%B3-%D9%85%D8%AC%D9%85%D9%88%D8%B9-%D8%AA%D8%B5%D8%A7%D8%AF%D9%81%DB%8C:">&#1608;&#1575;&#1585;&#1740;&#1575;&#1606;&#1587; &#1605;&#1580;&#1605;&#1608;&#1593; &#1578;&#1589;&#1575;&#1583;&#1601;&#1740;:</h3>$$ E(Y^2|N=n)=E \left[ \left( \sum_{i=1}^{n}X_i\right)^2\right]=E\left[ \sum_{i=1}^{n} \sum_{j=1}^{n}X_iX_j\right]=\sum_{i=1}^{n} \sum_{j=1}^{n}E[X_iX_j] $$<p>به دلیل استقلال  $X_i$ها، برای $ i \neq j$ داریم:</p>
+    $$ E(X_iX_j) =E(X_i)E(X_j) $$<p>در نتیجه:</p>
+    $$ E(Y^2|N=n)=\sum_{i=1}^{n} E(X_i^2)+\sum_{i=1}^{n} \sum_{\stackrel{j =1}{j \neq i}}^{n} E(X_i)E(X_j) $$<p>ولی از آنجا که برای هر $i$ داریم $ Var(X_i) = \sigma_X^2 $، خواهیم داشت:</p>
+    $$ E(Y^2|N=n) = n(\sigma_X^2+\mu_X^2)+(n^2-n)\mu_X^2 = n\sigma_X^2 +n^2\mu_X^2 $$$$ \Rightarrow E(Y^2|N)=N \sigma_X^2 + N^2\mu_X^2 $$$$ E(Y^2)=E[E(Y^2|N)]=\sigma_X^2E(N)+\mu_X^2 E(N^2)=\sigma_X^2\mu_N+\mu_X^2(\sigma_N^2+\mu_N^2)$$$$\Rightarrow \sigma_Y^2=E(Y^2)-(E(Y))^2=\sigma_X^2\mu_N +\mu_X^2\sigma_N^2+\mu_X^2\mu_N^2-\mu_X^2\mu_N^2=\sigma_X^2\mu_N+\mu_X^2\sigma_N^2 $$
+    </div>
+    </div>
+    </div>
+    </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+    <div class="jp-Cell-inputWrapper">
+    <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
