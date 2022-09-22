@@ -1,32 +1,51 @@
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-    <div class="jp-Cell-inputWrapper">
-    <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-    </div>
-    <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-    </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-    <h3 id="%D8%A7%D8%B5%D9%88%D9%84-%D9%85%D9%88%D8%B6%D9%88%D8%B9%D9%87-%D9%83%D9%88%D9%84%D9%85%D9%88%DA%AF%D8%B1%D9%88%D9%81:">&#1575;&#1589;&#1608;&#1604; &#1605;&#1608;&#1590;&#1608;&#1593;&#1607; &#1603;&#1608;&#1604;&#1605;&#1608;&#1711;&#1585;&#1608;&#1601;:</h3><p>به هر پیشامد $ A $ عدد $ P(A) $ نسبت داده می‌شود به طوریکه:</p>
-    <p><strong>اصل یک:</strong></p>
-    $$ P(A)\geq 0 $$<p><strong>اصل دو:</strong></p>
-    $$ P(\Omega)=1 $$<p><strong>اصل سه:</strong> اگر پیشامد‌های $ A $ و $ B $ ناسازگار باشند $ (A \cap B=\emptyset) $ آنگاه:</p>
-    $$ P(A\cup B)=P(A)+P(B) $$<p>اصل سوم کولموگروف برای هر تعداد محدودی از وقایع (و نه برای تعداد نامحدود) قابل بیان است و چنانچه عناصر فضای نمونه نامحدود باشد باید به جای اصل سه، اصل قوی‌تری را جایگزین کرد.</p>
-    $$ P(A_1\cup A_2\cup ...\cup A_n)=P(A_1)+P(A_2)+...+P(A_n) $$<p><strong>اصل جمع‌پذیری نامحدود (قابل شمارش):</strong> اگر $ A_1, A_2,... $ پیشامد‌هایی دو به دو ناسازگار باشند آنگاه:</p>
-    $$ P(A_1 \cup A_2 \cup...)=P(A_1)+P(A_2)+... $$<h3 id="%D9%82%D8%B6%D8%A7%DB%8C%D8%A7%DB%8C-%D9%BE%D8%A7%DB%8C%D9%87-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84:">&#1602;&#1590;&#1575;&#1740;&#1575;&#1740; &#1662;&#1575;&#1740;&#1607; &#1575;&#1581;&#1578;&#1605;&#1575;&#1604;:</h3><p><strong>قضیه یک:</strong></p>
-    $$ P(\bar{A})=1-P(A) $$<p><strong>قضیه دو:</strong></p>
-    $$ P(\emptyset)=0 $$<p><strong>قضیه سه:</strong></p>
-    $$ P(A)\leq 1 $$<p><strong>قضیه چهار:</strong> اگر $ B\subset A $ آنگاه:</p>
-    $$ P(B)\leq P(A) $$<p>نتیجه فرعی قضیه چهار:</p>
-    $$
-        \begin{cases}
+<div class="container">
+    <section id="section1">
+        <h2 id="#section1">اصول موضوعه كولموگروف</h2>
+        <p>به هر پیشامد $A$ عدد $P(A)$ نسبت داده می‌شود به طوریکه:</p>
+        <p>اصل یک: $P(A)\geq 0$</p>
+        <p>اصل دو:
+            $P(\Omega)=1$</p>
+        <p>اصل سه: اگر پیشامد‌های $A$ و $B$ ناسازگار باشند
+            $(A \cap B=\emptyset)$
+            آنگاه:
+            $P(A\cup B)=P(A)+P(B)$</p>
+        <p>اصل سوم کولموگروف برای هر تعداد محدودی از وقایع (و نه برای تعداد نامحدود) قابل بیان است و چنانچه
+            عناصر فضای نمونه نامحدود باشد باید به جای اصل سه، اصل قوی‌تری را جایگزین کرد.</p>
+        $$P(A_1\cup A_2\cup ...\cup A_n )=P(A_1 )+P(A_2 )+...+P(A_n )$$<p></p>
+        <p>اصل جمع‌پذیری نامحدود (قابل شمارش): اگر
+            $A_1,A_2,...$
+            پیشامد‌هایی دو به دو ناسازگار باشند آنگاه:
+            $$P(A_1\cup A_2\cup...)=P(A_1 )+P(A_2 )+...$$</p>
+    </section>
+    <section id="section2">
+        <h2>
+            قضایای پایه احتمال
+        </h2>
+        <p>قضیه یک:
+            $P(\bar{A})=1-P(A)$</p>
+        <p>قضیه دو:
+            $P(\emptyset)=0$</p>
+        <p>قضیه سه:
+            $P(A)\leq 1$</p>
+        <p>قضیه چهار:
+            اگر$B\subset A$ آنگاه $P(B)\leq P(A)$</p>
+        <p>نتیجه فرعی قضیه چهار:
+            $$
+            \begin{cases}
             (A\cap B)\subset B \Rightarrow P(A\cap B)\leq P(B)
             (A\cap B)\subset A \Rightarrow P(A\cap B)\leq P(A)
-        \end{cases}
-        $$<p><strong>قضیه پنج:</strong> اگر $ B \subset A $ آنگاه:</p>
-    $$ P(A-B)=P(A)-P(B) $$<p><strong>قضیه شش:</strong> برای هر دو مجموعه $ A $ و $ B $ داریم:</p>
-    $$ P(A\cup B)=P(A)+P(B)-P(A\cap B) $$<h3 id="%D8%A7%D8%B5%D9%84-%D8%B4%D9%85%D9%88%D9%84-%D9%88-%D8%B9%D8%AF%D9%85-%D8%B4%D9%85%D9%88%D9%84:">&#1575;&#1589;&#1604; &#1588;&#1605;&#1608;&#1604; &#1608; &#1593;&#1583;&#1605; &#1588;&#1605;&#1608;&#1604;:</h3><p>حالت پایه:</p>
-    $$ P(A\cup B)=P(A)+P(B)-P(A\cap B) $$<p>حالت سه‌تایی:</p>
-    $$ P(A\cup B\cup C)=P(A)+P(B)+P(C)-P(A\cap B)-P(A\cap C)-P(B\cap C)+P(A\cap B \cap C) $$<p>حالت تعمیم‌یافته:</p>
-    $$ P(\bigcup_{i=1}^{n}E_i)=\sum_{r=1}^{n}(-1)^{r+1} \sum_{i_1\le ... \le i_r}P(E_{i_1}\cap E_{i_2}\cap ...\cap E_{i_r}) $$
-    </div>
-    </div>
-    </div>
+            \end{cases}
+            $$</p>
+        <p>قضیه پنج: اگر $B\subset A$ آنگاه$P(A-B)=P(A)-P(B)$</p>
+        <p>قضیه شش: برای هر دو مجموعه $A$ و $B$ داریم: $P(A\cup B)=P(A)+P(B)-P(A\cap B)$</p>
+    </section>
+    <section id="section3">
+        <h2>اصل شمول و عدم شمول</h2>
+        <p>حالت پایه:</p>
+        $$ P(A\cup B)=P(A)+P(B)-P(A\cap B) $$<p>حالت سه‌تایی:</p>
+        $$P(A\cup B\cup C)=P(A)+P(B)+P(C)-P(A\cap B)-P(A\cap C)-P(B\cap C)+P(A\cap B \cap C)$$<p>حالت تعمیم‌یافته:</p>
+        $$P(\bigcup_{i=1}^{n}E_i)=\sum_{r=1}^{n}(-1)^{r+1} \sum_{i_1\le ... \le i_r}P(E_{i_1}\cap E_{i_2}\cap ...\cap
+        E_{i_r})$$
+    </section>
+</div>
 </div>

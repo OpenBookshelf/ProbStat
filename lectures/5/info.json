@@ -2,10 +2,6 @@
   "id": 4,
   "name": "05. متغیر تصادفی",
   "describe": "دارای 4 جلسه معرفی است",
-  "quiz" : {
-    "name": " آزمونک پنجم", 
-    "src" : "https://openbookshelf.github.io/ProbStat/lectures/5/quiz.json"
-  },
   "lectures": [
     {
       "title": "جلسه اول: متغیر تصادفی",

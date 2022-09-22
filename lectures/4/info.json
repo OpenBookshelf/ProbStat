@@ -2,10 +2,6 @@
   "id": 3,
   "name": "04. استقلال",
   "describe": "دارای 4 جلسه معرفی است",
-    "quiz" : {
-    "name": " آزمونک چهارم", 
-    "src" : "https://openbookshelf.github.io/ProbStat/lectures/4/quiz.json"
-  },
   "lectures": [
     {
       "title": "جلسه اول: استقلال",
