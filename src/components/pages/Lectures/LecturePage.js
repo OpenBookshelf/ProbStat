@@ -3,6 +3,7 @@ import { useHistory, useParams } from "react-router-dom";
 import Latex from "../../hooks/LATEX";
 import "../../assets/stylesheet/lecture.css";
 import XMLReq from "../../utility/XMLReq";
+import { R } from "./R";
 
 const LecturePage = () => {
   const [html, setHtml] = React.useState("");
@@ -12,13 +13,17 @@ const LecturePage = () => {
   const [num, setNum] = useState(0);
 
   useEffect(() => {
-    XMLReq(
-      `https://openbookshelf.github.io/ProbStat/lectures/${+id + 1}/info.json`,
-      setData
-    );
+    if (Number(id) === 0) {
+      setData(R);
+    } else
+      XMLReq(
+        `https://openbookshelf.github.io/ProbStat/lectures/${+id}/info.json`,
+        setData
+      );
   }, [id]);
 
   useEffect(() => {
+    if (Number(id) === 0) return;
     if (data) {
       const req = new XMLHttpRequest();
       req.onreadystatechange = function () {
@@ -81,17 +86,19 @@ const LecturePage = () => {
               allowFullScreen={true}
             ></iframe>
           </div>
-          <div className="flex flex-wrap mt-5">
-            <div className="w-full p-2 overflow-auto">
-              <Latex>
-                <div
-                  className="text-justify"
-                  style={{ minHeight: "70vh" }}
-                  dangerouslySetInnerHTML={{ __html: html }}
-                />
-              </Latex>
+          {Number(id) !== 0 && (
+            <div className="flex flex-wrap mt-5">
+              <div className="w-full p-2 overflow-auto">
+                <Latex>
+                  <div
+                    className="text-justify"
+                    style={{ minHeight: "70vh" }}
+                    dangerouslySetInnerHTML={{ __html: html }}
+                  />
+                </Latex>
+              </div>
             </div>
-          </div>
+          )}
         </div>
         <style>{`
         .cta-pr-btn:hover svg {

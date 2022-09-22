@@ -1,12 +1,10 @@
 import React, { useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import XMLReq from "../../utility/XMLReq";
 
 const Card = (props) => {
   const answerElRef = useRef();
   const [state, setState] = useState(false);
   const [data, setData] = useState(false);
-  console.log("🚀 ~ file: Sources.js ~ line 9 ~ Card ~ data", data);
   const [answerH, setAnswerH] = useState("0px");
   const { idx, item } = props;
 
@@ -112,9 +110,8 @@ const Sources = () => {
         ].map((item, idx) => (
           <Card idx={idx} item={item} />
         ))}
-        <div className="text-right w-1/2 font-bold">
+        <div className="text-right font-bold">
           <p>
-            {" "}
             {"منبع درس:"} {window.config?.main.source}
           </p>
         </div>

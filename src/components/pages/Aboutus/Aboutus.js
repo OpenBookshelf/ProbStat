@@ -28,6 +28,7 @@ const Aboutus = () => {
         <form
           onSubmit={(e) => e.preventDefault()}
           className="items-center justify-between sm:flex w-100"
+          style={{ display: "flex", alignItems: "center" }}
         >
           <textarea
             rows={4}
@@ -35,6 +36,7 @@ const Aboutus = () => {
             placeholder="نظر خود را وارد کنید"
             className="text-gray-500  w-100 p-3 rounded-md border outline-none focus:border-indigo-600 mx-2"
             onChange={(e) => setText(e.target.value)}
+            style={{ width: "300px" }}
           />
 
           <button

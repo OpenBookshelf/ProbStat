@@ -12,7 +12,6 @@ const QuizPage = () => {
   const [result, setResult] = React.useState();
 
   const [answers, setAnswers] = React.useState({});
-  console.log("🚀 ~ file: QuizPage.js ~ line 15 ~ QuizPage ~ answers", answers);
 
   const { id } = useParams();
   const history = useHistory();

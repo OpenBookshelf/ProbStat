@@ -7,7 +7,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
     <>
       {showSidebar ? (
         <button
-          className="flex text-4xl text-black items-center cursor-pointer fixed right-10 top-6 z-50"
+          className="flex text-4xl text-black items-center cursor-pointer fixed right-5 top-2 z-50"
           onClick={() => setShowSidebar(!showSidebar)}
         >
           x
