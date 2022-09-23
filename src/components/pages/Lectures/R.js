@@ -1,6 +1,6 @@
 export const R = {
   id: 0,
-  name: "00. آموزش زبان R",
+  name: "00. آموزش  مقدماتی زبان R",
   describe: "دارای 4 جلسه است",
   lectures: [
     {
