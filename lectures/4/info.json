@@ -4,7 +4,7 @@
   "describe": "دارای 4 جلسه معرفی است",
     "quiz" : {
     "name": " آزمونک چهارم", 
-    "src" : "https://openbookshelf.github.io/ProbStat/lectures/4/quiz.json"
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/3/quiz.json"
   },
   "lectures": [
     {
