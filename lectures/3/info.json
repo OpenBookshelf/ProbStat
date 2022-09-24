@@ -4,7 +4,7 @@
   "describe": "دارای 3 جلسه معرفی است",
     "quiz" : {
     "name": " آزمونک سوم", 
-    "src" : "https://openbookshelf.github.io/ProbStat/lectures/3/quiz.json"
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/2/quiz.json"
   },
   "lectures": [
     {
