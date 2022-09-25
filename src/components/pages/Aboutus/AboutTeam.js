@@ -67,43 +67,29 @@ const AboutTeam = () => {
 
   const Card = ({ item, id }) => {
     return (
-      <div
-        className="md:col-span-2 sm:col-span-12 p-2 bg-white rounded-md shadow-md hover:shadow-xl"
-        key={id}
-      >
+      <div class="mb-12 text-center" key={id}>
         <a href={item.github} target={"_blank"} rel="noreferrer">
-          <div
-            className="rounded-xl"
+          <img
+            src={item.src}
+            alt=""
+            class="rounded-full w-48 h-48 bg-blue-100"
             style={{
-              width: "100%",
-              maxWidth: "250px",
-              height: "250px",
-              overflow: "hidden",
-              display: "flex",
-              justifyContent: "center",
-              background: "gray",
+              objectFit: "scale-down",
+              objectPosition: "center",
             }}
-          >
-            <img
-              alt=""
-              src={item.src}
-              className="brightness-75"
-              style={{ height: "100%", width: "auto" }}
-            />
-          </div>
+          />
         </a>
-        <p className="text-xs text-center text-black font-semibold  sm:text-base ">
-          {item.name}
-        </p>
+
+        <p class="font-bold mb-2"> {item.name}</p>
       </div>
     );
   };
   return (
     <div className="my-5">
       <div className="flex items-center justify-center mt-3">
-        <div className="grid md:grid-cols-2 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
+        <div className="grid md:grid-cols-1 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
           <div className="col-span-full mb-3">
-            <p className="text-xl text-gray-700 text-center"> مدیر پروژه </p>
+            <p className="text-xl text-gray-700 text-center text-bold"> مدیر پروژه </p>
           </div>
           {team.leaders.map((item, id) => (
             <Card item={item} id={id} />
@@ -111,7 +97,7 @@ const AboutTeam = () => {
         </div>
       </div>
       <div className="flex items-center justify-center mt-3">
-        <div className="grid md:grid-cols-4 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
+        <div className="grid md:grid-cols-2 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
           <div className="col-span-full mb-3">
             <p className="text-xl text-gray-700 text-center"> همکاران </p>
           </div>
@@ -121,7 +107,7 @@ const AboutTeam = () => {
         </div>
       </div>
       <div className="flex items-center justify-center mt-3">
-        <div className="grid md:grid-cols-2 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
+        <div className="grid md:grid-cols-1 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
           <div className="col-span-full mb-3">
             <p className="text-xl text-gray-700 text-center"> زیر نظر استاد </p>
           </div>
@@ -131,7 +117,7 @@ const AboutTeam = () => {
         </div>
       </div>
       <div className="flex items-center justify-center mt-3">
-        <div className="grid md:grid-cols-4 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
+        <div className="grid md:grid-cols-3 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
           <div className="col-span-full mb-3">
             <p className="text-xl text-gray-700 text-center">
               {" "}

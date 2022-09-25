@@ -20,7 +20,7 @@ const QuizPage = () => {
 
   useEffect(() => {
     XMLReq(
-      `https://openbookshelf.github.io/ProbStat/lectures/${+id + 1}/info.json`,
+      `https://openbookshelf.github.io/ProbStat/lectures/${+id}/info.json`,
       setData
     );
   }, [id]);
