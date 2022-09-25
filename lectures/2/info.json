@@ -4,7 +4,7 @@
   "describe": "دارای 2 جلسه معرفی است",
     "quiz" : {
     "name": " آزمونک دوم", 
-    "src" : "https://openbookshelf.github.io/ProbStat/lectures/1/quiz.json"
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/2/quiz.json"
   },
   "lectures": [
     {
