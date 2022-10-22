@@ -11,7 +11,6 @@ const Input = ({ item, idx, SetUserAnswer, result }) => {
       </Latex>{" "}
       <form>
         <input
-          type="text"
           disabled={result}
           onChange={(e) => SetUserAnswer(idx, e.target.value)}
           className="
@@ -34,11 +33,12 @@ const Input = ({ item, idx, SetUserAnswer, result }) => {
          "
           id="exampleFormControlInput1"
           placeholder="پاسخ شما"
+          type="number"
         />
       </form>
       {result && (
         <Latex>
-          <h3 className="flex flex-row">جواب صحیح</h3>
+          <h3 className="flex flex-row">پاسخ: </h3>
           <div
             className="text-justify text-green-600 my-3"
             dangerouslySetInnerHTML={{ __html: item.explain }}

@@ -99,20 +99,31 @@ const Sources = () => {
       <div className="space-y-3 text-right rounded">
         <p className="text-2xl text-gray-800">
           {" "}
-          تمرین ها و نمونه سوالات آمار و احتمال مهندسی
+          تمرین‌ها و نمونه سوالات آمار و احتمال مهندسی
+        </p>
+      </div>
+      <div className="text-right">
+        <p className=" text-gray-400">
+          پاسخنامه‌های قرار گرفته در سایت حاوی پاسخ کوتاه سوالات هستند. اگر
+          تمایل دارید پاسخ کامل سوالات رو در اختیار داشته باشید لطفا به{" "}
+          <a href={"mailto:" + window.config?.main.answerEmail}>
+            {" "}
+            {window.config?.main.answerEmail}{" "}
+          </a>
+          ایمیل بزنید.
         </p>
       </div>
       <div className="mt-4 mx-auto">
         {[
-          "https://openbookshelf.github.io/ProbStat/sources/CA.json",
-          "https://openbookshelf.github.io/ProbStat/sources/exams.json",
           "https://openbookshelf.github.io/ProbStat/sources/homeworks.json",
+          "https://openbookshelf.github.io/ProbStat/sources/exams.json",
+          "https://openbookshelf.github.io/ProbStat/sources/CA.json",
         ].map((item, idx) => (
           <Card idx={idx} item={item} />
         ))}
         <div className="text-right font-bold">
           <p>
-            {"منبع درس:"} {window.config?.main.source}
+            {"مرجع :"} {window.config?.main.source}
           </p>
         </div>
       </div>

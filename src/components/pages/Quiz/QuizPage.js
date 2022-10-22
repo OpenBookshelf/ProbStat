@@ -94,17 +94,18 @@ const QuizPage = () => {
 
         if (typeof answer === "object") {
           let check = areEqual(job, answer);
-
           return check === true ? 1 : 0;
         } else {
-          return Number(job[0]) === Number(answer) ? 1 : 0;
+          return Number(job[0]) === Number(String(answer).trim()) ? 1 : 0;
         }
       });
 
       if (correct.length > 0)
         return `نمره محاسبه شده  :  ${correct.reduce(
           (t, a) => t + a
-        )}/${all} ،  ${(parseFloat((correct.reduce((t, a) => t + a) / all)).toPrecision(1)) * 10} از 10 `;
+        )}  از ${all} سوال،  ${
+          parseFloat(correct.reduce((t, a) => t + a) / all).toPrecision(1) * 10
+        } از 10 `;
       else return "شما پاسخی ثبت نکرده اید.";
     } else {
       return 0;
@@ -152,7 +153,10 @@ const QuizPage = () => {
           )}
           {res ? (
             res?.exam.questions?.map((item, idx) => (
-              <div key={"q" + idx} className="flex col my-6 mx-1 py-2 border-b ">
+              <div
+                key={"q" + idx}
+                className="flex col my-6 mx-1 py-2 border-b "
+              >
                 <span>{idx + 1 + "-"} </span> {GetQuestion(item, idx)}
               </div>
             ))
