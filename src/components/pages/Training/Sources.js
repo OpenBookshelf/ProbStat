@@ -123,7 +123,7 @@ const Sources = () => {
         ))}
         <div className="text-right font-bold">
           <p>
-            {"مرجع :"} {window.config?.main.source}
+            {window.config?.main.source}
           </p>
         </div>
       </div>
