@@ -6,7 +6,8 @@ window.config = {
     summary: "متن خلاصه توضیح دوره",
     aboutText: "راستی نظرات‌تون رو حتما با ما در میون بگذارید",
     contactEmail: "sh.javidi98@ut.ac.ir",
-    source: "منبع درس کتاب A FIRST COURSE IN PROBABILITYنوشته Sheldon Ross می‌باشد",
+    source: "منبع درس: کتاب A FIRST COURSE IN PROBABILITY نوشته Sheldon Ross",
     sessions: 23,
+    answerEmail: "sh.javidi98@ut.ac.ir",
   },
 };
