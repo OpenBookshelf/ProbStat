@@ -1,6 +1,6 @@
 <div >
   <img src="https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/favicon.ico" height=100px/>
-  <img src="https://raw.githubusercontent.com/OpenBookshelf/ProbStat/Readme-branch/ProbStat.png" height=100px/>
+  <img src="https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/ProbStat.png" height=100px/>
 </div>
 
 ---
