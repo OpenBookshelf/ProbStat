@@ -2,6 +2,10 @@
   "id": 7,
   "name": "08. توزیع‌های پیوسته",
   "describe": "دارای 3 جلسه معرفی است",
+ "quiz" : {
+    "name": " آزمونک هشتم", 
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/8/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: توزیع‌های پیوسته",
