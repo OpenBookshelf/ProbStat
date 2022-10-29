@@ -3,31 +3,108 @@
   "download": [
     {
       "name": "تمرین اول",
-      "src": ""
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     },
     {
       "name": "تمرین اول",
-      "src": ""
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     },
     {
       "name": "تمرین اول",
-      "src": ""
-    }
-    ,{
-      "name": "تمرین اول",
-      "src": ""
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     },
     {
       "name": "تمرین اول",
-      "src": ""
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     },
     {
       "name": "تمرین اول",
-      "src": ""
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     },
     {
       "name": "تمرین اول",
-      "src": ""
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
+    },
+    {
+      "name": "تمرین اول",
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     }
   ]
 }
