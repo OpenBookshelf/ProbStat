@@ -2,6 +2,10 @@
   "id": 6,
   "name": "07. توزیع‌های گسسته",
   "describe": "دارای 3 جلسه معرفی است",
+  "quiz" : {
+    "name": " آزمونک هفتم", 
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/7/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: توزیع فوق هندسی",
