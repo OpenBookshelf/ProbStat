@@ -2,6 +2,10 @@
   "id": 8,
   "name": "09. توزیع نرمال و توزیع نمایی",
   "describe": "دارای 3 جلسه معرفی است",
+  "quiz" : {
+    "name": " آزمونک نهم", 
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/9/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: توزیع نرمال ",

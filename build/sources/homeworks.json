@@ -3,31 +3,108 @@
   "download": [
     {
       "name": "تمرین اول",
-      "src": ""
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     },
     {
-      "name": "تمرین اول",
-      "src": ""
+      "name": "تمرین دوم",
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     },
     {
-      "name": "تمرین اول",
-      "src": ""
-    }
-    ,{
-      "name": "تمرین اول",
-      "src": ""
+      "name": "تمرین سوم",
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     },
     {
-      "name": "تمرین اول",
-      "src": ""
+      "name": "تمرین چهارم",
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     },
     {
-      "name": "تمرین اول",
-      "src": ""
+      "name": "تمرین پنچم",
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     },
     {
-      "name": "تمرین اول",
-      "src": ""
+      "name": "تمرین ششم",
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
+    },
+    {
+      "name": "تمرین هفتم",
+      "src": [
+        {
+          "id": 1,
+          "label": "فایل",
+          "download": "https://google.com"
+        },
+        {
+          "id": 2,
+          "label": "فایل",
+          "download": "https://google.com"
+        }
+      ]
     }
   ]
 }
