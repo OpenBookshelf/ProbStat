@@ -8,11 +8,6 @@
           "id": 1,
           "label": "نمونه سوال اول تمرین اول",
           "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_01_01_all_with_short_answer.pdf"
-        },
-        {
-          "id": 2,
-          "label": "فایل",
-          "download": "https://google.com"
         }
       ]
     },
@@ -21,13 +16,8 @@
       "src": [
         {
           "id": 1,
-          "label": "فایل",
-          "download": "https://google.com"
-        },
-        {
-          "id": 2,
-          "label": "فایل",
-          "download": "https://google.com"
+          "label": "نمونه سوال اول تمرین دوم",
+          "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_02_01_all_with_short_answer.pdf"
         }
       ]
     },
@@ -36,13 +26,8 @@
       "src": [
         {
           "id": 1,
-          "label": "فایل",
-          "download": "https://google.com"
-        },
-        {
-          "id": 2,
-          "label": "فایل",
-          "download": "https://google.com"
+          "label": "نمونه سوال اول تمرین سوم",
+          "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_03_01_all_with_short_answer.pdf"
         }
       ]
     },
@@ -51,13 +36,8 @@
       "src": [
         {
           "id": 1,
-          "label": "فایل",
-          "download": "https://google.com"
-        },
-        {
-          "id": 2,
-          "label": "فایل",
-          "download": "https://google.com"
+          "label": "نمونه سوال اول تمرین چهارم",
+          "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_04_01_all_with_short_answer.pdf"
         }
       ]
     },
@@ -66,13 +46,8 @@
       "src": [
         {
           "id": 1,
-          "label": "فایل",
-          "download": "https://google.com"
-        },
-        {
-          "id": 2,
-          "label": "فایل",
-          "download": "https://google.com"
+          "label": "نمونه سوال اول تمرین پنجم",
+          "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_05_01_all_with_short_answer.pdf"
         }
       ]
     },
@@ -81,13 +56,8 @@
       "src": [
         {
           "id": 1,
-          "label": "فایل",
-          "download": "https://google.com"
-        },
-        {
-          "id": 2,
-          "label": "فایل",
-          "download": "https://google.com"
+          "label": "نمونه سوال اول تمرین ششم",
+          "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_06_01_all_with_short_answer.pdf"
         }
       ]
     },
@@ -96,13 +66,8 @@
       "src": [
         {
           "id": 1,
-          "label": "فایل",
-          "download": "https://google.com"
-        },
-        {
-          "id": 2,
-          "label": "فایل",
-          "download": "https://google.com"
+          "label": "نمونه سوال اول تمرین هفتم",
+          "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_07_01_all_with_short_answer.pdf"
         }
       ]
     }
