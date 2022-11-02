@@ -6,8 +6,8 @@
       "src": [
         {
           "id": 1,
-          "label": "فایل",
-          "download": "https://google.com"
+          "label": "نمونه سوال اول تمرین اول",
+          "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_01_01_all_with_short_answer.pdf"
         },
         {
           "id": 2,
