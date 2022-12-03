@@ -40,7 +40,7 @@
             "answer": [],
             "type": "input",
             "options": [],
-            "question": "تابع توزیع احتمال مشترک متغییرهای X , Y به صورت زیر تعریف شده است.\n\\begin{equation*}\n    f_{X, Y}(x, y) =\n    \\begin{cases}\n        \\frac{a}{2}x & 0 \\leq x \\leq y \\leg 1 \\\\\n        0   & otherwise\n    \\end{cases}\n\\end{equation*}\nمثدار a را بدست آورید."
+            "question": "تابع توزیع احتمال مشترک متغییرهای X , Y به صورت زیر تعریف شده است.\n\\begin{equation*}\n    f_{X, Y}(x, y) =\n    \\begin{cases}\n        \\frac{a}{2}x & 0 \\leq x \\leq y < 1 \\\\\n        0   & otherwise\n    \\end{cases}\n\\end{equation*}\nمقدار a را بدست آورید."
          },
          {
             "explain": "جواب درست برابر ۰.۲۳ است",
