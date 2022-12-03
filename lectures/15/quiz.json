@@ -12,9 +12,9 @@
             ],
             "type": "test",
             "options": [
-               "\\frac{5}{8}\\cdot\\sqrt{\\pi}",
-               "\\frac{15}{8}\\cdot\\sqrt{\\pi}",
-               "\\frac{15}{8}\\cdot\\pi"
+               "\frac{5}{8}\\cdot\\sqrt{\\pi}",
+               "\frac{15}{8}\\cdot\\sqrt{\\pi}",
+               "\frac{15}{8}\\cdot\\pi"
             ],
             "question": "مقدار \n$\\Gamma(\\frac{7}{2})$\nرا حساب کنید."
          },
