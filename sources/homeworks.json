@@ -8,6 +8,11 @@
           "id": 1,
           "label": "نمونه سوال اول تمرین اول",
           "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_01_01_all_with_short_answer.pdf"
+        },
+         {
+          "id": 2,
+          "label": "نمونه سوال دوم تمرین اول",
+          "download": "فایل را در گیت هاب اپلود کنید و بعد لینک آن را مشابه بالا قرار دهید."
         }
       ]
     },
@@ -18,6 +23,11 @@
           "id": 1,
           "label": "نمونه سوال اول تمرین دوم",
           "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_02_01_all_with_short_answer.pdf"
+        },
+         {
+          "id": 2,
+          "label": "نمونه سوال دوم تمرین دوم",
+          "download": "فایل را در گیت هاب اپلود کنید و بعد لینک آن را مشابه بالا قرار دهید."
         }
       ]
     },
@@ -28,6 +38,11 @@
           "id": 1,
           "label": "نمونه سوال اول تمرین سوم",
           "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_03_01_all_with_short_answer.pdf"
+        },
+         {
+          "id": 2,
+          "label": "نمونه سوال دوم تمرین سوم",
+          "download": "فایل را در گیت هاب اپلود کنید و بعد لینک آن را مشابه بالا قرار دهید."
         }
       ]
     },
@@ -38,16 +53,26 @@
           "id": 1,
           "label": "نمونه سوال اول تمرین چهارم",
           "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_04_01_all_with_short_answer.pdf"
+        },
+         {
+          "id": 2,
+          "label": "نمونه سوال دوم تمرین چهارم",
+          "download": "فایل را در گیت هاب اپلود کنید و بعد لینک آن را مشابه بالا قرار دهید."
         }
       ]
     },
     {
-      "name": "تمرین پنچم",
+      "name": "تمرین پنجم",
       "src": [
         {
           "id": 1,
           "label": "نمونه سوال اول تمرین پنجم",
           "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_05_01_all_with_short_answer.pdf"
+        },
+         {
+          "id": 2,
+          "label": "نمونه سوال دوم تمرین پنجم",
+          "download": "فایل را در گیت هاب اپلود کنید و بعد لینک آن را مشابه بالا قرار دهید."
         }
       ]
     },
@@ -58,6 +83,11 @@
           "id": 1,
           "label": "نمونه سوال اول تمرین ششم",
           "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_06_01_all_with_short_answer.pdf"
+        },
+         {
+          "id": 2,
+          "label": "نمونه سوال دوم تمرین ششم",
+          "download": "فایل را در گیت هاب اپلود کنید و بعد لینک آن را مشابه بالا قرار دهید."
         }
       ]
     },
@@ -68,6 +98,11 @@
           "id": 1,
           "label": "نمونه سوال اول تمرین هفتم",
           "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/HW_07_01_all_with_short_answer.pdf"
+        },
+         {
+          "id": 2,
+          "label": "نمونه سوال دوم تمرین هفتم",
+          "download": "فایل را در گیت هاب اپلود کنید و بعد لینک آن را مشابه بالا قرار دهید."
         }
       ]
     }
