@@ -2,6 +2,10 @@
   "id": 18,
   "name": "19. نمونه‌برداری",
   "describe": "دارای 4 جلسه معرفی است",
+  "quiz" : {
+    "name": " آزمونک نوزدهم", 
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/19/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: توزیع شرطی n بعدی",

@@ -4,7 +4,7 @@
   "describe": "دارای 3 جلسه معرفی است",
   "quiz": {
     "name": "آزمونک بیستم",
-    "src": "https://openbookshelf.github.io/ProbStat/lectures/20/file.XSCORE"
+    "src": "https://openbookshelf.github.io/ProbStat/lectures/20/file.json"
   },
   "lectures": [
     {

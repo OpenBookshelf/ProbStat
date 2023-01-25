@@ -3,14 +3,19 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/image/logo.png";
 import Sidebar from "./Sidebar";
 
-const Header = () => {
+const Header = ({ showButton = true }) => {
   const [state, setState] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
 
   const navigation = [
-    { title: "آمار و احتمال مهندسی", path: "/" },
+    { title: "دروس تدریس شده", path: "/lectures" },
+
     { title: "نمونه سوالات", path: "/training" },
     { title: "درباره ما", path: "/team" },
+    {
+      path: "/about",
+      title: "ارتباط با ما",
+    },
   ];
 
   return (
@@ -76,12 +81,14 @@ const Header = () => {
           </ul>
         </div>
         <div className="hidden md:inline-block">
-          <button
-            onClick={() => setShowSidebar(!showSidebar)}
-            className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow"
-          >
-            دیدن مباحث
-          </button>
+          {showButton && (
+            <button
+              onClick={() => setShowSidebar(!showSidebar)}
+              className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow"
+            >
+              دیدن مباحث
+            </button>
+          )}
         </div>
         <Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
       </div>

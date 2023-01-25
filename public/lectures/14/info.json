@@ -2,6 +2,10 @@
   "id": 13,
   "name": "14. توزیع شرطی گسسته",
   "describe": "دارای 3 جلسه معرفی است",
+  "quiz" : {
+    "name": " آزمونک چهاردهم", 
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/14/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: توزیع‌های شرطی",

@@ -2,6 +2,10 @@
   "id": 16,
   "name": "17. توابعی از دو متغیر تصادفی",
   "describe": "دارای 3 جلسه معرفی است",
+  "quiz" : {
+    "name": " آزمونک هفدهم", 
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/17/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: توابعی از دو متغیر تصادفی",

@@ -2,21 +2,6 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/image/logo.png";
 
 const Footer = () => {
-  const footerNavs = [
-    {
-      href: "/lectures",
-      name: "مباحث",
-    },
-    { name: "نمونه سوالات", href: "/training" },
-    {
-      href: "/team",
-      name: "درباره ما",
-    },
-    {
-      href: "/about",
-      name: "ارتباط با ما",
-    },
-  ];
 
   return (
     <footer className="text-gray-500 bg-white px-4 py-1 mx-auto">
@@ -27,15 +12,6 @@ const Footer = () => {
           {window.config?.main.footerText}
         </p>
       </div>
-      <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">
-        {footerNavs.map((item, idx) => (
-          <li className=" hover:text-gray-800 ml-3" key={idx}>
-            <Link key={idx} to={item.href}>
-              {item.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
       <div className="mt-12 items-center justify-center sm:flex">
         <div className="mt-10 sm:mt-0">
           2022 PropStat All rights reserved - Morriex &copy;

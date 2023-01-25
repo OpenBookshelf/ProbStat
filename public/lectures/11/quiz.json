@@ -1,0 +1,63 @@
+{
+   "exam": {
+      "questions": [
+         {
+            "explain": "\\[    P(X > 1, Y < 1) = \\int_{- \\infty}^{1} \\int_{1}^{\\infty} f(x, y) dx dy\\]\n\\[= \\int_{0}^{1} \\int_{1}^{\\infty} f(x, y) dx dy \\]\n\\[= \\int_{0}^{1} \\int_{1}^{\\infty}2e^{-x}e^{-2y} ) dx dy \\]\n\n    \\[= \\int_{0}^{1}2e^{-2y} ) (-e^{-x}\\big|_{1}^{\\infty}) dy \\]\n    \\[= e^{-1} \\int_{0}^{1}2e^{-2y} )  dy \\]\n    \\[= e^{-1}  (-e^{-2x}\\big|_{0}^{1})\\]\\[= e^{-1}  (1-e^{-2})\\]\n\\[\\cong 0.318\\]\n",
+            "question": "    تابع چگالی احتمال مشترک متغیرهای تصادفی X , Y به صورت زیر داده شده است:\n\\[ f(x,y) =\\begin{cases}\n2e^{-x}e^{-2y}  & 0 \\leq x \\leq \\infty ,\\quad 0\\leq y \\leq \\infty  \\\\ \\\n0 &otherwise \\\\\n\\end{cases}\\]\n\\\\\nمقدار احتمال \\(P(X > 1, Y < 1)\\) را بدست آورید.(پاسخ خود را به صورت اعشاری تا سه رقم اعشار به صورت 0.؟ بنویسید.)\n ",
+            "type": "input",
+            "answer": [
+               318
+            ]
+         },
+         {
+            "explain": "باید مقدار احتمال حاشیه‌ای برای X را بدست آوریم. برای اینکار نسبت به Y انتگرال می‌گیریم:\n\\begin{align*}\n    f_X(x)             & = \\int_{-\\infty}^{\\infty} f_XY(x, y) \\, dy \\\\\n                       & = \\int_{0}^{\\sqrt{x}} 6xy \\, dy            \\\\\n                       & = 3x^2                                     \\\\\n    \\rightarrow f_X(x) & =\n    \\begin{cases}\n        3x^2 & 0 \\leq x \\leq 1 \\\\\n        0    & otherwise\n    \\end{cases}\n\\end{align*}\n",
+            "answer": [
+               1
+            ],
+            "type": "test",
+            "options": [
+               "f_X(x) & =\n    \\begin{cases}\n        3x^2 & 0 \\leq x \\leq 1 \\\\\n        0    & otherwise\n    \\end{cases}",
+               "f_X(x) & =\n    \\begin{cases}\n        2x^3 & 0 \\leq x \\leq 1 \\\\\n        0    & otherwise\n    \\end{cases}",
+               "f_X(x) & =\n    \\begin{cases}\n        3x^2 & 0 \\leq x \\leq 2 \\\\\n        0    & otherwise\n    \\end{cases}",
+               "f_X(x) & =\n    \\begin{cases}\n        2x^3 & 0 \\leq x \\leq 3 \\\\\n        0    & otherwise\n    \\end{cases}"
+            ],
+            "question": "فرض کنید X و Y دو متغیر تصادفی پیوسته با تابع چگالی احتمال مشترکبصورت زیر هستند:\n\\begin{equation*}\n    f_{X, Y}(x, y) =\n    \\begin{cases}\n        6xy & 0 \\leq x \\leq 1, 0 \\leq y \\leq \\sqrt{x} \\\\\n        0   & otherwise\n    \\end{cases}\n\\end{equation*}\nمقدار $F_X(x)$ را بدست آورید.\n"
+         },
+         {
+            "explain": "خیر\nپاسخ درست برابر \\frac{1}{3} است",
+            "answer": [
+               2
+            ],
+            "type": "test",
+            "options": [
+               "بله",
+               "خیر"
+            ],
+            "question": "تابع توزیع احتمال مشترک متغیرهای X , Y به صورت زیر تعریف شده است.\n\\begin{equation*}\n    f_{X, Y}(x, y) =\n    \\begin{cases}\n        2e^{-x}e^{-2y} & 0 \\leq x \\leq \\infty, 0 \\leq y \\leq \\infty \\\\\n        0   & otherwise\n    \\end{cases}\n\\end{equation*}\nآیا مقدار $P(X<Y)$ برابر $\\frac{2}{3}$ است"
+         },
+         {
+            "explain": "جواب درست برابر 12 است",
+            "answer": [],
+            "type": "input",
+            "options": [],
+            "question": "تابع توزیع احتمال مشترک متغییرهای X , Y به صورت زیر تعریف شده است.\n\\begin{equation*}\n    f_{X, Y}(x, y) =\n    \\begin{cases}\n        \\frac{a}{2}x & 0 \\leq x \\leq y < 1 \\\\\n        0   & otherwise\n    \\end{cases}\n\\end{equation*}\nمقدار a را بدست آورید."
+         },
+         {
+            "explain": "جواب درست برابر ۰.۲۳ است",
+            "answer": [
+               1
+            ],
+            "type": "test",
+            "options": [
+               "0.23",
+               "0.13",
+               "0.26",
+               "0.78"
+            ],
+            "question": "بنا به نظریه توارث مندل، اگر گیاهانی(در آزمایش‌های مندل: نخودفرنگی) با دانه‌های گرد زردرنگ را به گیاهانی که دانه‌های چروکیده‌زرد، گرد سبز یا چروکیده سبز داشته باشند،‌ به ترتیب برابر $\\frac{1}{16}, \\frac{3}{16}, \\frac{3}{16}, \\frac{9}{16}$ است. ده گیاه که بدین شیوه پیوندی حاصل شده‌اند انتخاب می‌شوند. احتمال این که از این ده گیاه، سه تا دانه‌های گرد زرد، چهار تا چروکیده زرد،، سه تا گرد سبز داشته باشند و هیچ یک دانه چروکده سبز نداشته باشند چه قدر است؟"
+         }
+      ],
+      "name": "آزمونک یازدهم",
+      "describe": "این آزمونک از مبحث جلسه یازدهم درس آمار و احتمال با موضوع توزیع مشترک است"
+   }
+}

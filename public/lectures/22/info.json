@@ -2,6 +2,10 @@
   "id": 21,
   "name": "22. بازه اطمینان",
   "describe": "دارای 3 جلسه معرفی است",
+  "quiz" : {
+    "name": " آزمونک بیست و دوم", 
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/22/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: بازه اطمینان",

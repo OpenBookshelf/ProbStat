@@ -2,6 +2,10 @@
   "id": 22,
   "name": "23. آزمون فرض",
   "describe": "دارای 3 جلسه معرفی است",
+    "quiz" : {
+    "name": " آزمونک بیست و سوم", 
+    "src" : "https://openbookshelf.github.io/ProbStat/lectures/23/quiz.json"
+  },
   "lectures": [
     {
       "title": "جلسه اول: مروری بر بازه اطمینان",

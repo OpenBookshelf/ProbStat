@@ -33,29 +33,42 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
         <ScrollToTop />
         <div className="App">
           <Switch>
             <Route path="/about">
+              <Header />
+
               <Aboutus />
             </Route>
             <Route path="/team">
+              <Header />
+
               <AboutTeam />
             </Route>
             <Route path="/training">
+              <Header />
+
               <TrainingPage />
             </Route>
             <Route path="/lectures/:id/:lecture">
+              <Header />
+
               <LecturePage />
             </Route>
             <Route path="/quiz/:id">
+              <Header />
+
               <QuizPage />
             </Route>
             <Route path="/lectures">
+              <Header />
+
               <LectureIntro />
             </Route>
             <Route path={"*"}>
+              <Header showButton={false} />
+
               <HomePage />
             </Route>
           </Switch>
