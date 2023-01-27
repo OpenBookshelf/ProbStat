@@ -2,8 +2,14 @@
     "title": "تمرین‌های کامپیوتری",
     "download": [
       {
-        "name": "تمرین نمونه",
-        "src": "www.google.com/download-link-example"
+        "id": 1,
+        "label": "پروژه پایانی ترم 01-400",
+        "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/FinalProject-1401.pdf"
+      },
+       {
+        "id": 2,
+        "label": "فایل دیتابیس مربوط به پروژه پایانی ترم 01-400",
+        "download": "https://raw.githubusercontent.com/OpenBookshelf/ProbStat/gh-pages/sources/AdmissionPredict.csv"
       }
     ]
   }

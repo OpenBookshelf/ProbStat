@@ -7,6 +7,7 @@ import Rastgar from "../../assets/image/profiles/Rastgar.JPG";
 import Shayegh from "../../assets/image/profiles/Shayegh.jfif";
 import Saeidi from "../../assets/image/profiles/Saeidi.jpg";
 import Sadeghian from "../../assets/image/profiles/Sadeghian.jpg";
+import Asad from "../../assets/image/profiles/Asadollahzadeh.jpg";
 
 const AboutTeam = () => {
   const team = {
@@ -37,6 +38,11 @@ const AboutTeam = () => {
         name: "محمد عراقی",
         github: "https://github.com/mamadi80",
         src: Araghi,
+      },
+      {
+        name: "حسام اسدالله زاده",
+        github: "https://github.com/HesamAsad",
+        src: Asad,
       },
     ],
     professors: [
@@ -72,9 +78,9 @@ const AboutTeam = () => {
           <img
             src={item.src}
             alt=""
-            class="rounded-full w-48 h-48 bg-blue-100"
+            class="rounded w-48 h-48 bg-blue-100"
             style={{
-              objectFit: "scale-down",
+              objectFit: "cover",
               objectPosition: "center",
             }}
           />
@@ -89,7 +95,10 @@ const AboutTeam = () => {
       <div className="flex items-center justify-center mt-3">
         <div className="grid md:grid-cols-1 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
           <div className="col-span-full mb-3">
-            <p className="text-xl text-gray-700 text-center text-bold"> مدیر پروژه </p>
+            <p className="text-xl text-gray-700 text-center text-bold">
+              {" "}
+              مدیر پروژه{" "}
+            </p>
           </div>
           {team.leaders.map((item, id) => (
             <Card item={item} id={id} />
@@ -97,7 +106,7 @@ const AboutTeam = () => {
         </div>
       </div>
       <div className="flex items-center justify-center mt-3">
-        <div className="grid md:grid-cols-2 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
+        <div className="grid md:grid-cols-3 sm:grid-cols-12 md:gap-x-4 md:gap-y-1 md:max-w-2xl">
           <div className="col-span-full mb-3">
             <p className="text-xl text-gray-700 text-center"> همکاران </p>
           </div>
