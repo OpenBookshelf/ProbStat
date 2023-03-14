@@ -5,7 +5,7 @@
 
 ---
 
-It is an online course on basic and intermediate levels of statistics and probability provided in Persian. This content has been prepared based on the corresponding lessons instructed by Dr. Bharak at the Electrical and Computer Engineering Department, University of Tehran. This work aims at making these well-prepared lectures publicly available for free, as there are not many valuable similar contents in Persian.
+It is an online course on basic and intermediate levels of statistics and probability provided in Persian. This content has been prepared based on the corresponding lessons instructed by Dr. Bahrak at the Electrical and Computer Engineering Department, University of Tehran. This work aims at making these well-prepared lectures publicly available for free, as there are not many valuable similar contents in Persian.
 Please check this work out [here](https://openbookshelf.github.io/ProbStat/).
 We will be pleased if you provide us with any feedback, help, donation, or suggestion in this regard. To do so, please contact us by [E-mail](mailto:Sh.javidi98@ut.ac.ir) (we will provide more appropriate portals soon).
 If you like our work, please help this work get seen more by giving this repository a star (top right of this page).
